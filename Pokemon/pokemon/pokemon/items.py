@@ -21,8 +21,10 @@ class Pokemon(scrapy.Item):
     _total = scrapy.Field()
 
     _gender = scrapy.Field()
+    _genderr = scrapy.Field()
     _height = scrapy.Field()
     _weight = scrapy.Field()
+    _types = scrapy.Field()
 
     _catchr = scrapy.Field()
     _growthr = scrapy.Field()
