@@ -1,5 +1,5 @@
 import scrapy
-
+import requests
 from ..items import Pokemon
 
 
@@ -37,14 +37,14 @@ class ReviewSpider(scrapy.Spider):
         pokeItem = Pokemon()
 
         main = response.xpath("//main")
+        tables = main.xpath("//table[@class='vitals-table']/tbody")
 
         pokeItem["_name"] =  main.xpath("./h1/text()").get()
-        pokeItem["_dex"] = main.xpath(
-            "//table[@class='vitals-table']/tbody/tr[contains(.,'National')]/td/strong/text()").get()
+        pokeItem["_dex"] = tables.xpath("tr[contains(.,'National')]/td/strong/text()").get()
 
 
-        height_raw = main.xpath("//table[@class='vitals-table']/tbody/tr[contains(.,'Height')]/td/text()").get()
-        weight_raw = main.xpath("//table[@class='vitals-table']/tbody/tr[contains(.,'Weight')]/td/text()").get()
+        height_raw = tables.xpath("tr[contains(.,'Height')]/td/text()").get()
+        weight_raw = tables.xpath("tr[contains(.,'Weight')]/td/text()").get()
 
 
         try:
@@ -54,7 +54,7 @@ class ReviewSpider(scrapy.Spider):
             pokeItem["_height"] = 0.0
             pokeItem["_weight"] = 0.0
 
-        gender_raw = main.xpath("//table[@class='vitals-table']/tbody/tr[./th[contains(.,'Gender')]]/td/span/text()").getall()
+        gender_raw = tables.xpath("tr[./th[contains(.,'Gender')]]/td/span/text()").getall()
         uniqueGender = np.unique(gender_raw)
 
         genders = [re.findall("[a-zA-Z]+", item)[0] for item in uniqueGender]
@@ -64,7 +64,7 @@ class ReviewSpider(scrapy.Spider):
 
         pokeItem["_genderr"] = [float(rate) for rate in gender_rates] if len(gender_rates) > 0 else [-1]
 
-        types = main.xpath("//table[@class='vitals-table']/tbody/tr[./th[contains(.,'Type')]]/td/a/text()").getall()
+        types = tables.xpath("tr[./th[contains(.,'Type')]]/td/a/text()").getall()
 
         uniqueTypes = np.unique(types)
 
@@ -74,24 +74,45 @@ class ReviewSpider(scrapy.Spider):
 
         pokeItem["_types"] = uniqueTypes
 
-        pokeItem["_hp"] = float(main.xpath("//table[@class='vitals-table']/tbody/tr[./th[contains(.,'HP')]]/td/text()").get())
-        pokeItem["_atk"] = float(main.xpath("//table[@class='vitals-table']/tbody/tr[./th[contains(.,'Attack')]]/td/text()").get())
-        pokeItem["_def"] = float(main.xpath("//table[@class='vitals-table']/tbody/tr[./th[contains(.,'Defense')]]/td/text()").get())
-        pokeItem["_satk"] = float(main.xpath("//table[@class='vitals-table']/tbody/tr[./th[contains(.,'Sp. Atk')]]/td/text()").get())
-        pokeItem["_sdef"] = float(main.xpath("//table[@class='vitals-table']/tbody/tr[./th[contains(.,'Sp. Def')]]/td/text()").get())
-        pokeItem["_spd"] = float(main.xpath("//table[@class='vitals-table']/tbody/tr[./th[contains(.,'Speed')]]/td/text()").get())
+        pokeItem["_hp"] = float(tables.xpath("tr[./th[contains(.,'HP')]]/td/text()").get())
+        pokeItem["_atk"] = float(tables.xpath("tr[./th[contains(.,'Attack')]]/td/text()").get())
+        pokeItem["_def"] = float(tables.xpath("tr[./th[contains(.,'Defense')]]/td/text()").get())
+        pokeItem["_satk"] = float(tables.xpath("tr[./th[contains(.,'Sp. Atk')]]/td/text()").get())
+        pokeItem["_sdef"] = float(tables.xpath("tr[./th[contains(.,'Sp. Def')]]/td/text()").get())
+        pokeItem["_spd"] = float(tables.xpath("tr[./th[contains(.,'Speed')]]/td/text()").get())
         pokeItem["_total"] = (  pokeItem["_hp"] + pokeItem["_atk"] + pokeItem["_def"]
                                 + pokeItem["_satk"] + pokeItem["_sdef"] + pokeItem["_spd"])
 
-        pokeItem["_growthr"] = main.xpath("//table[@class='vitals-table']/tbody/tr[./th[contains(.,'Growth')]]/td/text()").get()
+        pokeItem["_growthr"] = tables.xpath("tr[./th[contains(.,'Growth')]]/td/text()").get()
 
         try:
-            catchr = float(main.xpath("//table[@class='vitals-table']/tbody/tr[./th[contains(.,'Catch rate')]]/td/text()").get())
+            catchr = float(tables.xpath("tr[./th[contains(.,'Catch rate')]]/td/text()").get())
         except:
             catchr = -1
 
         pokeItem["_catchr"] = catchr
 
+
+        gen_tables = main.xpath("//table[@class='vitals-table']")
+
+        pokeItem["_gen"] = response.xpath("//span[@class[contains(., 'igame')]]/text()").get()
+
+
+
+        img = response.xpath("//a/img/@src").get()
+
         self._dex[pokeItem["_dex"]] = 1
 
+
+
         print(pokeItem)
+
+        yield pokeItem
+
+
+    def GET(url):
+
+        file = url.split("/")[-1]
+        r = requests.get(url, allow_redirects=True)
+        with open(file, 'wb') as fp:
+            fp.write(r.content)

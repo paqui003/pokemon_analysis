@@ -30,3 +30,5 @@ class Pokemon(scrapy.Item):
     _growthr = scrapy.Field()
 
     _legendary = scrapy.Field()
+
+    _gen = scrapy.Field()
