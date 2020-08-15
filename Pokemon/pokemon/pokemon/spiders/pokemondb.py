@@ -60,9 +60,9 @@ class ReviewSpider(scrapy.Spider):
         genders = [re.findall("[a-zA-Z]+", item)[0] for item in uniqueGender]
         gender_rates = [re.findall("[0-9]*\.*[0-9]*", item)[0] for item in uniqueGender]
 
-        pokeItem["_gender"] = genders if len(genders) else [-1]
+        pokeItem["_gender"] = genders if len(genders) else [-1, -1]
 
-        pokeItem["_genderr"] = [float(rate) for rate in gender_rates] if len(gender_rates) > 0 else [-1]
+        pokeItem["_genderr"] = [float(rate) for rate in gender_rates] if len(gender_rates) > 0 else [-1, -1]
 
         types = tables.xpath("tr[./th[contains(.,'Type')]]/td/a/text()").getall()
 
@@ -97,6 +97,7 @@ class ReviewSpider(scrapy.Spider):
 
         pokeItem["_gen"] = response.xpath("//span[@class[contains(., 'igame')]]/text()").get()
 
+        pokeItem["_legendary"] = "Non Legendary"
 
 
         img = response.xpath("//a/img/@src").get()
@@ -111,6 +112,10 @@ class ReviewSpider(scrapy.Spider):
 
 
     def GET(url):
+        """ Download a image specified by url.
+        :param conn: Image url.
+        :return:
+        """
 
         file = url.split("/")[-1]
         r = requests.get(url, allow_redirects=True)
