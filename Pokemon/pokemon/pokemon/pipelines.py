@@ -15,6 +15,7 @@ class PokemonPipeline:
     def __init__(self):
         pass
 
+    #Called when spider has been opened
     def open_spider(self, spider):
         pass
 
