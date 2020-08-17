@@ -15,6 +15,14 @@ class PokemonPipeline:
     def __init__(self):
         pass
 
+    def open_spider(self, spider):
+        pass
+
+
+
+    def close_spider(self, spider):
+        pass
+
     def create_connection(self):
         try:
             self.conn = sqlite3.connect("../database/pokemon.db")
@@ -43,7 +51,7 @@ class PokemonPipeline:
                                         Legendary VARCHAR(16)
                                     ); """
 
-        gender_table = """ CREATE TABLE IF NOT EXISTS pokemon (
+        gender_table = """ CREATE TABLE IF NOT EXISTS Gender (
                                         Dex INTEGER PRIMARY KEY,
                                         Male BOOL,
                                         Female BOOL,
@@ -52,9 +60,10 @@ class PokemonPipeline:
                                         FOREIGN KEY (Dex) REFERENCES Pokemon(Dex)
                                     ); """
 
-        types_table = """ CREATE TABLE IF NOT EXISTS pokemon (
-                                        Dex INTEGER PRIMARY KEY,
+        types_table = """CREATE TABLE IF NOT EXISTS Type (
+                                        Dex INTEGER,
                                         Type VARCHAR(16),
+                                        PRIMARY KEY (Dex, Type),
                                         FOREIGN KEY (Dex) REFERENCES Pokemon(Dex)
                                     ); """
 
@@ -67,4 +76,8 @@ class PokemonPipeline:
             print(e)
 
     def process_item(self, item, spider):
+        #TODO:   Check what happens with different process functions.
+        #        #parse vs. parse_pokemon
+        #print(item)
+        #print(spider)
         return item

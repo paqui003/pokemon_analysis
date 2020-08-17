@@ -12,25 +12,15 @@ class ReviewSpider(scrapy.Spider):
         "https://pokemondb.net/pokedex/all",
     ]
 
-    _dex = {}
-
-    #albums_l = []
-    #artists_l = []
-
-    '''def remove_html_tags(self, text):
-        """Remove html tags from a string"""
-        import re
-        clean = re.compile('<.*?>')
-        return re.sub(clean, '', text)'''
 
     def parse(self, response):
         dexTable = response.xpath("//table[@id='pokedex']/tbody")
         pokeLinks = dexTable.xpath("tr/td/a[@class='ent-name']")
 
         for a in pokeLinks.xpath("@href").getall():
-            yield response.follow(a, callback=self.parse_review)
+            yield response.follow(a, callback=self.parse_pokemon)
 
-    def parse_review(self, response):
+    def parse_pokemon(self, response):
         import re
         import numpy as np
 
@@ -51,8 +41,8 @@ class ReviewSpider(scrapy.Spider):
             pokeItem["_height"] = float(re.findall("[0-9]*\.[0-9]*", height_raw)[0])
             pokeItem["_weight"] = float(re.findall("[0-9]*\.[0-9]*", weight_raw)[0])
         except:
-            pokeItem["_height"] = 0.0
-            pokeItem["_weight"] = 0.0
+            pokeItem["_height"] = -1.0
+            pokeItem["_weight"] = -1.0
 
         gender_raw = tables.xpath("tr[./th[contains(.,'Gender')]]/td/span/text()").getall()
         uniqueGender = np.unique(gender_raw)
@@ -69,7 +59,6 @@ class ReviewSpider(scrapy.Spider):
         uniqueTypes = np.unique(types)
 
         cond = (len(types) > 1) and (types[0] != types[1])
-
         uniqueTypes = uniqueTypes[:2] if (cond == True) else uniqueTypes
 
         pokeItem["_types"] = uniqueTypes
@@ -88,7 +77,7 @@ class ReviewSpider(scrapy.Spider):
         try:
             catchr = float(tables.xpath("tr[./th[contains(.,'Catch rate')]]/td/text()").get())
         except:
-            catchr = -1
+            catchr = -1.0
 
         pokeItem["_catchr"] = catchr
 
@@ -102,11 +91,10 @@ class ReviewSpider(scrapy.Spider):
 
         img = response.xpath("//a/img/@src").get()
 
-        self._dex[pokeItem["_dex"]] = 1
 
 
 
-        print(pokeItem)
+        #print(pokeItem)
 
         yield pokeItem
 
@@ -120,4 +108,4 @@ class ReviewSpider(scrapy.Spider):
         file = url.split("/")[-1]
         r = requests.get(url, allow_redirects=True)
         with open(file, 'wb') as fp:
-            fp.write(r.content)
+            fp.write(r.content) #change to img folder
