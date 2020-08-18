@@ -2,6 +2,9 @@ import scrapy
 import requests
 from ..items import Pokemon
 
+import logging
+LOG_FILENAME = 'pokemon.log'
+logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG, filemode = "w")
 
  #table = response.xpath("//table[@id='pokedex']/tbody/tr")
 #l = [entry.xpath("td") for entry in table]
@@ -50,9 +53,16 @@ class ReviewSpider(scrapy.Spider):
         genders = [re.findall("[a-zA-Z]+", item)[0] for item in uniqueGender]
         gender_rates = [re.findall("[0-9]*\.*[0-9]*", item)[0] for item in uniqueGender]
 
-        pokeItem["_gender"] = genders if len(genders) else [-1, -1]
+        if len(genders) > 1:
+            tmp = [i for i in zip(genders, gender_rates)]
+            tmp = sorted(tmp, key = lambda x: x[0])
+            genders, gender_rates = zip(*tmp)
 
-        pokeItem["_genderr"] = [float(rate) for rate in gender_rates] if len(gender_rates) > 0 else [-1, -1]
+            del tmp
+
+        pokeItem["_gender"] = genders if len(genders) else ["-1", "-1"]
+
+        pokeItem["_genderr"] = [float(rate) for rate in gender_rates] if len(gender_rates) > 1 else [0, 0]
 
         types = tables.xpath("tr[./th[contains(.,'Type')]]/td/a/text()").getall()
 
@@ -92,14 +102,14 @@ class ReviewSpider(scrapy.Spider):
         img = response.xpath("//a/img/@src").get()
 
 
-
+        #self.GET(img)
 
         #print(pokeItem)
 
         yield pokeItem
 
 
-    def GET(url):
+    def GET(self, url):
         """ Download a image specified by url.
         :param conn: Image url.
         :return:
@@ -107,5 +117,5 @@ class ReviewSpider(scrapy.Spider):
 
         file = url.split("/")[-1]
         r = requests.get(url, allow_redirects=True)
-        with open(file, 'wb') as fp:
+        with open("./images/" + file, 'wb') as fp:
             fp.write(r.content) #change to img folder
