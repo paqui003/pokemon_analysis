@@ -30,7 +30,7 @@ class PokemonPipeline:
     def create_connection(self):
         try:
             print(os.getcwd())
-            self.conn = sqlite3.connect("./database/pokemon.db")
+            self.conn = sqlite3.connect("../database/pokemon.db")
             self.curr = self.conn.cursor()
 
         except Error as e:
@@ -126,5 +126,5 @@ class PokemonPipeline:
         self.store_item(item)
 
         print("Pipeline: " + item["_name"])
-        
+
         return item

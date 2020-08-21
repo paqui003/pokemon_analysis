@@ -29,7 +29,7 @@ class LabelPipeline:
 
     def create_connection(self):
         try:
-            self.conn = sqlite3.connect("./database/pokemon.db")
+            self.conn = sqlite3.connect("../database/pokemon.db")
             self.curr = self.conn.cursor()
 
         except Error as e:
