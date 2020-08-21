@@ -9,7 +9,7 @@ logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG, filemode = "w")
  #table = response.xpath("//table[@id='pokedex']/tbody/tr")
 #l = [entry.xpath("td") for entry in table]
  #_id, _name, _type, _total, _hp, _atk, _def, _satk, _sd, _spd = l[0]
-class ReviewSpider(scrapy.Spider):
+class PokemonSpider(scrapy.Spider):
     name = "pokemon"
     start_urls = [
         "https://pokemondb.net/pokedex/all",
@@ -102,7 +102,7 @@ class ReviewSpider(scrapy.Spider):
         img = response.xpath("//a/img/@src").get()
 
 
-        #self.GET(img)
+        self.GET(img)
 
         #print(pokeItem)
 

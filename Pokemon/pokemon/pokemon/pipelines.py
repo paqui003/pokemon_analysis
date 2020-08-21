@@ -9,9 +9,9 @@
 import os
 
 from itemadapter import ItemAdapter
-
 import sqlite3
 from sqlite3 import Error
+
 
 class PokemonPipeline:
 
@@ -22,7 +22,10 @@ class PokemonPipeline:
 
 
     def close_spider(self, spider):
-        pass
+        try:
+            self.conn.close()
+        except Error as e:
+            print(e)
 
     def create_connection(self):
         try:
@@ -74,6 +77,7 @@ class PokemonPipeline:
             self.curr.execute(pokemon_table)
             self.curr.execute(gender_table)
             self.curr.execute(types_table)
+
         except Error as e:
             print(e)
 
@@ -102,7 +106,7 @@ class PokemonPipeline:
         (
             item['_dex'],
             1 if (len(item['_gender'])>1 and item['_genderr'][0] > 0) else 0,
-            1 if (len(item['_gender']) and item['_genderr'][1])>1 else 0,
+            1 if (len(item['_gender'])>1 and item['_genderr'][1] > 0) else 0,
             item['_genderr'][0] if len(item['_gender'])>1 else 0.0,
             item['_genderr'][1] if len(item['_gender'])>1 else 0.0
         ))
@@ -122,4 +126,5 @@ class PokemonPipeline:
         self.store_item(item)
 
         print("Pipeline: " + item["_name"])
+        
         return item
