@@ -3,7 +3,7 @@ import requests
 from ..items import Pokemon
 
 import logging
-LOG_FILENAME = '../log/pokemon.log'
+LOG_FILENAME = 'pokemon.log'
 logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG, filemode = "w")
 
  #table = response.xpath("//table[@id='pokedex']/tbody/tr")
@@ -28,7 +28,7 @@ class PokemonSpider(scrapy.Spider):
         import re
         import numpy as np
 
-        pokeItem = Pokemon() #Creates an item object of class Pokemon
+        pokeItem = Pokemon()
 
         main = response.xpath("//main")
         tables = main.xpath("//table[@class='vitals-table']/tbody")
@@ -109,8 +109,9 @@ class PokemonSpider(scrapy.Spider):
 
         yield pokeItem
 
+
     def GET(self, url):
-        """ Download an image specified by url.
+        """ Download a image specified by url.
         :param conn: Image url.
         :return:
         """

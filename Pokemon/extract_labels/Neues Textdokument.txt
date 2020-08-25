@@ -1,0 +1,2 @@
+data = response.xpath("//td[@class='fooinfo']/table/tr[contains(., 'National')]/td")[1]
+dex = data.xpath("text()").get()

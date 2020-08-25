@@ -5,6 +5,7 @@ import logging
 from ..items import PokemonLabel
 
 
+
 class LabelSpider(scrapy.Spider):
     name = "labelSpider"
     start_urls = [
@@ -13,23 +14,23 @@ class LabelSpider(scrapy.Spider):
 
 
     def parse(self, response):
-    """
-    Parse https://www.serebii.net/pokemon/legendary.shtml and extract
-    the links grouped by legendary, semi-legendary and mythic pokemon.
-    Follow each link to a Pokemon's page.
+        """
+        Parse https://www.serebii.net/pokemon/legendary.shtml and extract
+        the links grouped by legendary, semi-legendary and mythic pokemon.
+        Follow each link to a Pokemon's page.
 
-    Parameters:
-        response    --    The HTML-Structure and HTTP-Code.
+        Parameters:
+            response    --    The HTML-Structure and HTTP-Code.
 
-    Returns:
+        Returns:
 
-        Yields a respone.follow(...) object.
+            Yields a respone.follow(...) object.
 
-    """
+        """
         # Pokemon are contained inside a nested table structure, that is
         # each Pokemon is represented as a table within the parent table.
         subleg_pokemon =  response.xpath("//table[tr[contains(., 'Sub-Legendary')]]/tr/td/table")
-        # First link references to the Pokemon's page. 
+        # First link references to the Pokemon's page.
         subleg_links = [a.xpath("./tr/td/a")[0] for a in subleg_pokemon]
         subleg_links = [link.xpath("./@href").get() for link in subleg_links]
 
@@ -54,16 +55,47 @@ class LabelSpider(scrapy.Spider):
         #TODO: Extract the _dex entry from the given website via xpath
         #and store it to a PokemonLabel item.
         #Do not forget to add the _label aswell.
-        pass
+
+        pokelabel = PokemonLabel()
+
+        data = response.xpath("//td[@class='fooinfo']/table/tr[contains(., 'National')]/td")[1]
+        dex = data.xpath("text()").get() #contains a dex entry in format '#xyz'
+        #dex = dex.replace("#", "")
+
+        pokelabel["_dex"] = dex
+        pokelabel["_label"] = "Legendary"
+
+
+        yield pokelabel
 
     def parse_mythic(self, response):
         #TODO: Extract the _dex entry from the given website via xpath
         #and store it to a PokemonLabel item.
         #Do not forget to add the _label aswell.
-        pass
+        pokelabel = PokemonLabel()
+
+        data = response.xpath("//td[@class='fooinfo']/table/tr[contains(., 'National')]/td")[1]
+        dex = data.xpath("text()").get() #contains a dex entry in format '#xyz'
+        #dex = dex.replace("#", "")
+
+        pokelabel["_dex"] = dex
+        pokelabel["_label"] = "Mythical"
+
+
+        yield pokelabel
 
     def parse_semiLegendary(self, response):
         #TODO: Extract the _dex entry from the given website via xpath
         #and store it to a PokemonLabel item.
         #Do not forget to add the _label aswell.
-        pass
+        pokelabel = PokemonLabel()
+
+        data = response.xpath("//td[@class='fooinfo']/table/tr[contains(., 'National')]/td")[1]
+        dex = data.xpath("text()").get() #contains a dex entry in format '#xyz'
+        #dex = dex.replace("#", "")
+
+        pokelabel["_dex"] = dex
+        pokelabel["_label"] = "Semi-Legendary"
+
+
+        yield pokelabel

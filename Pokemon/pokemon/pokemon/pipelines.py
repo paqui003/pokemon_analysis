@@ -15,7 +15,7 @@ from sqlite3 import Error
 
 class PokemonPipeline:
 
-    #Called when spider has been opened
+    # Called when spider has been opened
     def open_spider(self, spider):
         self.create_connection()
         self.create_table()
@@ -84,7 +84,7 @@ class PokemonPipeline:
     def store_item(self, item):
         self.curr.execute("""INSERT OR IGNORE INTO Pokemon VALUES
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
-        (
+          (
             item['_dex'],
             item['_name'],
             item['_hp'],
@@ -100,29 +100,27 @@ class PokemonPipeline:
             item['_catchr'],
             item['_gen'],
             item['_legendary']
-        ))
+          ))
 
         self.curr.execute("""INSERT OR IGNORE INTO Gender VALUES (?, ?, ?, ?, ?)""",
-        (
+          (
             item['_dex'],
-            1 if (len(item['_gender'])>1 and item['_genderr'][0] > 0) else 0,
-            1 if (len(item['_gender'])>1 and item['_genderr'][1] > 0) else 0,
-            item['_genderr'][0] if len(item['_gender'])>1 else 0.0,
-            item['_genderr'][1] if len(item['_gender'])>1 else 0.0
-        ))
+            1 if (len(item['_gender']) > 1 and item['_genderr'][0] > 0) else 0,
+            1 if (len(item['_gender']) > 1 and item['_genderr'][1] > 0) else 0,
+            item['_genderr'][0] if len(item['_gender']) > 1 else 0.0,
+            item['_genderr'][1] if len(item['_gender']) > 1 else 0.0
+          ))
 
         for t in item['_types']:
             self.curr.execute("""INSERT OR IGNORE INTO Type VALUES (?, ?)""",
-            (
+              (
                 item['_dex'],
                 t
-            ))
+              ))
 
         self.conn.commit()
 
     def process_item(self, item, spider):
-        #TODO:   Check what happens with different process functions.
-        #        #parse vs. parse_pokemon
         self.store_item(item)
 
         print("Pipeline: " + item["_name"])

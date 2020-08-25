@@ -12,3 +12,4 @@ class PokemonLabel(scrapy.Item):
 
     _dex = scrapy.Field()    #Dex Number of the pokemon
     _label = scrapy.Field()  #Label (Legendary, Semi, Mythic)
+    

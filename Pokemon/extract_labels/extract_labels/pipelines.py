@@ -11,6 +11,10 @@ import os
 from itemadapter import ItemAdapter
 import sqlite3
 from sqlite3 import Error
+import logging
+
+LOG_FILENAME = '../log/label.log'
+logging.basicConfig(filename=LOG_FILENAME, level=logging.DEBUG, filemode = "w")
 
 
 class LabelPipeline:
@@ -37,8 +41,10 @@ class LabelPipeline:
 
     def create_table(self):
 
-        label_table = None #TODO: Create the table Label here if it does not already
-                           # exist.
+        label_table = """CREATE TABLE IF NOT EXISTS Label (
+                                     Dex INTEGER PRIMARY KEY,
+                                     Label VARCHAR(16) NOT NULL
+                                 ); """
 
         try:
             self.curr.execute(label_table)
@@ -48,16 +54,37 @@ class LabelPipeline:
 
     def store_item(self, item):
 
-        self.curr.execute("""INSERT OR IGNORE INTO Label VALUES (?, ?)""",
-        (
-        #TODO: Fill in the columns with the content of item
-        ))
+        dex = item["_dex"]
+        dex = dex.replace("#", "")
+
+
+        try:
+
+            dex = int(dex)
+
+        except:
+
+            with open(LOG_FILENAME, "a") as fp:
+                fp.write(f'Could not write row with dex entry {dex} (Format error).\n')
+
+            dex = -1
+
+
+
+        label = item["_label"]
+
+        if dex >= 0:
+            self.curr.execute("""INSERT OR IGNORE INTO Label VALUES (?, ?)""",
+            (
+            dex,
+            label
+            ))
 
         self.conn.commit()
 
     def process_item(self, item, spider):
         self.store_item(item)
 
-        print("Pipeline: " + item["_name"])
+        print("Pipeline: " + item["_dex"])
 
         return item
