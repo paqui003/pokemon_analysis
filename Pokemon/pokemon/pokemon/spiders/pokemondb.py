@@ -66,8 +66,13 @@ class PokemonSpider(scrapy.Spider):
         pokeItem["_genderr"] = [float(rate) for rate in gender_rates] if len(gender_rates) > 1 else [0, 0]
 
         types = tables.xpath("tr[./th[contains(.,'Type')]]/td/a/text()").getall()
+        types = np.array(types)
 
-        uniqueTypes = np.unique(types)
+        uniqueTypes, i = np.unique(types, return_index=True)
+
+        uniqueTypes = types[sorted(i)]
+
+        print(uniqueTypes)
 
         cond = (len(types) > 1) and (types[0] != types[1])
         uniqueTypes = uniqueTypes[:2] if (cond == True) else uniqueTypes
@@ -103,7 +108,7 @@ class PokemonSpider(scrapy.Spider):
         img = response.xpath("//a/img/@src").get()
 
 
-        self.GET(img)
+        #self.GET(img)
 
         #print(pokeItem)
 

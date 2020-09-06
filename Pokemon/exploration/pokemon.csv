@@ -1,0 +1,894 @@
+Dex,Name,Hp,Atk,Def,Satk,Sdef,Spd,Total,Height,Weight,Growthr,Catchr,Gen,Female,Male,Femaler,Maler,Label,Type1,Type2,Genderless
+1,Bulbasaur,45,49,49,65,65,45,318,0.7,6.9,Medium Slow,45.0,Red,1,1,12.5,87.5,Non Legendary,Grass,Poison,False
+2,Ivysaur,60,62,63,80,80,60,405,1.0,13.0,Medium Slow,45.0,Red,1,1,12.5,87.5,Non Legendary,Grass,Poison,False
+3,Venusaur,80,82,83,100,100,80,525,2.0,100.0,Medium Slow,45.0,Red,1,1,12.5,87.5,Non Legendary,Grass,Poison,False
+4,Charmander,39,52,43,60,50,65,309,0.6,8.5,Medium Slow,45.0,Red,1,1,12.5,87.5,Non Legendary,Fire,,False
+5,Charmeleon,58,64,58,80,65,80,405,1.1,19.0,Medium Slow,45.0,Red,1,1,12.5,87.5,Non Legendary,Fire,,False
+6,Charizard,78,84,78,109,85,100,534,1.7,90.5,Medium Slow,45.0,Red,1,1,12.5,87.5,Non Legendary,Fire,Flying,False
+7,Squirtle,44,48,65,50,64,43,314,0.5,9.0,Medium Slow,45.0,Red,1,1,12.5,87.5,Non Legendary,Water,,False
+8,Wartortle,59,63,80,65,80,58,405,1.0,22.5,Medium Slow,45.0,Red,1,1,12.5,87.5,Non Legendary,Water,,False
+9,Blastoise,79,83,100,85,105,78,530,1.6,85.5,Medium Slow,45.0,Red,1,1,12.5,87.5,Non Legendary,Water,,False
+10,Caterpie,45,30,35,20,20,45,195,0.3,2.9,Medium Fast,255.0,Red,1,1,50.0,50.0,Non Legendary,Bug,,False
+11,Metapod,50,20,55,25,25,30,205,0.7,9.9,Medium Fast,120.0,Red,1,1,50.0,50.0,Non Legendary,Bug,,False
+12,Butterfree,60,45,50,90,80,70,395,1.1,32.0,Medium Fast,45.0,Red,1,1,50.0,50.0,Non Legendary,Bug,Flying,False
+13,Weedle,40,35,30,20,20,50,195,0.3,3.2,Medium Fast,255.0,Red,1,1,50.0,50.0,Non Legendary,Bug,Poison,False
+14,Kakuna,45,25,50,25,25,35,205,0.6,10.0,Medium Fast,120.0,Red,1,1,50.0,50.0,Non Legendary,Bug,Poison,False
+15,Beedrill,65,90,40,45,80,75,395,1.0,29.5,Medium Fast,45.0,Red,1,1,50.0,50.0,Non Legendary,Bug,Poison,False
+16,Pidgey,40,45,40,35,35,56,251,0.3,1.8,Medium Slow,255.0,Red,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+17,Pidgeotto,63,60,55,50,50,71,349,1.1,30.0,Medium Slow,120.0,Red,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+18,Pidgeot,83,80,75,70,70,101,479,1.5,39.5,Medium Slow,45.0,Red,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+19,Rattata,30,56,35,25,35,72,253,0.3,3.5,Medium Fast,255.0,Red,1,1,50.0,50.0,Non Legendary,Normal,Dark,False
+20,Raticate,55,81,60,50,70,97,413,0.7,18.5,Medium Fast,127.0,Red,1,1,50.0,50.0,Non Legendary,Normal,Dark,False
+21,Spearow,40,60,30,31,31,70,262,0.3,2.0,Medium Fast,255.0,Red,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+22,Fearow,65,90,65,61,61,100,442,1.2,38.0,Medium Fast,90.0,Red,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+23,Ekans,35,60,44,40,54,55,288,2.0,6.9,Medium Fast,255.0,Red,1,1,50.0,50.0,Non Legendary,Poison,,False
+24,Arbok,60,95,69,65,79,80,448,3.5,65.0,Medium Fast,90.0,Red,1,1,50.0,50.0,Non Legendary,Poison,,False
+25,Pikachu,35,55,40,50,50,90,320,0.4,6.0,Medium Fast,190.0,Red,1,1,50.0,50.0,Non Legendary,Electric,,False
+26,Raichu,60,90,55,90,80,110,485,0.8,30.0,Medium Fast,75.0,Red,1,1,50.0,50.0,Non Legendary,Electric,Psychic,False
+27,Sandshrew,50,75,85,20,30,40,300,0.6,12.0,Medium Fast,255.0,Red,1,1,50.0,50.0,Non Legendary,Ground,Ice,False
+28,Sandslash,75,100,110,45,55,65,450,1.0,29.5,Medium Fast,90.0,Red,1,1,50.0,50.0,Non Legendary,Ground,Ice,False
+29,Nidoran♀,55,47,52,40,40,41,275,0.4,7.0,Medium Slow,235.0,Red,1,0,100.0,0.0,Non Legendary,Poison,,False
+30,Nidorina,70,62,67,55,55,56,365,0.8,20.0,Medium Slow,120.0,Red,1,0,100.0,0.0,Non Legendary,Poison,,False
+31,Nidoqueen,90,92,87,75,85,76,505,1.3,60.0,Medium Slow,45.0,Red,1,0,100.0,0.0,Non Legendary,Poison,Ground,False
+32,Nidoran♂,46,57,40,40,40,50,273,0.5,9.0,Medium Slow,235.0,Red,0,1,0.0,100.0,Non Legendary,Poison,,False
+33,Nidorino,61,72,57,55,55,65,365,0.9,19.5,Medium Slow,120.0,Red,0,1,0.0,100.0,Non Legendary,Poison,,False
+34,Nidoking,81,102,77,85,75,85,505,1.4,62.0,Medium Slow,45.0,Red,0,1,0.0,100.0,Non Legendary,Poison,Ground,False
+35,Clefairy,70,45,48,60,65,35,323,0.6,7.5,Fast,150.0,Red,1,1,75.0,25.0,Non Legendary,Fairy,,False
+36,Clefable,95,70,73,95,90,60,483,1.3,40.0,Fast,25.0,Red,1,1,75.0,25.0,Non Legendary,Fairy,,False
+37,Vulpix,38,41,40,50,65,65,299,0.6,9.9,Medium Fast,190.0,Red,1,1,75.0,25.0,Non Legendary,Fire,Ice,False
+38,Ninetales,73,76,75,81,100,100,505,1.1,19.9,Medium Fast,75.0,Red,1,1,75.0,25.0,Non Legendary,Fire,Ice,False
+39,Jigglypuff,115,45,20,45,25,20,270,0.5,5.5,Fast,170.0,Red,1,1,75.0,25.0,Non Legendary,Normal,Fairy,False
+40,Wigglytuff,140,70,45,85,50,45,435,1.0,12.0,Fast,50.0,Red,1,1,75.0,25.0,Non Legendary,Normal,Fairy,False
+41,Zubat,40,45,35,30,40,55,245,0.8,7.5,Medium Fast,255.0,Red,1,1,50.0,50.0,Non Legendary,Poison,Flying,False
+42,Golbat,75,80,70,65,75,90,455,1.6,55.0,Medium Fast,90.0,Red,1,1,50.0,50.0,Non Legendary,Poison,Flying,False
+43,Oddish,45,50,55,75,65,30,320,0.5,5.4,Medium Slow,255.0,Red,1,1,50.0,50.0,Non Legendary,Grass,Poison,False
+44,Gloom,60,65,70,85,75,40,395,0.8,8.6,Medium Slow,120.0,Red,1,1,50.0,50.0,Non Legendary,Grass,Poison,False
+45,Vileplume,75,80,85,110,90,50,490,1.2,18.6,Medium Slow,45.0,Red,1,1,50.0,50.0,Non Legendary,Grass,Poison,False
+46,Paras,35,70,55,45,55,25,285,0.3,5.4,Medium Fast,190.0,Red,1,1,50.0,50.0,Non Legendary,Bug,Grass,False
+47,Parasect,60,95,80,60,80,30,405,1.0,29.5,Medium Fast,75.0,Red,1,1,50.0,50.0,Non Legendary,Bug,Grass,False
+48,Venonat,60,55,50,40,55,45,305,1.0,30.0,Medium Fast,190.0,Red,1,1,50.0,50.0,Non Legendary,Bug,Poison,False
+49,Venomoth,70,65,60,90,75,90,450,1.5,12.5,Medium Fast,75.0,Red,1,1,50.0,50.0,Non Legendary,Bug,Poison,False
+50,Diglett,10,55,25,35,45,95,265,0.2,0.8,Medium Fast,255.0,Red,1,1,50.0,50.0,Non Legendary,Ground,Steel,False
+51,Dugtrio,35,100,50,50,70,120,425,0.7,33.3,Medium Fast,50.0,Red,1,1,50.0,50.0,Non Legendary,Ground,Steel,False
+52,Meowth,40,45,35,40,40,90,290,0.4,4.2,Medium Fast,255.0,Red,1,1,50.0,50.0,Non Legendary,Normal,Dark,False
+53,Persian,65,70,60,65,65,115,440,1.0,32.0,Medium Fast,90.0,Red,1,1,50.0,50.0,Non Legendary,Normal,Dark,False
+54,Psyduck,50,52,48,65,50,55,320,0.8,19.6,Medium Fast,190.0,Red,1,1,50.0,50.0,Non Legendary,Water,,False
+55,Golduck,80,82,78,95,80,85,500,1.7,76.6,Medium Fast,75.0,Red,1,1,50.0,50.0,Non Legendary,Water,,False
+56,Mankey,40,80,35,35,45,70,305,0.5,28.0,Medium Fast,190.0,Red,1,1,50.0,50.0,Non Legendary,Fighting,,False
+57,Primeape,65,105,60,60,70,95,455,1.0,32.0,Medium Fast,75.0,Red,1,1,50.0,50.0,Non Legendary,Fighting,,False
+58,Growlithe,55,70,45,70,50,60,350,0.7,19.0,Slow,190.0,Red,1,1,25.0,75.0,Non Legendary,Fire,,False
+59,Arcanine,90,110,80,100,80,95,555,1.9,155.0,Slow,75.0,Red,1,1,25.0,75.0,Non Legendary,Fire,,False
+60,Poliwag,40,50,40,40,40,90,300,0.6,12.4,Medium Slow,255.0,Red,1,1,50.0,50.0,Non Legendary,Water,,False
+61,Poliwhirl,65,65,65,50,50,90,385,1.0,20.0,Medium Slow,120.0,Red,1,1,50.0,50.0,Non Legendary,Water,,False
+62,Poliwrath,90,95,95,70,90,70,510,1.3,54.0,Medium Slow,45.0,Red,1,1,50.0,50.0,Non Legendary,Water,Fighting,False
+63,Abra,25,20,15,105,55,90,310,0.9,19.5,Medium Slow,200.0,Red,1,1,25.0,75.0,Non Legendary,Psychic,,False
+64,Kadabra,40,35,30,120,70,105,400,1.3,56.5,Medium Slow,100.0,Red,1,1,25.0,75.0,Non Legendary,Psychic,,False
+65,Alakazam,55,50,45,135,95,120,500,1.5,48.0,Medium Slow,50.0,Red,1,1,25.0,75.0,Non Legendary,Psychic,,False
+66,Machop,70,80,50,35,35,35,305,0.8,19.5,Medium Slow,180.0,Red,1,1,25.0,75.0,Non Legendary,Fighting,,False
+67,Machoke,80,100,70,50,60,45,405,1.5,70.5,Medium Slow,90.0,Red,1,1,25.0,75.0,Non Legendary,Fighting,,False
+68,Machamp,90,130,80,65,85,55,505,1.6,130.0,Medium Slow,45.0,Red,1,1,25.0,75.0,Non Legendary,Fighting,,False
+69,Bellsprout,50,75,35,70,30,40,300,0.7,4.0,Medium Slow,255.0,Red,1,1,50.0,50.0,Non Legendary,Grass,Poison,False
+70,Weepinbell,65,90,50,85,45,55,390,1.0,6.4,Medium Slow,120.0,Red,1,1,50.0,50.0,Non Legendary,Grass,Poison,False
+71,Victreebel,80,105,65,100,70,70,490,1.7,15.5,Medium Slow,45.0,Red,1,1,50.0,50.0,Non Legendary,Grass,Poison,False
+72,Tentacool,40,40,35,50,100,70,335,0.9,45.5,Slow,190.0,Red,1,1,50.0,50.0,Non Legendary,Water,Poison,False
+73,Tentacruel,80,70,65,80,120,100,515,1.6,55.0,Slow,60.0,Red,1,1,50.0,50.0,Non Legendary,Water,Poison,False
+74,Geodude,40,80,100,30,30,20,300,0.4,20.0,Medium Slow,255.0,Red,1,1,50.0,50.0,Non Legendary,Rock,Ground,False
+75,Graveler,55,95,115,45,45,35,390,1.0,105.0,Medium Slow,120.0,Red,1,1,50.0,50.0,Non Legendary,Rock,Ground,False
+76,Golem,80,120,130,55,65,45,495,1.4,300.0,Medium Slow,45.0,Red,1,1,50.0,50.0,Non Legendary,Rock,Ground,False
+77,Ponyta,50,85,55,65,65,90,410,1.0,30.0,Medium Fast,190.0,Red,1,1,50.0,50.0,Non Legendary,Fire,Psychic,False
+78,Rapidash,65,100,70,80,80,105,500,1.7,95.0,Medium Fast,60.0,Red,1,1,50.0,50.0,Non Legendary,Fire,Psychic,False
+79,Slowpoke,90,65,65,40,40,15,315,1.2,36.0,Medium Fast,190.0,Red,1,1,50.0,50.0,Non Legendary,Water,Psychic,False
+80,Slowbro,95,75,110,100,80,30,490,1.6,78.5,Medium Fast,75.0,Red,1,1,50.0,50.0,Non Legendary,Water,Psychic,False
+81,Magnemite,25,35,70,95,55,45,325,0.3,6.0,Medium Fast,190.0,Red,0,0,0.0,0.0,Non Legendary,Electric,Steel,True
+82,Magneton,50,60,95,120,70,70,465,1.0,60.0,Medium Fast,60.0,Red,0,0,0.0,0.0,Non Legendary,Electric,Steel,True
+83,Farfetch'd,52,90,55,58,62,60,377,0.8,15.0,Medium Fast,45.0,Red,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+84,Doduo,35,85,45,35,35,75,310,1.4,39.2,Medium Fast,190.0,Red,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+85,Dodrio,60,110,70,60,60,110,470,1.8,85.2,Medium Fast,45.0,Red,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+86,Seel,65,45,55,45,70,45,325,1.1,90.0,Medium Fast,190.0,Red,1,1,50.0,50.0,Non Legendary,Water,,False
+87,Dewgong,90,70,80,70,95,70,475,1.7,120.0,Medium Fast,75.0,Red,1,1,50.0,50.0,Non Legendary,Water,Ice,False
+88,Grimer,80,80,50,40,50,25,325,0.9,30.0,Medium Fast,190.0,Red,1,1,50.0,50.0,Non Legendary,Poison,Dark,False
+89,Muk,105,105,75,65,100,50,500,1.2,30.0,Medium Fast,75.0,Red,1,1,50.0,50.0,Non Legendary,Poison,Dark,False
+90,Shellder,30,65,100,45,25,40,305,0.3,4.0,Slow,190.0,Red,1,1,50.0,50.0,Non Legendary,Water,,False
+91,Cloyster,50,95,180,85,45,70,525,1.5,132.5,Slow,60.0,Red,1,1,50.0,50.0,Non Legendary,Water,Ice,False
+92,Gastly,30,35,30,100,35,80,310,1.3,0.1,Medium Slow,190.0,Red,1,1,50.0,50.0,Non Legendary,Ghost,Poison,False
+93,Haunter,45,50,45,115,55,95,405,1.6,0.1,Medium Slow,90.0,Red,1,1,50.0,50.0,Non Legendary,Ghost,Poison,False
+94,Gengar,60,65,60,130,75,110,500,1.5,40.5,Medium Slow,45.0,Red,1,1,50.0,50.0,Non Legendary,Ghost,Poison,False
+95,Onix,35,45,160,30,45,70,385,8.8,210.0,Medium Fast,45.0,Red,1,1,50.0,50.0,Non Legendary,Rock,Ground,False
+96,Drowzee,60,48,45,43,90,42,328,1.0,32.4,Medium Fast,190.0,Red,1,1,50.0,50.0,Non Legendary,Psychic,,False
+97,Hypno,85,73,70,73,115,67,483,1.6,75.6,Medium Fast,75.0,Red,1,1,50.0,50.0,Non Legendary,Psychic,,False
+98,Krabby,30,105,90,25,25,50,325,0.4,6.5,Medium Fast,225.0,Red,1,1,50.0,50.0,Non Legendary,Water,,False
+99,Kingler,55,130,115,50,50,75,475,1.3,60.0,Medium Fast,60.0,Red,1,1,50.0,50.0,Non Legendary,Water,,False
+100,Voltorb,40,30,50,55,55,100,330,0.5,10.4,Medium Fast,190.0,Red,0,0,0.0,0.0,Non Legendary,Electric,,True
+101,Electrode,60,50,70,80,80,150,490,1.2,66.6,Medium Fast,60.0,Red,0,0,0.0,0.0,Non Legendary,Electric,,True
+102,Exeggcute,60,40,80,60,45,40,325,0.4,2.5,Slow,90.0,Red,1,1,50.0,50.0,Non Legendary,Grass,Psychic,False
+103,Exeggutor,95,95,85,125,75,55,530,2.0,120.0,Slow,45.0,Red,1,1,50.0,50.0,Non Legendary,Grass,Psychic,False
+104,Cubone,50,50,95,40,50,35,320,0.4,6.5,Medium Fast,190.0,Red,1,1,50.0,50.0,Non Legendary,Ground,,False
+105,Marowak,60,80,110,50,80,45,425,1.0,45.0,Medium Fast,75.0,Red,1,1,50.0,50.0,Non Legendary,Ground,Fire,False
+106,Hitmonlee,50,120,53,35,110,87,455,1.5,49.8,Medium Fast,45.0,Red,0,1,0.0,100.0,Non Legendary,Fighting,,False
+107,Hitmonchan,50,105,79,35,110,76,455,1.4,50.2,Medium Fast,45.0,Red,0,1,0.0,100.0,Non Legendary,Fighting,,False
+108,Lickitung,90,55,75,60,75,30,385,1.2,65.5,Medium Fast,45.0,Red,1,1,50.0,50.0,Non Legendary,Normal,,False
+109,Koffing,40,65,95,60,45,35,340,0.6,1.0,Medium Fast,190.0,Red,1,1,50.0,50.0,Non Legendary,Poison,,False
+110,Weezing,65,90,120,85,70,60,490,1.2,9.5,Medium Fast,60.0,Red,1,1,50.0,50.0,Non Legendary,Poison,Fairy,False
+111,Rhyhorn,80,85,95,30,30,25,345,1.0,115.0,Slow,120.0,Red,1,1,50.0,50.0,Non Legendary,Ground,Rock,False
+112,Rhydon,105,130,120,45,45,40,485,1.9,120.0,Slow,60.0,Red,1,1,50.0,50.0,Non Legendary,Ground,Rock,False
+113,Chansey,250,5,5,35,105,50,450,1.1,34.6,Fast,30.0,Red,1,0,100.0,0.0,Non Legendary,Normal,,False
+114,Tangela,65,55,115,100,40,60,435,1.0,35.0,Medium Fast,45.0,Red,1,1,50.0,50.0,Non Legendary,Grass,,False
+115,Kangaskhan,105,95,80,40,80,90,490,2.2,80.0,Medium Fast,45.0,Red,1,0,100.0,0.0,Non Legendary,Normal,,False
+116,Horsea,30,40,70,70,25,60,295,0.4,8.0,Medium Fast,225.0,Red,1,1,50.0,50.0,Non Legendary,Water,,False
+117,Seadra,55,65,95,95,45,85,440,1.2,25.0,Medium Fast,75.0,Red,1,1,50.0,50.0,Non Legendary,Water,,False
+118,Goldeen,45,67,60,35,50,63,320,0.6,15.0,Medium Fast,225.0,Red,1,1,50.0,50.0,Non Legendary,Water,,False
+119,Seaking,80,92,65,65,80,68,450,1.3,39.0,Medium Fast,60.0,Red,1,1,50.0,50.0,Non Legendary,Water,,False
+120,Staryu,30,45,55,70,55,85,340,0.8,34.5,Slow,225.0,Red,0,0,0.0,0.0,Non Legendary,Water,,True
+121,Starmie,60,75,85,100,85,115,520,1.1,80.0,Slow,60.0,Red,0,0,0.0,0.0,Non Legendary,Water,Psychic,True
+122,Mr. Mime,40,45,65,100,120,90,460,1.3,54.5,Medium Fast,45.0,Red,1,1,50.0,50.0,Non Legendary,Psychic,Fairy,False
+123,Scyther,70,110,80,55,80,105,500,1.5,56.0,Medium Fast,45.0,Red,1,1,50.0,50.0,Non Legendary,Bug,Flying,False
+124,Jynx,65,50,35,115,95,95,455,1.4,40.6,Medium Fast,45.0,Red,1,0,100.0,0.0,Non Legendary,Ice,Psychic,False
+125,Electabuzz,65,83,57,95,85,105,490,1.1,30.0,Medium Fast,45.0,Red,1,1,25.0,75.0,Non Legendary,Electric,,False
+126,Magmar,65,95,57,100,85,93,495,1.3,44.5,Medium Fast,45.0,Red,1,1,25.0,75.0,Non Legendary,Fire,,False
+127,Pinsir,65,125,100,55,70,85,500,1.5,55.0,Slow,45.0,Red,1,1,50.0,50.0,Non Legendary,Bug,Flying,False
+128,Tauros,75,100,95,40,70,110,490,1.4,88.4,Slow,45.0,Red,0,1,0.0,100.0,Non Legendary,Normal,,False
+129,Magikarp,20,10,55,15,20,80,200,0.9,10.0,Slow,255.0,Red,1,1,50.0,50.0,Non Legendary,Water,,False
+130,Gyarados,95,125,79,60,100,81,540,6.5,235.0,Slow,45.0,Red,1,1,50.0,50.0,Non Legendary,Water,Flying,False
+131,Lapras,130,85,80,85,95,60,535,2.5,220.0,Slow,45.0,Red,1,1,50.0,50.0,Non Legendary,Water,Ice,False
+132,Ditto,48,48,48,48,48,48,288,0.3,4.0,Medium Fast,35.0,Red,0,0,0.0,0.0,Non Legendary,Normal,,True
+133,Eevee,55,55,50,45,65,55,325,0.3,6.5,Medium Fast,45.0,Red,1,1,12.5,87.5,Non Legendary,Normal,,False
+134,Vaporeon,130,65,60,110,95,65,525,1.0,29.0,Medium Fast,45.0,Red,1,1,12.5,87.5,Non Legendary,Water,,False
+135,Jolteon,65,65,60,110,95,130,525,0.8,24.5,Medium Fast,45.0,Red,1,1,12.5,87.5,Non Legendary,Electric,,False
+136,Flareon,65,130,60,95,110,65,525,0.9,25.0,Medium Fast,45.0,Red,1,1,12.5,87.5,Non Legendary,Fire,,False
+137,Porygon,65,60,70,85,75,40,395,0.8,36.5,Medium Fast,45.0,Red,0,0,0.0,0.0,Non Legendary,Normal,,True
+138,Omanyte,35,40,100,90,55,35,355,0.4,7.5,Medium Fast,45.0,Red,1,1,12.5,87.5,Non Legendary,Rock,Water,False
+139,Omastar,70,60,125,115,70,55,495,1.0,35.0,Medium Fast,45.0,Red,1,1,12.5,87.5,Non Legendary,Rock,Water,False
+140,Kabuto,30,80,90,55,45,55,355,0.5,11.5,Medium Fast,45.0,Red,1,1,12.5,87.5,Non Legendary,Rock,Water,False
+141,Kabutops,60,115,105,65,70,80,495,1.3,40.5,Medium Fast,45.0,Red,1,1,12.5,87.5,Non Legendary,Rock,Water,False
+142,Aerodactyl,80,105,65,60,75,130,515,1.8,59.0,Slow,45.0,Red,1,1,12.5,87.5,Non Legendary,Rock,Flying,False
+143,Snorlax,160,110,65,65,110,30,540,2.1,460.0,Slow,25.0,Red,1,1,12.5,87.5,Non Legendary,Normal,,False
+144,Articuno,90,85,100,95,125,85,580,1.7,55.4,Slow,3.0,Red,0,0,0.0,0.0,Semi-Legendary,Ice,Flying,True
+145,Zapdos,90,90,85,125,90,100,580,1.6,52.6,Slow,3.0,Red,0,0,0.0,0.0,Semi-Legendary,Electric,Flying,True
+146,Moltres,90,100,90,125,85,90,580,2.0,60.0,Slow,3.0,Red,0,0,0.0,0.0,Semi-Legendary,Fire,Flying,True
+147,Dratini,41,64,45,50,50,50,300,1.8,3.3,Slow,45.0,Red,1,1,50.0,50.0,Non Legendary,Dragon,,False
+148,Dragonair,61,84,65,70,70,70,420,4.0,16.5,Slow,45.0,Red,1,1,50.0,50.0,Non Legendary,Dragon,,False
+149,Dragonite,91,134,95,100,100,80,600,2.2,210.0,Slow,45.0,Red,1,1,50.0,50.0,Non Legendary,Dragon,Flying,False
+150,Mewtwo,106,110,90,154,90,130,680,2.0,122.0,Slow,3.0,Red,0,0,0.0,0.0,Legendary,Psychic,Fighting,True
+151,Mew,100,100,100,100,100,100,600,0.4,4.0,Medium Slow,45.0,Red,0,0,0.0,0.0,Mythical,Psychic,,True
+152,Chikorita,45,49,65,49,65,45,318,0.9,6.4,Medium Slow,45.0,Gold,1,1,12.5,87.5,Non Legendary,Grass,,False
+153,Bayleef,60,62,80,63,80,60,405,1.2,15.8,Medium Slow,45.0,Gold,1,1,12.5,87.5,Non Legendary,Grass,,False
+154,Meganium,80,82,100,83,100,80,525,1.8,100.5,Medium Slow,45.0,Gold,1,1,12.5,87.5,Non Legendary,Grass,,False
+155,Cyndaquil,39,52,43,60,50,65,309,0.5,7.9,Medium Slow,45.0,Gold,1,1,12.5,87.5,Non Legendary,Fire,,False
+156,Quilava,58,64,58,80,65,80,405,0.9,19.0,Medium Slow,45.0,Gold,1,1,12.5,87.5,Non Legendary,Fire,,False
+157,Typhlosion,78,84,78,109,85,100,534,1.7,79.5,Medium Slow,45.0,Gold,1,1,12.5,87.5,Non Legendary,Fire,,False
+158,Totodile,50,65,64,44,48,43,314,0.6,9.5,Medium Slow,45.0,Gold,1,1,12.5,87.5,Non Legendary,Water,,False
+159,Croconaw,65,80,80,59,63,58,405,1.1,25.0,Medium Slow,45.0,Gold,1,1,12.5,87.5,Non Legendary,Water,,False
+160,Feraligatr,85,105,100,79,83,78,530,2.3,88.8,Medium Slow,45.0,Gold,1,1,12.5,87.5,Non Legendary,Water,,False
+161,Sentret,35,46,34,35,45,20,215,0.8,6.0,Medium Fast,255.0,Gold,1,1,50.0,50.0,Non Legendary,Normal,,False
+162,Furret,85,76,64,45,55,90,415,1.8,32.5,Medium Fast,90.0,Gold,1,1,50.0,50.0,Non Legendary,Normal,,False
+163,Hoothoot,60,30,30,36,56,50,262,0.7,21.2,Medium Fast,255.0,Gold,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+164,Noctowl,100,50,50,86,96,70,452,1.6,40.8,Medium Fast,90.0,Gold,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+165,Ledyba,40,20,30,40,80,55,265,1.0,10.8,Fast,255.0,Gold,1,1,50.0,50.0,Non Legendary,Bug,Flying,False
+166,Ledian,55,35,50,55,110,85,390,1.4,35.6,Fast,90.0,Gold,1,1,50.0,50.0,Non Legendary,Bug,Flying,False
+167,Spinarak,40,60,40,40,40,30,250,0.5,8.5,Fast,255.0,Gold,1,1,50.0,50.0,Non Legendary,Bug,Poison,False
+168,Ariados,70,90,70,60,70,40,400,1.1,33.5,Fast,90.0,Gold,1,1,50.0,50.0,Non Legendary,Bug,Poison,False
+169,Crobat,85,90,80,70,80,130,535,1.8,75.0,Medium Fast,90.0,Gold,1,1,50.0,50.0,Non Legendary,Poison,Flying,False
+170,Chinchou,75,38,38,56,56,67,330,0.5,12.0,Slow,190.0,Gold,1,1,50.0,50.0,Non Legendary,Water,Electric,False
+171,Lanturn,125,58,58,76,76,67,460,1.2,22.5,Slow,75.0,Gold,1,1,50.0,50.0,Non Legendary,Water,Electric,False
+172,Pichu,20,40,15,35,35,60,205,0.3,2.0,Medium Fast,190.0,Gold,1,1,50.0,50.0,Non Legendary,Electric,,False
+173,Cleffa,50,25,28,45,55,15,218,0.3,3.0,Fast,150.0,Gold,1,1,75.0,25.0,Non Legendary,Fairy,,False
+174,Igglybuff,90,30,15,40,20,15,210,0.3,1.0,Fast,170.0,Gold,1,1,75.0,25.0,Non Legendary,Normal,Fairy,False
+175,Togepi,35,20,65,40,65,20,245,0.3,1.5,Fast,190.0,Gold,1,1,12.5,87.5,Non Legendary,Fairy,,False
+176,Togetic,55,40,85,80,105,40,405,0.6,3.2,Fast,75.0,Gold,1,1,12.5,87.5,Non Legendary,Fairy,Flying,False
+177,Natu,40,50,45,70,45,70,320,0.2,2.0,Medium Fast,190.0,Gold,1,1,50.0,50.0,Non Legendary,Psychic,Flying,False
+178,Xatu,65,75,70,95,70,95,470,1.5,15.0,Medium Fast,75.0,Gold,1,1,50.0,50.0,Non Legendary,Psychic,Flying,False
+179,Mareep,55,40,40,65,45,35,280,0.6,7.8,Medium Slow,235.0,Gold,1,1,50.0,50.0,Non Legendary,Electric,,False
+180,Flaaffy,70,55,55,80,60,45,365,0.8,13.3,Medium Slow,120.0,Gold,1,1,50.0,50.0,Non Legendary,Electric,,False
+181,Ampharos,90,75,85,115,90,55,510,1.4,61.5,Medium Slow,45.0,Gold,1,1,50.0,50.0,Non Legendary,Electric,Dragon,False
+182,Bellossom,75,80,95,90,100,50,490,0.4,5.8,Medium Slow,45.0,Gold,1,1,50.0,50.0,Non Legendary,Grass,,False
+183,Marill,70,20,50,20,50,40,250,0.4,8.5,Fast,190.0,Gold,1,1,50.0,50.0,Non Legendary,Water,Fairy,False
+184,Azumarill,100,50,80,60,80,50,420,0.8,28.5,Fast,75.0,Gold,1,1,50.0,50.0,Non Legendary,Water,Fairy,False
+185,Sudowoodo,70,100,115,30,65,30,410,1.2,38.0,Medium Fast,65.0,Gold,1,1,50.0,50.0,Non Legendary,Rock,,False
+186,Politoed,90,75,75,90,100,70,500,1.1,33.9,Medium Slow,45.0,Gold,1,1,50.0,50.0,Non Legendary,Water,,False
+187,Hoppip,35,35,40,35,55,50,250,0.4,0.5,Medium Slow,255.0,Gold,1,1,50.0,50.0,Non Legendary,Grass,Flying,False
+188,Skiploom,55,45,50,45,65,80,340,0.6,1.0,Medium Slow,120.0,Gold,1,1,50.0,50.0,Non Legendary,Grass,Flying,False
+189,Jumpluff,75,55,70,55,95,110,460,0.8,3.0,Medium Slow,45.0,Gold,1,1,50.0,50.0,Non Legendary,Grass,Flying,False
+190,Aipom,55,70,55,40,55,85,360,0.8,11.5,Fast,45.0,Gold,1,1,50.0,50.0,Non Legendary,Normal,,False
+191,Sunkern,30,30,30,30,30,30,180,0.3,1.8,Medium Slow,235.0,Gold,1,1,50.0,50.0,Non Legendary,Grass,,False
+192,Sunflora,75,75,55,105,85,30,425,0.8,8.5,Medium Slow,120.0,Gold,1,1,50.0,50.0,Non Legendary,Grass,,False
+193,Yanma,65,65,45,75,45,95,390,1.2,38.0,Medium Fast,75.0,Gold,1,1,50.0,50.0,Non Legendary,Bug,Flying,False
+194,Wooper,55,45,45,25,25,15,210,0.4,8.5,Medium Fast,255.0,Gold,1,1,50.0,50.0,Non Legendary,Water,Ground,False
+195,Quagsire,95,85,85,65,65,35,430,1.4,75.0,Medium Fast,90.0,Gold,1,1,50.0,50.0,Non Legendary,Water,Ground,False
+196,Espeon,65,65,60,130,95,110,525,0.9,26.5,Medium Fast,45.0,Gold,1,1,12.5,87.5,Non Legendary,Psychic,,False
+197,Umbreon,95,65,110,60,130,65,525,1.0,27.0,Medium Fast,45.0,Gold,1,1,12.5,87.5,Non Legendary,Dark,,False
+198,Murkrow,60,85,42,85,42,91,405,0.5,2.1,Medium Slow,30.0,Gold,1,1,50.0,50.0,Non Legendary,Dark,Flying,False
+199,Slowking,95,75,80,100,110,30,490,2.0,79.5,Medium Fast,70.0,Gold,1,1,50.0,50.0,Non Legendary,Water,Psychic,False
+200,Misdreavus,60,60,60,85,85,85,435,0.7,1.0,Fast,45.0,Gold,1,1,50.0,50.0,Non Legendary,Ghost,,False
+201,Unown,48,72,48,72,48,48,336,0.5,5.0,Medium Fast,225.0,Gold,0,0,0.0,0.0,Non Legendary,Psychic,,True
+202,Wobbuffet,190,33,58,33,58,33,405,1.3,28.5,Medium Fast,45.0,Gold,1,1,50.0,50.0,Non Legendary,Psychic,,False
+203,Girafarig,70,80,65,90,65,85,455,1.5,41.5,Medium Fast,60.0,Gold,1,1,50.0,50.0,Non Legendary,Normal,Psychic,False
+204,Pineco,50,65,90,35,35,15,290,0.6,7.2,Medium Fast,190.0,Gold,1,1,50.0,50.0,Non Legendary,Bug,,False
+205,Forretress,75,90,140,60,60,40,465,1.2,125.8,Medium Fast,75.0,Gold,1,1,50.0,50.0,Non Legendary,Bug,Steel,False
+206,Dunsparce,100,70,70,65,65,45,415,1.5,14.0,Medium Fast,190.0,Gold,1,1,50.0,50.0,Non Legendary,Normal,,False
+207,Gligar,65,75,105,35,65,85,430,1.1,64.8,Medium Slow,60.0,Gold,1,1,50.0,50.0,Non Legendary,Ground,Flying,False
+208,Steelix,75,85,200,55,65,30,510,9.2,400.0,Medium Fast,25.0,Gold,1,1,50.0,50.0,Non Legendary,Steel,Ground,False
+209,Snubbull,60,80,50,40,40,30,300,0.6,7.8,Fast,190.0,Gold,1,1,75.0,25.0,Non Legendary,Fairy,,False
+210,Granbull,90,120,75,60,60,45,450,1.4,48.7,Fast,75.0,Gold,1,1,75.0,25.0,Non Legendary,Fairy,,False
+211,Qwilfish,65,95,85,55,55,85,440,0.5,3.9,Medium Fast,45.0,Gold,1,1,50.0,50.0,Non Legendary,Water,Poison,False
+212,Scizor,70,130,100,55,80,65,500,1.8,118.0,Medium Fast,25.0,Gold,1,1,50.0,50.0,Non Legendary,Bug,Steel,False
+213,Shuckle,20,10,230,10,230,5,505,0.6,20.5,Medium Slow,190.0,Gold,1,1,50.0,50.0,Non Legendary,Bug,Rock,False
+214,Heracross,80,125,75,40,95,85,500,1.5,54.0,Slow,45.0,Gold,1,1,50.0,50.0,Non Legendary,Bug,Fighting,False
+215,Sneasel,55,95,55,35,75,115,430,0.9,28.0,Medium Slow,60.0,Gold,1,1,50.0,50.0,Non Legendary,Dark,Ice,False
+216,Teddiursa,60,80,50,50,50,40,330,0.6,8.8,Medium Fast,120.0,Gold,1,1,50.0,50.0,Non Legendary,Normal,,False
+217,Ursaring,90,130,75,75,75,55,500,1.8,125.8,Medium Fast,60.0,Gold,1,1,50.0,50.0,Non Legendary,Normal,,False
+218,Slugma,40,40,40,70,40,20,250,0.7,35.0,Medium Fast,190.0,Gold,1,1,50.0,50.0,Non Legendary,Fire,,False
+219,Magcargo,60,50,120,90,80,30,430,0.8,55.0,Medium Fast,75.0,Gold,1,1,50.0,50.0,Non Legendary,Fire,Rock,False
+220,Swinub,50,50,40,30,30,50,250,0.4,6.5,Slow,225.0,Gold,1,1,50.0,50.0,Non Legendary,Ice,Ground,False
+221,Piloswine,100,100,80,60,60,50,450,1.1,55.8,Slow,75.0,Gold,1,1,50.0,50.0,Non Legendary,Ice,Ground,False
+222,Corsola,65,55,95,65,95,35,410,0.6,5.0,Fast,60.0,Gold,1,1,75.0,25.0,Non Legendary,Water,Rock,False
+223,Remoraid,35,65,35,65,35,65,300,0.6,12.0,Medium Fast,190.0,Gold,1,1,50.0,50.0,Non Legendary,Water,,False
+224,Octillery,75,105,75,105,75,45,480,0.9,28.5,Medium Fast,75.0,Gold,1,1,50.0,50.0,Non Legendary,Water,,False
+225,Delibird,45,55,45,65,45,75,330,0.9,16.0,Fast,45.0,Gold,1,1,50.0,50.0,Non Legendary,Ice,Flying,False
+226,Mantine,85,40,70,80,140,70,485,2.1,220.0,Slow,25.0,Gold,1,1,50.0,50.0,Non Legendary,Water,Flying,False
+227,Skarmory,65,80,140,40,70,70,465,1.7,50.5,Slow,25.0,Gold,1,1,50.0,50.0,Non Legendary,Steel,Flying,False
+228,Houndour,45,60,30,80,50,65,330,0.6,10.8,Slow,120.0,Gold,1,1,50.0,50.0,Non Legendary,Dark,Fire,False
+229,Houndoom,75,90,50,110,80,95,500,1.4,35.0,Slow,45.0,Gold,1,1,50.0,50.0,Non Legendary,Dark,Fire,False
+230,Kingdra,75,95,95,95,95,85,540,1.8,152.0,Medium Fast,45.0,Gold,1,1,50.0,50.0,Non Legendary,Water,Dragon,False
+231,Phanpy,90,60,60,40,40,40,330,0.5,33.5,Medium Fast,120.0,Gold,1,1,50.0,50.0,Non Legendary,Ground,,False
+232,Donphan,90,120,120,60,60,50,500,1.1,120.0,Medium Fast,60.0,Gold,1,1,50.0,50.0,Non Legendary,Ground,,False
+233,Porygon2,85,80,90,105,95,60,515,0.6,32.5,Medium Fast,45.0,Gold,0,0,0.0,0.0,Non Legendary,Normal,,True
+234,Stantler,73,95,62,85,65,85,465,1.4,71.2,Slow,45.0,Gold,1,1,50.0,50.0,Non Legendary,Normal,,False
+235,Smeargle,55,20,35,20,45,75,250,1.2,58.0,Fast,45.0,Gold,1,1,50.0,50.0,Non Legendary,Normal,,False
+236,Tyrogue,35,35,35,35,35,35,210,0.7,21.0,Medium Fast,75.0,Gold,0,1,0.0,100.0,Non Legendary,Fighting,,False
+237,Hitmontop,50,95,95,35,110,70,455,1.4,48.0,Medium Fast,45.0,Gold,0,1,0.0,100.0,Non Legendary,Fighting,,False
+238,Smoochum,45,30,15,85,65,65,305,0.4,6.0,Medium Fast,45.0,Gold,1,0,100.0,0.0,Non Legendary,Ice,Psychic,False
+239,Elekid,45,63,37,65,55,95,360,0.6,23.5,Medium Fast,45.0,Gold,1,1,25.0,75.0,Non Legendary,Electric,,False
+240,Magby,45,75,37,70,55,83,365,0.7,21.4,Medium Fast,45.0,Gold,1,1,25.0,75.0,Non Legendary,Fire,,False
+241,Miltank,95,80,105,40,70,100,490,1.2,75.5,Slow,45.0,Gold,1,0,100.0,0.0,Non Legendary,Normal,,False
+242,Blissey,255,10,10,75,135,55,540,1.5,46.8,Fast,30.0,Gold,1,0,100.0,0.0,Non Legendary,Normal,,False
+243,Raikou,90,85,75,115,100,115,580,1.9,178.0,Slow,3.0,Gold,0,0,0.0,0.0,Semi-Legendary,Electric,,True
+244,Entei,115,115,85,90,75,100,580,2.1,198.0,Slow,3.0,Gold,0,0,0.0,0.0,Semi-Legendary,Fire,,True
+245,Suicune,100,75,115,90,115,85,580,2.0,187.0,Slow,3.0,Gold,0,0,0.0,0.0,Semi-Legendary,Water,,True
+246,Larvitar,50,64,50,45,50,41,300,0.6,72.0,Slow,45.0,Gold,1,1,50.0,50.0,Non Legendary,Rock,Ground,False
+247,Pupitar,70,84,70,65,70,51,410,1.2,152.0,Slow,45.0,Gold,1,1,50.0,50.0,Non Legendary,Rock,Ground,False
+248,Tyranitar,100,134,110,95,100,61,600,2.0,202.0,Slow,45.0,Gold,1,1,50.0,50.0,Non Legendary,Rock,Dark,False
+249,Lugia,106,90,130,90,154,110,680,5.2,216.0,Slow,3.0,Gold,0,0,0.0,0.0,Legendary,Psychic,Flying,True
+250,Ho-oh,106,130,90,110,154,90,680,3.8,199.0,Slow,3.0,Gold,0,0,0.0,0.0,Legendary,Fire,Flying,True
+251,Celebi,100,100,100,100,100,100,600,0.6,5.0,Medium Slow,45.0,Gold,0,0,0.0,0.0,Mythical,Psychic,Grass,True
+252,Treecko,40,45,35,65,55,70,310,0.5,5.0,Medium Slow,45.0,Ruby,1,1,12.5,87.5,Non Legendary,Grass,,False
+253,Grovyle,50,65,45,85,65,95,405,0.9,21.6,Medium Slow,45.0,Ruby,1,1,12.5,87.5,Non Legendary,Grass,,False
+254,Sceptile,70,85,65,105,85,120,530,1.7,52.2,Medium Slow,45.0,Ruby,1,1,12.5,87.5,Non Legendary,Grass,Dragon,False
+255,Torchic,45,60,40,70,50,45,310,0.4,2.5,Medium Slow,45.0,Ruby,1,1,12.5,87.5,Non Legendary,Fire,,False
+256,Combusken,60,85,60,85,60,55,405,0.9,19.5,Medium Slow,45.0,Ruby,1,1,12.5,87.5,Non Legendary,Fire,Fighting,False
+257,Blaziken,80,120,70,110,70,80,530,1.9,52.0,Medium Slow,45.0,Ruby,1,1,12.5,87.5,Non Legendary,Fire,Fighting,False
+258,Mudkip,50,70,50,50,50,40,310,0.4,7.6,Medium Slow,45.0,Ruby,1,1,12.5,87.5,Non Legendary,Water,,False
+259,Marshtomp,70,85,70,60,70,50,405,0.7,28.0,Medium Slow,45.0,Ruby,1,1,12.5,87.5,Non Legendary,Water,Ground,False
+260,Swampert,100,110,90,85,90,60,535,1.5,81.9,Medium Slow,45.0,Ruby,1,1,12.5,87.5,Non Legendary,Water,Ground,False
+261,Poochyena,35,55,35,30,30,35,220,0.5,13.6,Medium Fast,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Dark,,False
+262,Mightyena,70,90,70,60,60,70,420,1.0,37.0,Medium Fast,127.0,Ruby,1,1,50.0,50.0,Non Legendary,Dark,,False
+263,Zigzagoon,38,30,41,30,41,60,240,0.4,17.5,Medium Fast,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Normal,Dark,False
+264,Linoone,78,70,61,50,61,100,420,0.5,32.5,Medium Fast,90.0,Ruby,1,1,50.0,50.0,Non Legendary,Normal,Dark,False
+265,Wurmple,45,45,35,20,30,20,195,0.3,3.6,Medium Fast,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Bug,,False
+266,Silcoon,50,35,55,25,25,15,205,0.6,10.0,Medium Fast,120.0,Ruby,1,1,50.0,50.0,Non Legendary,Bug,,False
+267,Beautifly,60,70,50,100,50,65,395,1.0,28.4,Medium Fast,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Bug,Flying,False
+268,Cascoon,50,35,55,25,25,15,205,0.7,11.5,Medium Fast,120.0,Ruby,1,1,50.0,50.0,Non Legendary,Bug,,False
+269,Dustox,60,50,70,50,90,65,385,1.2,31.6,Medium Fast,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Bug,Poison,False
+270,Lotad,40,30,30,40,50,30,220,0.5,2.6,Medium Slow,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,Grass,False
+271,Lombre,60,50,50,60,70,50,340,1.2,32.5,Medium Slow,120.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,Grass,False
+272,Ludicolo,80,70,70,90,100,70,480,1.5,55.0,Medium Slow,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,Grass,False
+273,Seedot,40,40,50,30,30,30,220,0.5,4.0,Medium Slow,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Grass,,False
+274,Nuzleaf,70,70,40,60,40,60,340,1.0,28.0,Medium Slow,120.0,Ruby,1,1,50.0,50.0,Non Legendary,Grass,Dark,False
+275,Shiftry,90,100,60,90,60,80,480,1.3,59.6,Medium Slow,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Grass,Dark,False
+276,Taillow,40,55,30,30,30,85,270,0.3,2.3,Medium Slow,200.0,Ruby,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+277,Swellow,60,85,60,75,50,125,455,0.7,19.8,Medium Slow,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+278,Wingull,40,30,30,55,30,85,270,0.6,9.5,Medium Fast,190.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,Flying,False
+279,Pelipper,60,50,100,95,70,65,440,1.2,28.0,Medium Fast,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,Flying,False
+280,Ralts,28,25,25,45,35,40,198,0.4,6.6,Slow,235.0,Ruby,1,1,50.0,50.0,Non Legendary,Psychic,Fairy,False
+281,Kirlia,38,35,35,65,55,50,278,0.8,20.2,Slow,120.0,Ruby,1,1,50.0,50.0,Non Legendary,Psychic,Fairy,False
+282,Gardevoir,68,65,65,125,115,80,518,1.6,48.4,Slow,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Psychic,Fairy,False
+283,Surskit,40,30,32,50,52,65,269,0.5,1.7,Medium Fast,200.0,Ruby,1,1,50.0,50.0,Non Legendary,Bug,Water,False
+284,Masquerain,70,60,62,100,82,80,454,0.8,3.6,Medium Fast,75.0,Ruby,1,1,50.0,50.0,Non Legendary,Bug,Flying,False
+285,Shroomish,60,40,60,40,60,35,295,0.4,4.5,Fluctuating,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Grass,,False
+286,Breloom,60,130,80,60,60,70,460,1.2,39.2,Fluctuating,90.0,Ruby,1,1,50.0,50.0,Non Legendary,Grass,Fighting,False
+287,Slakoth,60,60,60,35,35,30,280,0.8,24.0,Slow,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Normal,,False
+288,Vigoroth,80,80,80,55,55,90,440,1.4,46.5,Slow,120.0,Ruby,1,1,50.0,50.0,Non Legendary,Normal,,False
+289,Slaking,150,160,100,95,65,100,670,2.0,130.5,Slow,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Normal,,False
+290,Nincada,31,45,90,30,30,40,266,0.5,5.5,Erratic,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Bug,Ground,False
+291,Ninjask,61,90,45,50,50,160,456,0.8,12.0,Erratic,120.0,Ruby,1,1,50.0,50.0,Non Legendary,Bug,Flying,False
+292,Shedinja,1,90,45,30,30,40,236,0.8,1.2,Erratic,45.0,Ruby,0,0,0.0,0.0,Non Legendary,Bug,Ghost,True
+293,Whismur,64,51,23,51,23,28,240,0.6,16.3,Medium Slow,190.0,Ruby,1,1,50.0,50.0,Non Legendary,Normal,,False
+294,Loudred,84,71,43,71,43,48,360,1.0,40.5,Medium Slow,120.0,Ruby,1,1,50.0,50.0,Non Legendary,Normal,,False
+295,Exploud,104,91,63,91,73,68,490,1.5,84.0,Medium Slow,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Normal,,False
+296,Makuhita,72,60,30,20,30,25,237,1.0,86.4,Fluctuating,180.0,Ruby,1,1,25.0,75.0,Non Legendary,Fighting,,False
+297,Hariyama,144,120,60,40,60,50,474,2.3,253.8,Fluctuating,200.0,Ruby,1,1,25.0,75.0,Non Legendary,Fighting,,False
+298,Azurill,50,20,40,20,40,20,190,0.2,2.0,Fast,150.0,Ruby,1,1,75.0,25.0,Non Legendary,Normal,Fairy,False
+299,Nosepass,30,45,135,45,90,30,375,1.0,97.0,Medium Fast,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Rock,,False
+300,Skitty,50,45,45,35,35,50,260,0.6,11.0,Fast,255.0,Ruby,1,1,75.0,25.0,Non Legendary,Normal,,False
+301,Delcatty,70,65,65,55,55,90,400,1.1,32.6,Fast,60.0,Ruby,1,1,75.0,25.0,Non Legendary,Normal,,False
+302,Sableye,50,75,75,65,65,50,380,0.5,11.0,Medium Slow,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Dark,Ghost,False
+303,Mawile,50,85,85,55,55,50,380,0.6,11.5,Fast,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Steel,Fairy,False
+304,Aron,50,70,100,40,40,30,330,0.4,60.0,Slow,180.0,Ruby,1,1,50.0,50.0,Non Legendary,Steel,Rock,False
+305,Lairon,60,90,140,50,50,40,430,0.9,120.0,Slow,90.0,Ruby,1,1,50.0,50.0,Non Legendary,Steel,Rock,False
+306,Aggron,70,110,180,60,60,50,530,2.1,360.0,Slow,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Steel,Rock,False
+307,Meditite,30,40,55,40,55,60,280,0.6,11.2,Medium Fast,180.0,Ruby,1,1,50.0,50.0,Non Legendary,Fighting,Psychic,False
+308,Medicham,60,60,75,60,75,80,410,1.3,31.5,Medium Fast,90.0,Ruby,1,1,50.0,50.0,Non Legendary,Fighting,Psychic,False
+309,Electrike,40,45,40,65,40,65,295,0.6,15.2,Slow,120.0,Ruby,1,1,50.0,50.0,Non Legendary,Electric,,False
+310,Manectric,70,75,60,105,60,105,475,1.5,40.2,Slow,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Electric,,False
+311,Plusle,60,50,40,85,75,95,405,0.4,4.2,Medium Fast,200.0,Ruby,1,1,50.0,50.0,Non Legendary,Electric,,False
+312,Minun,60,40,50,75,85,95,405,0.4,4.2,Medium Fast,200.0,Ruby,1,1,50.0,50.0,Non Legendary,Electric,,False
+313,Volbeat,65,73,75,47,85,85,430,0.7,17.7,Erratic,150.0,Ruby,0,1,0.0,100.0,Non Legendary,Bug,,False
+314,Illumise,65,47,75,73,85,85,430,0.6,17.7,Fluctuating,150.0,Ruby,1,0,100.0,0.0,Non Legendary,Bug,,False
+315,Roselia,50,60,45,100,80,65,400,0.3,2.0,Medium Slow,150.0,Ruby,1,1,50.0,50.0,Non Legendary,Grass,Poison,False
+316,Gulpin,70,43,53,43,53,40,302,0.4,10.3,Fluctuating,225.0,Ruby,1,1,50.0,50.0,Non Legendary,Poison,,False
+317,Swalot,100,73,83,73,83,55,467,1.7,80.0,Fluctuating,75.0,Ruby,1,1,50.0,50.0,Non Legendary,Poison,,False
+318,Carvanha,45,90,20,65,20,65,305,0.8,20.8,Slow,225.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,Dark,False
+319,Sharpedo,70,120,40,95,40,95,460,1.8,88.8,Slow,60.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,Dark,False
+320,Wailmer,130,70,35,70,35,60,400,2.0,130.0,Fluctuating,125.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,,False
+321,Wailord,170,90,45,90,45,60,500,14.5,398.0,Fluctuating,60.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,,False
+322,Numel,60,60,40,65,45,35,305,0.7,24.0,Medium Fast,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Fire,Ground,False
+323,Camerupt,70,100,70,105,75,40,460,1.9,220.0,Medium Fast,150.0,Ruby,1,1,50.0,50.0,Non Legendary,Fire,Ground,False
+324,Torkoal,70,85,140,85,70,20,470,0.5,80.4,Medium Fast,90.0,Ruby,1,1,50.0,50.0,Non Legendary,Fire,,False
+325,Spoink,60,25,35,70,80,60,330,0.7,30.6,Fast,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Psychic,,False
+326,Grumpig,80,45,65,90,110,80,470,0.9,71.5,Fast,60.0,Ruby,1,1,50.0,50.0,Non Legendary,Psychic,,False
+327,Spinda,60,60,60,60,60,60,360,1.1,5.0,Fast,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Normal,,False
+328,Trapinch,45,100,45,45,45,10,290,0.7,15.0,Medium Slow,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Ground,,False
+329,Vibrava,50,70,50,50,50,70,340,1.1,15.3,Medium Slow,120.0,Ruby,1,1,50.0,50.0,Non Legendary,Ground,Dragon,False
+330,Flygon,80,100,80,80,80,100,520,2.0,82.0,Medium Slow,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Ground,Dragon,False
+331,Cacnea,50,85,40,85,40,35,335,0.4,51.3,Medium Slow,190.0,Ruby,1,1,50.0,50.0,Non Legendary,Grass,,False
+332,Cacturne,70,115,60,115,60,55,475,1.3,77.4,Medium Slow,60.0,Ruby,1,1,50.0,50.0,Non Legendary,Grass,Dark,False
+333,Swablu,45,40,60,40,75,50,310,0.4,1.2,Erratic,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+334,Altaria,75,70,90,70,105,80,490,1.1,20.6,Erratic,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Dragon,Flying,False
+335,Zangoose,73,115,60,60,60,90,458,1.3,40.3,Erratic,90.0,Ruby,1,1,50.0,50.0,Non Legendary,Normal,,False
+336,Seviper,73,100,60,100,60,65,458,2.7,52.5,Fluctuating,90.0,Ruby,1,1,50.0,50.0,Non Legendary,Poison,,False
+337,Lunatone,90,55,65,95,85,70,460,1.0,168.0,Fast,45.0,Ruby,0,0,0.0,0.0,Non Legendary,Rock,Psychic,True
+338,Solrock,90,95,85,55,65,70,460,1.2,154.0,Fast,45.0,Ruby,0,0,0.0,0.0,Non Legendary,Rock,Psychic,True
+339,Barboach,50,48,43,46,41,60,288,0.4,1.9,Medium Fast,190.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,Ground,False
+340,Whiscash,110,78,73,76,71,60,468,0.9,23.6,Medium Fast,75.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,Ground,False
+341,Corphish,43,80,65,50,35,35,308,0.6,11.5,Fluctuating,205.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,,False
+342,Crawdaunt,63,120,85,90,55,55,468,1.1,32.8,Fluctuating,155.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,Dark,False
+343,Baltoy,40,40,55,40,70,55,300,0.5,21.5,Medium Fast,255.0,Ruby,0,0,0.0,0.0,Non Legendary,Ground,Psychic,True
+344,Claydol,60,70,105,70,120,75,500,1.5,108.0,Medium Fast,90.0,Ruby,0,0,0.0,0.0,Non Legendary,Ground,Psychic,True
+345,Lileep,66,41,77,61,87,23,355,1.0,23.8,Erratic,45.0,Ruby,1,1,12.5,87.5,Non Legendary,Rock,Grass,False
+346,Cradily,86,81,97,81,107,43,495,1.5,60.4,Erratic,45.0,Ruby,1,1,12.5,87.5,Non Legendary,Rock,Grass,False
+347,Anorith,45,95,50,40,50,75,355,0.7,12.5,Erratic,45.0,Ruby,1,1,12.5,87.5,Non Legendary,Rock,Bug,False
+348,Armaldo,75,125,100,70,80,45,495,1.5,68.2,Erratic,45.0,Ruby,1,1,12.5,87.5,Non Legendary,Rock,Bug,False
+349,Feebas,20,15,20,10,55,80,200,0.6,7.4,Erratic,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,,False
+350,Milotic,95,60,79,100,125,81,540,6.2,162.0,Erratic,60.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,,False
+351,Castform,70,70,70,70,70,70,420,0.3,0.8,Medium Fast,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Normal,Fire,False
+352,Kecleon,60,90,70,60,120,40,440,1.0,22.0,Medium Slow,200.0,Ruby,1,1,50.0,50.0,Non Legendary,Normal,,False
+353,Shuppet,44,75,35,63,33,45,295,0.6,2.3,Fast,225.0,Ruby,1,1,50.0,50.0,Non Legendary,Ghost,,False
+354,Banette,64,115,65,83,63,65,455,1.1,12.5,Fast,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Ghost,,False
+355,Duskull,20,40,90,30,90,25,295,0.8,15.0,Fast,190.0,Ruby,1,1,50.0,50.0,Non Legendary,Ghost,,False
+356,Dusclops,40,70,130,60,130,25,455,1.6,30.6,Fast,90.0,Ruby,1,1,50.0,50.0,Non Legendary,Ghost,,False
+357,Tropius,99,68,83,72,87,51,460,2.0,100.0,Slow,200.0,Ruby,1,1,50.0,50.0,Non Legendary,Grass,Flying,False
+358,Chimecho,75,50,80,95,90,65,455,0.6,1.0,Fast,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Psychic,,False
+359,Absol,65,130,60,75,60,75,465,1.2,47.0,Medium Slow,30.0,Ruby,1,1,50.0,50.0,Non Legendary,Dark,,False
+360,Wynaut,95,23,48,23,48,23,260,0.6,14.0,Medium Fast,125.0,Ruby,1,1,50.0,50.0,Non Legendary,Psychic,,False
+361,Snorunt,50,50,50,50,50,50,300,0.7,16.8,Medium Fast,190.0,Ruby,1,1,50.0,50.0,Non Legendary,Ice,,False
+362,Glalie,80,80,80,80,80,80,480,1.5,256.5,Medium Fast,75.0,Ruby,1,1,50.0,50.0,Non Legendary,Ice,,False
+363,Spheal,70,40,50,55,50,25,290,0.8,39.5,Medium Slow,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Ice,Water,False
+364,Sealeo,90,60,70,75,70,45,410,1.1,87.6,Medium Slow,120.0,Ruby,1,1,50.0,50.0,Non Legendary,Ice,Water,False
+365,Walrein,110,80,90,95,90,65,530,1.4,150.6,Medium Slow,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Ice,Water,False
+366,Clamperl,35,64,85,74,55,32,345,0.4,52.5,Erratic,255.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,,False
+367,Huntail,55,104,105,94,75,52,485,1.7,27.0,Erratic,60.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,,False
+368,Gorebyss,55,84,105,114,75,52,485,1.8,22.6,Erratic,60.0,Ruby,1,1,50.0,50.0,Non Legendary,Water,,False
+369,Relicanth,100,90,130,45,65,55,485,1.0,23.4,Slow,25.0,Ruby,1,1,12.5,87.5,Non Legendary,Water,Rock,False
+370,Luvdisc,43,30,55,40,65,97,330,0.6,8.7,Fast,225.0,Ruby,1,1,75.0,25.0,Non Legendary,Water,,False
+371,Bagon,45,75,60,40,30,50,300,0.6,42.1,Slow,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Dragon,,False
+372,Shelgon,65,95,100,60,50,50,420,1.1,110.5,Slow,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Dragon,,False
+373,Salamence,95,135,80,110,80,100,600,1.5,102.6,Slow,45.0,Ruby,1,1,50.0,50.0,Non Legendary,Dragon,Flying,False
+374,Beldum,40,55,80,35,60,30,300,0.6,95.2,Slow,3.0,Ruby,0,0,0.0,0.0,Non Legendary,Steel,Psychic,True
+375,Metang,60,75,100,55,80,50,420,1.2,202.5,Slow,3.0,Ruby,0,0,0.0,0.0,Non Legendary,Steel,Psychic,True
+376,Metagross,80,135,130,95,90,70,600,1.6,550.0,Slow,3.0,Ruby,0,0,0.0,0.0,Non Legendary,Steel,Psychic,True
+377,Regirock,80,100,200,50,100,50,580,1.7,230.0,Slow,3.0,Ruby,0,0,0.0,0.0,Semi-Legendary,Rock,,True
+378,Regice,80,50,100,100,200,50,580,1.8,175.0,Slow,3.0,Ruby,0,0,0.0,0.0,Semi-Legendary,Ice,,True
+379,Registeel,80,75,150,75,150,50,580,1.9,205.0,Slow,3.0,Ruby,0,0,0.0,0.0,Semi-Legendary,Steel,,True
+380,Latias,80,80,90,110,130,110,600,1.4,40.0,Slow,3.0,Ruby,1,0,100.0,0.0,Semi-Legendary,Dragon,Psychic,False
+381,Latios,80,90,80,130,110,110,600,2.0,60.0,Slow,3.0,Ruby,0,1,0.0,100.0,Semi-Legendary,Dragon,Psychic,False
+382,Kyogre,100,100,90,150,140,90,670,4.5,352.0,Slow,3.0,Ruby,0,0,0.0,0.0,Legendary,Water,,True
+383,Groudon,100,150,140,100,90,90,670,3.5,950.0,Slow,3.0,Ruby,0,0,0.0,0.0,Legendary,Ground,Fire,True
+384,Rayquaza,105,150,90,150,90,95,680,7.0,206.5,Slow,45.0,Ruby,0,0,0.0,0.0,Legendary,Dragon,Flying,True
+385,Jirachi,100,100,100,100,100,100,600,0.3,1.1,Slow,3.0,Ruby,0,0,0.0,0.0,Mythical,Steel,Psychic,True
+386,Deoxys,50,150,50,150,50,150,600,1.7,60.8,Slow,3.0,Ruby,0,0,0.0,0.0,Mythical,Psychic,,True
+387,Turtwig,55,68,64,45,55,31,318,0.4,10.2,Medium Slow,45.0,Diamond,1,1,12.5,87.5,Non Legendary,Grass,,False
+388,Grotle,75,89,85,55,65,36,405,1.1,97.0,Medium Slow,45.0,Diamond,1,1,12.5,87.5,Non Legendary,Grass,,False
+389,Torterra,95,109,105,75,85,56,525,2.2,310.0,Medium Slow,45.0,Diamond,1,1,12.5,87.5,Non Legendary,Grass,Ground,False
+390,Chimchar,44,58,44,58,44,61,309,0.5,6.2,Medium Slow,45.0,Diamond,1,1,12.5,87.5,Non Legendary,Fire,,False
+391,Monferno,64,78,52,78,52,81,405,0.9,22.0,Medium Slow,45.0,Diamond,1,1,12.5,87.5,Non Legendary,Fire,Fighting,False
+392,Infernape,76,104,71,104,71,108,534,1.2,55.0,Medium Slow,45.0,Diamond,1,1,12.5,87.5,Non Legendary,Fire,Fighting,False
+393,Piplup,53,51,53,61,56,40,314,0.4,5.2,Medium Slow,45.0,Diamond,1,1,12.5,87.5,Non Legendary,Water,,False
+394,Prinplup,64,66,68,81,76,50,405,0.8,23.0,Medium Slow,45.0,Diamond,1,1,12.5,87.5,Non Legendary,Water,,False
+395,Empoleon,84,86,88,111,101,60,530,1.7,84.5,Medium Slow,45.0,Diamond,1,1,12.5,87.5,Non Legendary,Water,Steel,False
+396,Starly,40,55,30,30,30,60,245,0.3,2.0,Medium Slow,255.0,Diamond,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+397,Staravia,55,75,50,40,40,80,340,0.6,15.5,Medium Slow,120.0,Diamond,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+398,Staraptor,85,120,70,50,60,100,485,1.2,24.9,Medium Slow,45.0,Diamond,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+399,Bidoof,59,45,40,35,40,31,250,0.5,20.0,Medium Fast,255.0,Diamond,1,1,50.0,50.0,Non Legendary,Normal,,False
+400,Bibarel,79,85,60,55,60,71,410,1.0,31.5,Medium Fast,127.0,Diamond,1,1,50.0,50.0,Non Legendary,Normal,Water,False
+401,Kricketot,37,25,41,25,41,25,194,0.3,2.2,Medium Slow,255.0,Diamond,1,1,50.0,50.0,Non Legendary,Bug,,False
+402,Kricketune,77,85,51,55,51,65,384,1.0,25.5,Medium Slow,45.0,Diamond,1,1,50.0,50.0,Non Legendary,Bug,,False
+403,Shinx,45,65,34,40,34,45,263,0.5,9.5,Medium Slow,235.0,Diamond,1,1,50.0,50.0,Non Legendary,Electric,,False
+404,Luxio,60,85,49,60,49,60,363,0.9,30.5,Medium Slow,120.0,Diamond,1,1,50.0,50.0,Non Legendary,Electric,,False
+405,Luxray,80,120,79,95,79,70,523,1.4,42.0,Medium Slow,45.0,Diamond,1,1,50.0,50.0,Non Legendary,Electric,,False
+406,Budew,40,30,35,50,70,55,280,0.2,1.2,Medium Slow,255.0,Diamond,1,1,50.0,50.0,Non Legendary,Grass,Poison,False
+407,Roserade,60,70,65,125,105,90,515,0.9,14.5,Medium Slow,75.0,Diamond,1,1,50.0,50.0,Non Legendary,Grass,Poison,False
+408,Cranidos,67,125,40,30,30,58,350,0.9,31.5,Erratic,45.0,Diamond,1,1,12.5,87.5,Non Legendary,Rock,,False
+409,Rampardos,97,165,60,65,50,58,495,1.6,102.5,Erratic,45.0,Diamond,1,1,12.5,87.5,Non Legendary,Rock,,False
+410,Shieldon,30,42,118,42,88,30,350,0.5,57.0,Erratic,45.0,Diamond,1,1,12.5,87.5,Non Legendary,Rock,Steel,False
+411,Bastiodon,60,52,168,47,138,30,495,1.3,149.5,Erratic,45.0,Diamond,1,1,12.5,87.5,Non Legendary,Rock,Steel,False
+412,Burmy,40,29,45,29,45,36,224,0.2,3.4,Medium Fast,120.0,Diamond,1,1,50.0,50.0,Non Legendary,Bug,,False
+413,Wormadam,60,59,85,79,105,36,424,0.5,6.5,Medium Fast,45.0,Diamond,1,0,100.0,0.0,Non Legendary,Bug,Grass,False
+414,Mothim,70,94,50,94,50,66,424,0.9,23.3,Medium Fast,45.0,Diamond,0,1,0.0,100.0,Non Legendary,Bug,Flying,False
+415,Combee,30,30,42,30,42,70,244,0.3,5.5,Medium Slow,120.0,Diamond,1,1,12.5,87.5,Non Legendary,Bug,Flying,False
+416,Vespiquen,70,80,102,80,102,40,474,1.2,38.5,Medium Slow,45.0,Diamond,1,0,100.0,0.0,Non Legendary,Bug,Flying,False
+417,Pachirisu,60,45,70,45,90,95,405,0.4,3.9,Medium Fast,200.0,Diamond,1,1,50.0,50.0,Non Legendary,Electric,,False
+418,Buizel,55,65,35,60,30,85,330,0.7,29.5,Medium Fast,190.0,Diamond,1,1,50.0,50.0,Non Legendary,Water,,False
+419,Floatzel,85,105,55,85,50,115,495,1.1,33.5,Medium Fast,75.0,Diamond,1,1,50.0,50.0,Non Legendary,Water,,False
+420,Cherubi,45,35,45,62,53,35,275,0.4,3.3,Medium Fast,190.0,Diamond,1,1,50.0,50.0,Non Legendary,Grass,,False
+421,Cherrim,70,60,70,87,78,85,450,0.5,9.3,Medium Fast,75.0,Diamond,1,1,50.0,50.0,Non Legendary,Grass,,False
+422,Shellos,76,48,48,57,62,34,325,0.3,6.3,Medium Fast,190.0,Diamond,1,1,50.0,50.0,Non Legendary,Water,,False
+423,Gastrodon,111,83,68,92,82,39,475,0.9,29.9,Medium Fast,75.0,Diamond,1,1,50.0,50.0,Non Legendary,Water,Ground,False
+424,Ambipom,75,100,66,60,66,115,482,1.2,20.3,Fast,45.0,Diamond,1,1,50.0,50.0,Non Legendary,Normal,,False
+425,Drifloon,90,50,34,60,44,70,348,0.4,1.2,Fluctuating,125.0,Diamond,1,1,50.0,50.0,Non Legendary,Ghost,Flying,False
+426,Drifblim,150,80,44,90,54,80,498,1.2,15.0,Fluctuating,60.0,Diamond,1,1,50.0,50.0,Non Legendary,Ghost,Flying,False
+427,Buneary,55,66,44,44,56,85,350,0.4,5.5,Medium Fast,190.0,Diamond,1,1,50.0,50.0,Non Legendary,Normal,,False
+428,Lopunny,65,76,84,54,96,105,480,1.2,33.3,Medium Fast,60.0,Diamond,1,1,50.0,50.0,Non Legendary,Normal,Fighting,False
+429,Mismagius,60,60,60,105,105,105,495,0.9,4.4,Fast,45.0,Diamond,1,1,50.0,50.0,Non Legendary,Ghost,,False
+430,Honchkrow,100,125,52,105,52,71,505,0.9,27.3,Medium Slow,30.0,Diamond,1,1,50.0,50.0,Non Legendary,Dark,Flying,False
+431,Glameow,49,55,42,42,37,85,310,0.5,3.9,Fast,190.0,Diamond,1,1,75.0,25.0,Non Legendary,Normal,,False
+432,Purugly,71,82,64,64,59,112,452,1.0,43.8,Fast,75.0,Diamond,1,1,75.0,25.0,Non Legendary,Normal,,False
+433,Chingling,45,30,50,65,50,45,285,0.2,0.6,Fast,120.0,Diamond,1,1,50.0,50.0,Non Legendary,Psychic,,False
+434,Stunky,63,63,47,41,41,74,329,0.4,19.2,Medium Fast,225.0,Diamond,1,1,50.0,50.0,Non Legendary,Poison,Dark,False
+435,Skuntank,103,93,67,71,61,84,479,1.0,38.0,Medium Fast,60.0,Diamond,1,1,50.0,50.0,Non Legendary,Poison,Dark,False
+436,Bronzor,57,24,86,24,86,23,300,0.5,60.5,Medium Fast,255.0,Diamond,0,0,0.0,0.0,Non Legendary,Steel,Psychic,True
+437,Bronzong,67,89,116,79,116,33,500,1.3,187.0,Medium Fast,90.0,Diamond,0,0,0.0,0.0,Non Legendary,Steel,Psychic,True
+438,Bonsly,50,80,95,10,45,10,290,0.5,15.0,Medium Fast,255.0,Diamond,1,1,50.0,50.0,Non Legendary,Rock,,False
+439,Mime Jr.,20,25,45,70,90,60,310,0.6,13.0,Medium Fast,145.0,Diamond,1,1,50.0,50.0,Non Legendary,Psychic,Fairy,False
+440,Happiny,100,5,5,15,65,30,220,0.6,24.4,Fast,130.0,Diamond,1,0,100.0,0.0,Non Legendary,Normal,,False
+441,Chatot,76,65,45,92,42,91,411,0.5,1.9,Medium Slow,30.0,Diamond,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+442,Spiritomb,50,92,108,92,108,35,485,1.0,108.0,Medium Fast,100.0,Diamond,1,1,50.0,50.0,Non Legendary,Ghost,Dark,False
+443,Gible,58,70,45,40,45,42,300,0.7,20.5,Slow,45.0,Diamond,1,1,50.0,50.0,Non Legendary,Dragon,Ground,False
+444,Gabite,68,90,65,50,55,82,410,1.4,56.0,Slow,45.0,Diamond,1,1,50.0,50.0,Non Legendary,Dragon,Ground,False
+445,Garchomp,108,130,95,80,85,102,600,1.9,95.0,Slow,45.0,Diamond,1,1,50.0,50.0,Non Legendary,Dragon,Ground,False
+446,Munchlax,135,85,40,40,85,5,390,0.6,105.0,Slow,50.0,Diamond,1,1,12.5,87.5,Non Legendary,Normal,,False
+447,Riolu,40,70,40,35,40,60,285,0.7,20.2,Medium Slow,75.0,Diamond,1,1,12.5,87.5,Non Legendary,Fighting,,False
+448,Lucario,70,110,70,115,70,90,525,1.2,54.0,Medium Slow,45.0,Diamond,1,1,12.5,87.5,Non Legendary,Fighting,Steel,False
+449,Hippopotas,68,72,78,38,42,32,330,0.8,49.5,Slow,140.0,Diamond,1,1,50.0,50.0,Non Legendary,Ground,,False
+450,Hippowdon,108,112,118,68,72,47,525,2.0,300.0,Slow,60.0,Diamond,1,1,50.0,50.0,Non Legendary,Ground,,False
+451,Skorupi,40,50,90,30,55,65,330,0.8,12.0,Slow,120.0,Diamond,1,1,50.0,50.0,Non Legendary,Poison,Bug,False
+452,Drapion,70,90,110,60,75,95,500,1.3,61.5,Slow,45.0,Diamond,1,1,50.0,50.0,Non Legendary,Poison,Dark,False
+453,Croagunk,48,61,40,61,40,50,300,0.7,23.0,Medium Fast,140.0,Diamond,1,1,50.0,50.0,Non Legendary,Poison,Fighting,False
+454,Toxicroak,83,106,65,86,65,85,490,1.3,44.4,Medium Fast,75.0,Diamond,1,1,50.0,50.0,Non Legendary,Poison,Fighting,False
+455,Carnivine,74,100,72,90,72,46,454,1.4,27.0,Slow,200.0,Diamond,1,1,50.0,50.0,Non Legendary,Grass,,False
+456,Finneon,49,49,56,49,61,66,330,0.4,7.0,Erratic,190.0,Diamond,1,1,50.0,50.0,Non Legendary,Water,,False
+457,Lumineon,69,69,76,69,86,91,460,1.2,24.0,Erratic,75.0,Diamond,1,1,50.0,50.0,Non Legendary,Water,,False
+458,Mantyke,45,20,50,60,120,50,345,1.0,65.0,Slow,25.0,Diamond,1,1,50.0,50.0,Non Legendary,Water,Flying,False
+459,Snover,60,62,50,62,60,40,334,1.0,50.5,Slow,120.0,Diamond,1,1,50.0,50.0,Non Legendary,Grass,Ice,False
+460,Abomasnow,90,92,75,92,85,60,494,2.2,135.5,Slow,60.0,Diamond,1,1,50.0,50.0,Non Legendary,Grass,Ice,False
+461,Weavile,70,120,65,45,85,125,510,1.1,34.0,Medium Slow,45.0,Diamond,1,1,50.0,50.0,Non Legendary,Dark,Ice,False
+462,Magnezone,70,70,115,130,90,60,535,1.2,180.0,Medium Fast,30.0,Diamond,0,0,0.0,0.0,Non Legendary,Electric,Steel,True
+463,Lickilicky,110,85,95,80,95,50,515,1.7,140.0,Medium Fast,30.0,Diamond,1,1,50.0,50.0,Non Legendary,Normal,,False
+464,Rhyperior,115,140,130,55,55,40,535,2.4,282.8,Slow,30.0,Diamond,1,1,50.0,50.0,Non Legendary,Ground,Rock,False
+465,Tangrowth,100,100,125,110,50,50,535,2.0,128.6,Medium Fast,30.0,Diamond,1,1,50.0,50.0,Non Legendary,Grass,,False
+466,Electivire,75,123,67,95,85,95,540,1.8,138.6,Medium Fast,30.0,Diamond,1,1,25.0,75.0,Non Legendary,Electric,,False
+467,Magmortar,75,95,67,125,95,83,540,1.6,68.0,Medium Fast,30.0,Diamond,1,1,25.0,75.0,Non Legendary,Fire,,False
+468,Togekiss,85,50,95,120,115,80,545,1.5,38.0,Fast,30.0,Diamond,1,1,12.5,87.5,Non Legendary,Fairy,Flying,False
+469,Yanmega,86,76,86,116,56,95,515,1.9,51.5,Medium Fast,30.0,Diamond,1,1,50.0,50.0,Non Legendary,Bug,Flying,False
+470,Leafeon,65,110,130,60,65,95,525,1.0,25.5,Medium Fast,45.0,Diamond,1,1,12.5,87.5,Non Legendary,Grass,,False
+471,Glaceon,65,60,110,130,95,65,525,0.8,25.9,Medium Fast,45.0,Diamond,1,1,12.5,87.5,Non Legendary,Ice,,False
+472,Gliscor,75,95,125,45,75,95,510,2.0,42.5,Medium Slow,30.0,Diamond,1,1,50.0,50.0,Non Legendary,Ground,Flying,False
+473,Mamoswine,110,130,80,70,60,80,530,2.5,291.0,Slow,50.0,Diamond,1,1,50.0,50.0,Non Legendary,Ice,Ground,False
+474,Porygon-Z,85,80,70,135,75,90,535,0.9,34.0,Medium Fast,30.0,Diamond,0,0,0.0,0.0,Non Legendary,Normal,,True
+475,Gallade,68,125,65,65,115,80,518,1.6,52.0,Slow,45.0,Diamond,0,1,0.0,100.0,Non Legendary,Psychic,Fighting,False
+476,Probopass,60,55,145,75,150,40,525,1.4,340.0,Medium Fast,60.0,Diamond,1,1,50.0,50.0,Non Legendary,Rock,Steel,False
+477,Dusknoir,45,100,135,65,135,45,525,2.2,106.6,Fast,45.0,Diamond,1,1,50.0,50.0,Non Legendary,Ghost,,False
+478,Froslass,70,80,70,80,70,110,480,1.3,26.6,Medium Fast,75.0,Diamond,1,0,100.0,0.0,Non Legendary,Ice,Ghost,False
+479,Rotom,50,50,77,95,77,91,440,0.3,0.3,Medium Fast,45.0,Diamond,0,0,0.0,0.0,Non Legendary,Electric,Ghost,True
+480,Uxie,75,75,130,75,130,95,580,0.3,0.3,Slow,3.0,Diamond,0,0,0.0,0.0,Semi-Legendary,Psychic,,True
+481,Mesprit,80,105,105,105,105,80,580,0.3,0.3,Slow,3.0,Diamond,0,0,0.0,0.0,Semi-Legendary,Psychic,,True
+482,Azelf,75,125,70,125,70,115,580,0.3,0.3,Slow,3.0,Diamond,0,0,0.0,0.0,Semi-Legendary,Psychic,,True
+483,Dialga,100,120,120,150,100,90,680,5.4,683.0,Slow,3.0,Diamond,0,0,0.0,0.0,Legendary,Steel,Dragon,True
+484,Palkia,90,120,100,150,120,100,680,4.2,336.0,Slow,3.0,Diamond,0,0,0.0,0.0,Legendary,Water,Dragon,True
+485,Heatran,91,90,106,130,106,77,600,1.7,430.0,Slow,3.0,Diamond,1,1,50.0,50.0,Semi-Legendary,Fire,Steel,False
+486,Regigigas,110,160,110,80,110,100,670,3.7,420.0,Slow,3.0,Diamond,0,0,0.0,0.0,Semi-Legendary,Normal,,True
+487,Giratina,150,100,120,100,120,90,680,4.5,750.0,Slow,3.0,Diamond,0,0,0.0,0.0,Legendary,Ghost,Dragon,True
+488,Cresselia,120,70,120,75,130,85,600,1.5,85.6,Slow,3.0,Diamond,1,0,100.0,0.0,Semi-Legendary,Psychic,,False
+489,Phione,80,80,80,80,80,80,480,0.4,3.1,Slow,30.0,Diamond,0,0,0.0,0.0,Mythical,Water,,True
+490,Manaphy,100,100,100,100,100,100,600,0.3,1.4,Slow,3.0,Diamond,0,0,0.0,0.0,Mythical,Water,,True
+491,Darkrai,70,90,90,135,90,125,600,1.5,50.5,Slow,3.0,Diamond,0,0,0.0,0.0,Mythical,Dark,,True
+492,Shaymin,100,100,100,100,100,100,600,0.2,2.1,Medium Slow,45.0,Diamond,0,0,0.0,0.0,Mythical,Grass,Flying,True
+493,Arceus,120,120,120,120,120,120,720,3.2,320.0,Slow,3.0,Diamond,0,0,0.0,0.0,Mythical,Normal,,True
+494,Victini,100,100,100,100,100,100,600,0.4,4.0,Slow,3.0,Black,0,0,0.0,0.0,Mythical,Psychic,Fire,True
+495,Snivy,45,45,55,45,55,63,308,0.6,8.1,Medium Slow,45.0,Black,1,1,12.5,87.5,Non Legendary,Grass,,False
+496,Servine,60,60,75,60,75,83,413,0.8,16.0,Medium Slow,45.0,Black,1,1,12.5,87.5,Non Legendary,Grass,,False
+497,Serperior,75,75,95,75,95,113,528,3.3,63.0,Medium Slow,45.0,Black,1,1,12.5,87.5,Non Legendary,Grass,,False
+498,Tepig,65,63,45,45,45,45,308,0.5,9.9,Medium Slow,45.0,Black,1,1,12.5,87.5,Non Legendary,Fire,,False
+499,Pignite,90,93,55,70,55,55,418,1.0,55.5,Medium Slow,45.0,Black,1,1,12.5,87.5,Non Legendary,Fire,Fighting,False
+500,Emboar,110,123,65,100,65,65,528,1.6,150.0,Medium Slow,45.0,Black,1,1,12.5,87.5,Non Legendary,Fire,Fighting,False
+501,Oshawott,55,55,45,63,45,45,308,0.5,5.9,Medium Slow,45.0,Black,1,1,12.5,87.5,Non Legendary,Water,,False
+502,Dewott,75,75,60,83,60,60,413,0.8,24.5,Medium Slow,45.0,Black,1,1,12.5,87.5,Non Legendary,Water,,False
+503,Samurott,95,100,85,108,70,70,528,1.5,94.6,Medium Slow,45.0,Black,1,1,12.5,87.5,Non Legendary,Water,,False
+504,Patrat,45,55,39,35,39,42,255,0.5,11.6,Medium Fast,255.0,Black,1,1,50.0,50.0,Non Legendary,Normal,,False
+505,Watchog,60,85,69,60,69,77,420,1.1,27.0,Medium Fast,255.0,Black,1,1,50.0,50.0,Non Legendary,Normal,,False
+506,Lillipup,45,60,45,25,45,55,275,0.4,4.1,Medium Slow,255.0,Black,1,1,50.0,50.0,Non Legendary,Normal,,False
+507,Herdier,65,80,65,35,65,60,370,0.9,14.7,Medium Slow,120.0,Black,1,1,50.0,50.0,Non Legendary,Normal,,False
+508,Stoutland,85,110,90,45,90,80,500,1.2,61.0,Medium Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Normal,,False
+509,Purrloin,41,50,37,50,37,66,281,0.4,10.1,Medium Fast,255.0,Black,1,1,50.0,50.0,Non Legendary,Dark,,False
+510,Liepard,64,88,50,88,50,106,446,1.1,37.5,Medium Fast,90.0,Black,1,1,50.0,50.0,Non Legendary,Dark,,False
+511,Pansage,50,53,48,53,48,64,316,0.6,10.5,Medium Fast,190.0,Black,1,1,12.5,87.5,Non Legendary,Grass,,False
+512,Simisage,75,98,63,98,63,101,498,1.1,30.5,Medium Fast,75.0,Black,1,1,12.5,87.5,Non Legendary,Grass,,False
+513,Pansear,50,53,48,53,48,64,316,0.6,11.0,Medium Fast,190.0,Black,1,1,12.5,87.5,Non Legendary,Fire,,False
+514,Simisear,75,98,63,98,63,101,498,1.0,28.0,Medium Fast,75.0,Black,1,1,12.5,87.5,Non Legendary,Fire,,False
+515,Panpour,50,53,48,53,48,64,316,0.6,13.5,Medium Fast,190.0,Black,1,1,12.5,87.5,Non Legendary,Water,,False
+516,Simipour,75,98,63,98,63,101,498,1.0,29.0,Medium Fast,75.0,Black,1,1,12.5,87.5,Non Legendary,Water,,False
+517,Munna,76,25,45,67,55,24,292,0.6,23.3,Fast,190.0,Black,1,1,50.0,50.0,Non Legendary,Psychic,,False
+518,Musharna,116,55,85,107,95,29,487,1.1,60.5,Fast,75.0,Black,1,1,50.0,50.0,Non Legendary,Psychic,,False
+519,Pidove,50,55,50,36,30,43,264,0.3,2.1,Medium Slow,255.0,Black,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+520,Tranquill,62,77,62,50,42,65,358,0.6,15.0,Medium Slow,120.0,Black,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+521,Unfezant,80,115,80,65,55,93,488,1.2,29.0,Medium Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+522,Blitzle,45,60,32,50,32,76,295,0.8,29.8,Medium Fast,190.0,Black,1,1,50.0,50.0,Non Legendary,Electric,,False
+523,Zebstrika,75,100,63,80,63,116,497,1.6,79.5,Medium Fast,75.0,Black,1,1,50.0,50.0,Non Legendary,Electric,,False
+524,Roggenrola,55,75,85,25,25,15,280,0.4,18.0,Medium Slow,255.0,Black,1,1,50.0,50.0,Non Legendary,Rock,,False
+525,Boldore,70,105,105,50,40,20,390,0.9,102.0,Medium Slow,120.0,Black,1,1,50.0,50.0,Non Legendary,Rock,,False
+526,Gigalith,85,135,130,60,80,25,515,1.7,260.0,Medium Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Rock,,False
+527,Woobat,65,45,43,55,43,72,323,0.4,2.1,Medium Fast,190.0,Black,1,1,50.0,50.0,Non Legendary,Psychic,Flying,False
+528,Swoobat,67,57,55,77,55,114,425,0.9,10.5,Medium Fast,45.0,Black,1,1,50.0,50.0,Non Legendary,Psychic,Flying,False
+529,Drilbur,60,85,40,30,45,68,328,0.3,8.5,Medium Fast,120.0,Black,1,1,50.0,50.0,Non Legendary,Ground,,False
+530,Excadrill,110,135,60,50,65,88,508,0.7,40.4,Medium Fast,60.0,Black,1,1,50.0,50.0,Non Legendary,Ground,Steel,False
+531,Audino,103,60,86,60,86,50,445,1.1,31.0,Fast,255.0,Black,1,1,50.0,50.0,Non Legendary,Normal,Fairy,False
+532,Timburr,75,80,55,25,35,35,305,0.6,12.5,Medium Slow,180.0,Black,1,1,25.0,75.0,Non Legendary,Fighting,,False
+533,Gurdurr,85,105,85,40,50,40,405,1.2,40.0,Medium Slow,90.0,Black,1,1,25.0,75.0,Non Legendary,Fighting,,False
+534,Conkeldurr,105,140,95,55,65,45,505,1.4,87.0,Medium Slow,45.0,Black,1,1,25.0,75.0,Non Legendary,Fighting,,False
+535,Tympole,50,50,40,50,40,64,294,0.5,4.5,Medium Slow,255.0,Black,1,1,50.0,50.0,Non Legendary,Water,,False
+536,Palpitoad,75,65,55,65,55,69,384,0.8,17.0,Medium Slow,120.0,Black,1,1,50.0,50.0,Non Legendary,Water,Ground,False
+537,Seismitoad,105,95,75,85,75,74,509,1.5,62.0,Medium Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Water,Ground,False
+538,Throh,120,100,85,30,85,45,465,1.3,55.5,Medium Fast,45.0,Black,0,1,0.0,100.0,Non Legendary,Fighting,,False
+539,Sawk,75,125,75,30,75,85,465,1.4,51.0,Medium Fast,45.0,Black,0,1,0.0,100.0,Non Legendary,Fighting,,False
+540,Sewaddle,45,53,70,40,60,42,310,0.3,2.5,Medium Slow,255.0,Black,1,1,50.0,50.0,Non Legendary,Bug,Grass,False
+541,Swadloon,55,63,90,50,80,42,380,0.5,7.3,Medium Slow,120.0,Black,1,1,50.0,50.0,Non Legendary,Bug,Grass,False
+542,Leavanny,75,103,80,70,80,92,500,1.2,20.5,Medium Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Bug,Grass,False
+543,Venipede,30,45,59,30,39,57,260,0.4,5.3,Medium Slow,255.0,Black,1,1,50.0,50.0,Non Legendary,Bug,Poison,False
+544,Whirlipede,40,55,99,40,79,47,360,1.2,58.5,Medium Slow,120.0,Black,1,1,50.0,50.0,Non Legendary,Bug,Poison,False
+545,Scolipede,60,100,89,55,69,112,485,2.5,200.5,Medium Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Bug,Poison,False
+546,Cottonee,40,27,60,37,50,66,280,0.3,0.6,Medium Fast,190.0,Black,1,1,50.0,50.0,Non Legendary,Grass,Fairy,False
+547,Whimsicott,60,67,85,77,75,116,480,0.7,6.6,Medium Fast,75.0,Black,1,1,50.0,50.0,Non Legendary,Grass,Fairy,False
+548,Petilil,45,35,50,70,50,30,280,0.5,6.6,Medium Fast,190.0,Black,1,0,100.0,0.0,Non Legendary,Grass,,False
+549,Lilligant,70,60,75,110,75,90,480,1.1,16.3,Medium Fast,75.0,Black,1,0,100.0,0.0,Non Legendary,Grass,,False
+550,Basculin,70,92,65,80,55,98,460,1.0,18.0,Medium Fast,25.0,Black,1,1,50.0,50.0,Non Legendary,Water,,False
+551,Sandile,50,72,35,35,35,65,292,0.7,15.2,Medium Slow,180.0,Black,1,1,50.0,50.0,Non Legendary,Ground,Dark,False
+552,Krokorok,60,82,45,45,45,74,351,1.0,33.4,Medium Slow,90.0,Black,1,1,50.0,50.0,Non Legendary,Ground,Dark,False
+553,Krookodile,95,117,80,65,70,92,519,1.5,96.3,Medium Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Ground,Dark,False
+554,Darumaka,70,90,45,15,45,50,315,0.6,37.5,Medium Slow,120.0,Black,1,1,50.0,50.0,Non Legendary,Fire,Ice,False
+555,Darmanitan,105,140,55,30,55,95,480,1.3,92.9,Medium Slow,60.0,Black,1,1,50.0,50.0,Non Legendary,Fire,,False
+556,Maractus,75,86,67,106,67,60,461,1.0,28.0,Medium Fast,255.0,Black,1,1,50.0,50.0,Non Legendary,Grass,,False
+557,Dwebble,50,65,85,35,35,55,325,0.3,14.5,Medium Fast,190.0,Black,1,1,50.0,50.0,Non Legendary,Bug,Rock,False
+558,Crustle,70,105,125,65,75,45,485,1.4,200.0,Medium Fast,75.0,Black,1,1,50.0,50.0,Non Legendary,Bug,Rock,False
+559,Scraggy,50,75,70,35,70,48,348,0.6,11.8,Medium Fast,180.0,Black,1,1,50.0,50.0,Non Legendary,Dark,Fighting,False
+560,Scrafty,65,90,115,45,115,58,488,1.1,30.0,Medium Fast,90.0,Black,1,1,50.0,50.0,Non Legendary,Dark,Fighting,False
+561,Sigilyph,72,58,80,103,80,97,490,1.4,14.0,Medium Fast,45.0,Black,1,1,50.0,50.0,Non Legendary,Psychic,Flying,False
+562,Yamask,38,30,85,55,65,30,303,0.5,1.5,Medium Fast,190.0,Black,1,1,50.0,50.0,Non Legendary,Ghost,Ground,False
+563,Cofagrigus,58,50,145,95,105,30,483,1.7,76.5,Medium Fast,90.0,Black,1,1,50.0,50.0,Non Legendary,Ghost,,False
+564,Tirtouga,54,78,103,53,45,22,355,0.7,16.5,Medium Fast,45.0,Black,1,1,12.5,87.5,Non Legendary,Water,Rock,False
+565,Carracosta,74,108,133,83,65,32,495,1.2,81.0,Medium Fast,45.0,Black,1,1,12.5,87.5,Non Legendary,Water,Rock,False
+566,Archen,55,112,45,74,45,70,401,0.5,9.5,Medium Fast,45.0,Black,1,1,12.5,87.5,Non Legendary,Rock,Flying,False
+567,Archeops,75,140,65,112,65,110,567,1.4,32.0,Medium Fast,45.0,Black,1,1,12.5,87.5,Non Legendary,Rock,Flying,False
+568,Trubbish,50,50,62,40,62,65,329,0.6,31.0,Medium Fast,190.0,Black,1,1,50.0,50.0,Non Legendary,Poison,,False
+569,Garbodor,80,95,82,60,82,75,474,1.9,107.3,Medium Fast,60.0,Black,1,1,50.0,50.0,Non Legendary,Poison,,False
+570,Zorua,40,65,40,80,40,65,330,0.7,12.5,Medium Slow,75.0,Black,1,1,12.5,87.5,Non Legendary,Dark,,False
+571,Zoroark,60,105,60,120,60,105,510,1.6,81.1,Medium Slow,45.0,Black,1,1,12.5,87.5,Non Legendary,Dark,,False
+572,Minccino,55,50,40,40,40,75,300,0.4,5.8,Fast,255.0,Black,1,1,75.0,25.0,Non Legendary,Normal,,False
+573,Cinccino,75,95,60,65,60,115,470,0.5,7.5,Fast,60.0,Black,1,1,75.0,25.0,Non Legendary,Normal,,False
+574,Gothita,45,30,50,55,65,45,290,0.4,5.8,Medium Slow,200.0,Black,1,1,75.0,25.0,Non Legendary,Psychic,,False
+575,Gothorita,60,45,70,75,85,55,390,0.7,18.0,Medium Slow,100.0,Black,1,1,75.0,25.0,Non Legendary,Psychic,,False
+576,Gothitelle,70,55,95,95,110,65,490,1.5,44.0,Medium Slow,50.0,Black,1,1,75.0,25.0,Non Legendary,Psychic,,False
+577,Solosis,45,30,40,105,50,20,290,0.3,1.0,Medium Slow,200.0,Black,1,1,50.0,50.0,Non Legendary,Psychic,,False
+578,Duosion,65,40,50,125,60,30,370,0.6,8.0,Medium Slow,100.0,Black,1,1,50.0,50.0,Non Legendary,Psychic,,False
+579,Reuniclus,110,65,75,125,85,30,490,1.0,20.1,Medium Slow,50.0,Black,1,1,50.0,50.0,Non Legendary,Psychic,,False
+580,Ducklett,62,44,50,44,50,55,305,0.5,5.5,Medium Fast,190.0,Black,1,1,50.0,50.0,Non Legendary,Water,Flying,False
+581,Swanna,75,87,63,87,63,98,473,1.3,24.2,Medium Fast,45.0,Black,1,1,50.0,50.0,Non Legendary,Water,Flying,False
+582,Vanillite,36,50,50,65,60,44,305,0.4,5.7,Slow,255.0,Black,1,1,50.0,50.0,Non Legendary,Ice,,False
+583,Vanillish,51,65,65,80,75,59,395,1.1,41.0,Slow,120.0,Black,1,1,50.0,50.0,Non Legendary,Ice,,False
+584,Vanilluxe,71,95,85,110,95,79,535,1.3,57.5,Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Ice,,False
+585,Deerling,60,60,50,40,50,75,335,0.6,19.5,Medium Fast,190.0,Black,1,1,50.0,50.0,Non Legendary,Normal,Grass,False
+586,Sawsbuck,80,100,70,60,70,95,475,1.9,92.5,Medium Fast,75.0,Black,1,1,50.0,50.0,Non Legendary,Normal,Grass,False
+587,Emolga,55,75,60,75,60,103,428,0.4,5.0,Medium Fast,200.0,Black,1,1,50.0,50.0,Non Legendary,Electric,Flying,False
+588,Karrablast,50,75,45,40,45,60,315,0.5,5.9,Medium Fast,200.0,Black,1,1,50.0,50.0,Non Legendary,Bug,,False
+589,Escavalier,70,135,105,60,105,20,495,1.0,33.0,Medium Fast,75.0,Black,1,1,50.0,50.0,Non Legendary,Bug,Steel,False
+590,Foongus,69,55,45,55,55,15,294,0.2,1.0,Medium Fast,190.0,Black,1,1,50.0,50.0,Non Legendary,Grass,Poison,False
+591,Amoonguss,114,85,70,85,80,30,464,0.6,10.5,Medium Fast,75.0,Black,1,1,50.0,50.0,Non Legendary,Grass,Poison,False
+592,Frillish,55,40,50,65,85,40,335,1.2,33.0,Medium Fast,190.0,Black,1,1,50.0,50.0,Non Legendary,Water,Ghost,False
+593,Jellicent,100,60,70,85,105,60,480,2.2,135.0,Medium Fast,60.0,Black,1,1,50.0,50.0,Non Legendary,Water,Ghost,False
+594,Alomomola,165,75,80,40,45,65,470,1.2,31.6,Fast,75.0,Black,1,1,50.0,50.0,Non Legendary,Water,,False
+595,Joltik,50,47,50,57,50,65,319,0.1,0.6,Medium Fast,190.0,Black,1,1,50.0,50.0,Non Legendary,Bug,Electric,False
+596,Galvantula,70,77,60,97,60,108,472,0.8,14.3,Medium Fast,75.0,Black,1,1,50.0,50.0,Non Legendary,Bug,Electric,False
+597,Ferroseed,44,50,91,24,86,10,305,0.6,18.8,Medium Fast,255.0,Black,1,1,50.0,50.0,Non Legendary,Grass,Steel,False
+598,Ferrothorn,74,94,131,54,116,20,489,1.0,110.0,Medium Fast,90.0,Black,1,1,50.0,50.0,Non Legendary,Grass,Steel,False
+599,Klink,40,55,70,45,60,30,300,0.3,21.0,Medium Slow,130.0,Black,0,0,0.0,0.0,Non Legendary,Steel,,True
+600,Klang,60,80,95,70,85,50,440,0.6,51.0,Medium Slow,60.0,Black,0,0,0.0,0.0,Non Legendary,Steel,,True
+601,Klinklang,60,100,115,70,85,90,520,0.6,81.0,Medium Slow,30.0,Black,0,0,0.0,0.0,Non Legendary,Steel,,True
+602,Tynamo,35,55,40,45,40,60,275,0.2,0.3,Slow,190.0,Black,1,1,50.0,50.0,Non Legendary,Electric,,False
+603,Eelektrik,65,85,70,75,70,40,405,1.2,22.0,Slow,60.0,Black,1,1,50.0,50.0,Non Legendary,Electric,,False
+604,Eelektross,85,115,80,105,80,50,515,2.1,80.5,Slow,30.0,Black,1,1,50.0,50.0,Non Legendary,Electric,,False
+605,Elgyem,55,55,55,85,55,30,335,0.5,9.0,Medium Fast,255.0,Black,1,1,50.0,50.0,Non Legendary,Psychic,,False
+606,Beheeyem,75,75,75,125,95,40,485,1.0,34.5,Medium Fast,90.0,Black,1,1,50.0,50.0,Non Legendary,Psychic,,False
+607,Litwick,50,30,55,65,55,20,275,0.3,3.1,Medium Slow,190.0,Black,1,1,50.0,50.0,Non Legendary,Ghost,Fire,False
+608,Lampent,60,40,60,95,60,55,370,0.6,13.0,Medium Slow,90.0,Black,1,1,50.0,50.0,Non Legendary,Ghost,Fire,False
+609,Chandelure,60,55,90,145,90,80,520,1.0,34.3,Medium Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Ghost,Fire,False
+610,Axew,46,87,60,30,40,57,320,0.6,18.0,Slow,75.0,Black,1,1,50.0,50.0,Non Legendary,Dragon,,False
+611,Fraxure,66,117,70,40,50,67,410,1.0,36.0,Slow,60.0,Black,1,1,50.0,50.0,Non Legendary,Dragon,,False
+612,Haxorus,76,147,90,60,70,97,540,1.8,105.5,Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Dragon,,False
+613,Cubchoo,55,70,40,60,40,40,305,0.5,8.5,Medium Fast,120.0,Black,1,1,50.0,50.0,Non Legendary,Ice,,False
+614,Beartic,95,130,80,70,80,50,505,2.6,260.0,Medium Fast,60.0,Black,1,1,50.0,50.0,Non Legendary,Ice,,False
+615,Cryogonal,80,50,50,95,135,105,515,1.1,148.0,Medium Fast,25.0,Black,0,0,0.0,0.0,Non Legendary,Ice,,True
+616,Shelmet,50,40,85,40,65,25,305,0.4,7.7,Medium Fast,200.0,Black,1,1,50.0,50.0,Non Legendary,Bug,,False
+617,Accelgor,80,70,40,100,60,145,495,0.8,25.3,Medium Fast,75.0,Black,1,1,50.0,50.0,Non Legendary,Bug,,False
+618,Stunfisk,109,66,84,81,99,32,471,0.7,11.0,Medium Fast,75.0,Black,1,1,50.0,50.0,Non Legendary,Ground,Electric,False
+619,Mienfoo,45,85,50,55,50,65,350,0.9,20.0,Medium Slow,180.0,Black,1,1,50.0,50.0,Non Legendary,Fighting,,False
+620,Mienshao,65,125,60,95,60,105,510,1.4,35.5,Medium Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Fighting,,False
+621,Druddigon,77,120,90,60,90,48,485,1.6,139.0,Medium Fast,45.0,Black,1,1,50.0,50.0,Non Legendary,Dragon,,False
+622,Golett,59,74,50,35,50,35,303,1.0,92.0,Medium Fast,190.0,Black,0,0,0.0,0.0,Non Legendary,Ground,Ghost,True
+623,Golurk,89,124,80,55,80,55,483,2.8,330.0,Medium Fast,90.0,Black,0,0,0.0,0.0,Non Legendary,Ground,Ghost,True
+624,Pawniard,45,85,70,40,40,60,340,0.5,10.2,Medium Fast,120.0,Black,1,1,50.0,50.0,Non Legendary,Dark,Steel,False
+625,Bisharp,65,125,100,60,70,70,490,1.6,70.0,Medium Fast,45.0,Black,1,1,50.0,50.0,Non Legendary,Dark,Steel,False
+626,Bouffalant,95,110,95,40,95,55,490,1.6,94.6,Medium Fast,45.0,Black,1,1,50.0,50.0,Non Legendary,Normal,,False
+627,Rufflet,70,83,50,37,50,60,350,0.5,10.5,Slow,190.0,Black,0,1,0.0,100.0,Non Legendary,Normal,Flying,False
+628,Braviary,100,123,75,57,75,80,510,1.5,41.0,Slow,60.0,Black,0,1,0.0,100.0,Non Legendary,Normal,Flying,False
+629,Vullaby,70,55,75,45,65,60,370,0.5,9.0,Slow,190.0,Black,1,0,100.0,0.0,Non Legendary,Dark,Flying,False
+630,Mandibuzz,110,65,105,55,95,80,510,1.2,39.5,Slow,60.0,Black,1,0,100.0,0.0,Non Legendary,Dark,Flying,False
+631,Heatmor,85,97,66,105,66,65,484,1.4,58.0,Medium Fast,90.0,Black,1,1,50.0,50.0,Non Legendary,Fire,,False
+632,Durant,58,109,112,48,48,109,484,0.3,33.0,Medium Fast,90.0,Black,1,1,50.0,50.0,Non Legendary,Bug,Steel,False
+633,Deino,52,65,50,45,50,38,300,0.8,17.3,Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Dark,Dragon,False
+634,Zweilous,72,85,70,65,70,58,420,1.4,50.0,Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Dark,Dragon,False
+635,Hydreigon,92,105,90,125,90,98,600,1.8,160.0,Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Dark,Dragon,False
+636,Larvesta,55,85,55,50,55,60,360,1.1,28.8,Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Bug,Fire,False
+637,Volcarona,85,60,65,135,105,100,550,1.6,46.0,Slow,15.0,Black,1,1,50.0,50.0,Non Legendary,Bug,Fire,False
+638,Cobalion,91,90,129,90,72,108,580,2.1,250.0,Slow,3.0,Black,0,0,0.0,0.0,Semi-Legendary,Steel,Fighting,True
+639,Terrakion,91,129,90,72,90,108,580,1.9,260.0,Slow,3.0,Black,0,0,0.0,0.0,Semi-Legendary,Rock,Fighting,True
+640,Virizion,91,90,72,90,129,108,580,2.0,200.0,Slow,3.0,Black,0,0,0.0,0.0,Semi-Legendary,Grass,Fighting,True
+641,Tornadus,79,115,70,125,80,111,580,1.5,63.0,Slow,3.0,Black,0,1,0.0,100.0,Semi-Legendary,Flying,,False
+642,Thundurus,79,115,70,125,80,111,580,1.5,61.0,Slow,3.0,Black,0,1,0.0,100.0,Semi-Legendary,Electric,Flying,False
+643,Reshiram,100,120,100,150,120,90,680,3.2,330.0,Slow,3.0,Black,0,0,0.0,0.0,Legendary,Dragon,Fire,True
+644,Zekrom,100,150,120,120,100,90,680,2.9,345.0,Slow,3.0,Black,0,0,0.0,0.0,Legendary,Dragon,Electric,True
+645,Landorus,89,125,90,115,80,101,600,1.5,68.0,Slow,3.0,Black,0,1,0.0,100.0,Semi-Legendary,Ground,Flying,False
+646,Kyurem,125,130,90,130,90,95,660,3.0,325.0,Slow,3.0,Black,0,0,0.0,0.0,Legendary,Dragon,Ice,True
+647,Keldeo,91,72,90,129,90,108,580,1.4,48.5,Slow,3.0,Black,0,0,0.0,0.0,Mythical,Water,Fighting,True
+648,Meloetta,100,77,77,128,128,90,600,0.6,6.5,Slow,3.0,Black,0,0,0.0,0.0,Mythical,Normal,Psychic,True
+649,Genesect,71,120,95,120,95,99,600,1.5,82.5,Slow,3.0,Black,0,0,0.0,0.0,Mythical,Bug,Steel,True
+650,Chespin,56,61,65,48,45,38,313,0.4,9.0,Medium Slow,45.0,X,1,1,12.5,87.5,Non Legendary,Grass,,False
+651,Quilladin,61,78,95,56,58,57,405,0.7,29.0,Medium Slow,45.0,X,1,1,12.5,87.5,Non Legendary,Grass,,False
+652,Chesnaught,88,107,122,74,75,64,530,1.6,90.0,Medium Slow,45.0,X,1,1,12.5,87.5,Non Legendary,Grass,Fighting,False
+653,Fennekin,40,45,40,62,60,60,307,0.4,9.4,Medium Slow,45.0,X,1,1,12.5,87.5,Non Legendary,Fire,,False
+654,Braixen,59,59,58,90,70,73,409,1.0,14.5,Medium Slow,45.0,X,1,1,12.5,87.5,Non Legendary,Fire,,False
+655,Delphox,75,69,72,114,100,104,534,1.5,39.0,Medium Slow,45.0,X,1,1,12.5,87.5,Non Legendary,Fire,Psychic,False
+656,Froakie,41,56,40,62,44,71,314,0.3,7.0,Medium Slow,45.0,X,1,1,12.5,87.5,Non Legendary,Water,,False
+657,Frogadier,54,63,52,83,56,97,405,0.6,10.9,Medium Slow,45.0,X,1,1,12.5,87.5,Non Legendary,Water,,False
+658,Greninja,72,95,67,103,71,122,530,1.5,40.0,Medium Slow,45.0,X,0,1,0.0,12.5,Non Legendary,Water,Dark,False
+659,Bunnelby,38,36,38,32,36,57,237,0.4,5.0,Medium Fast,255.0,X,1,1,50.0,50.0,Non Legendary,Normal,,False
+660,Diggersby,85,56,77,50,77,78,423,1.0,42.4,Medium Fast,127.0,X,1,1,50.0,50.0,Non Legendary,Normal,Ground,False
+661,Fletchling,45,50,43,40,38,62,278,0.3,1.7,Medium Slow,255.0,X,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+662,Fletchinder,62,73,55,56,52,84,382,0.7,16.0,Medium Slow,120.0,X,1,1,50.0,50.0,Non Legendary,Fire,Flying,False
+663,Talonflame,78,81,71,74,69,126,499,1.2,24.5,Medium Slow,45.0,X,1,1,50.0,50.0,Non Legendary,Fire,Flying,False
+664,Scatterbug,38,35,40,27,25,35,200,0.3,2.5,Medium Fast,255.0,X,1,1,50.0,50.0,Non Legendary,Bug,,False
+665,Spewpa,45,22,60,27,30,29,213,0.3,8.4,Medium Fast,120.0,X,1,1,50.0,50.0,Non Legendary,Bug,,False
+666,Vivillon,80,52,50,90,50,89,411,1.2,17.0,Medium Fast,45.0,X,1,1,50.0,50.0,Non Legendary,Bug,Flying,False
+667,Litleo,62,50,58,73,54,72,369,0.6,13.5,Medium Slow,220.0,X,1,1,75.0,25.0,Non Legendary,Fire,Normal,False
+668,Pyroar,86,68,72,109,66,106,507,1.5,81.5,Medium Slow,65.0,X,1,1,75.0,25.0,Non Legendary,Fire,Normal,False
+669,Flabébé,44,38,39,61,79,42,303,0.1,0.1,Medium Fast,225.0,X,1,0,100.0,0.0,Non Legendary,Fairy,,False
+670,Floette,54,45,47,75,98,52,371,0.2,0.9,Medium Fast,120.0,X,1,0,100.0,0.0,Non Legendary,Fairy,,False
+671,Florges,78,65,68,112,154,75,552,1.1,10.0,Medium Fast,45.0,X,1,0,100.0,0.0,Non Legendary,Fairy,,False
+672,Skiddo,66,65,48,62,57,52,350,0.9,31.0,Medium Fast,200.0,X,1,1,50.0,50.0,Non Legendary,Grass,,False
+673,Gogoat,123,100,62,97,81,68,531,1.7,91.0,Medium Fast,45.0,X,1,1,50.0,50.0,Non Legendary,Grass,,False
+674,Pancham,67,82,62,46,48,43,348,0.6,8.0,Medium Fast,220.0,X,1,1,50.0,50.0,Non Legendary,Fighting,,False
+675,Pangoro,95,124,78,69,71,58,495,2.1,136.0,Medium Fast,65.0,X,1,1,50.0,50.0,Non Legendary,Fighting,Dark,False
+676,Furfrou,75,80,60,65,90,102,472,1.2,28.0,Medium Fast,160.0,X,1,1,50.0,50.0,Non Legendary,Normal,,False
+677,Espurr,62,48,54,63,60,68,355,0.3,3.5,Medium Fast,190.0,X,1,1,50.0,50.0,Non Legendary,Psychic,,False
+678,Meowstic,74,48,76,83,81,104,466,0.6,8.5,Medium Fast,75.0,X,1,1,50.0,50.0,Non Legendary,Psychic,,False
+679,Honedge,45,80,100,35,37,28,325,0.8,2.0,Medium Fast,180.0,X,1,1,50.0,50.0,Non Legendary,Steel,Ghost,False
+680,Doublade,59,110,150,45,49,35,448,0.8,4.5,Medium Fast,90.0,X,1,1,50.0,50.0,Non Legendary,Steel,Ghost,False
+681,Aegislash,60,50,140,50,140,60,500,1.7,53.0,Medium Fast,45.0,X,1,1,50.0,50.0,Non Legendary,Steel,Ghost,False
+682,Spritzee,78,52,60,63,65,23,341,0.2,0.5,Medium Fast,200.0,X,1,1,50.0,50.0,Non Legendary,Fairy,,False
+683,Aromatisse,101,72,72,99,89,29,462,0.8,15.5,Medium Fast,140.0,X,1,1,50.0,50.0,Non Legendary,Fairy,,False
+684,Swirlix,62,48,66,59,57,49,341,0.4,3.5,Medium Fast,200.0,X,1,1,50.0,50.0,Non Legendary,Fairy,,False
+685,Slurpuff,82,80,86,85,75,72,480,0.8,5.0,Medium Fast,140.0,X,1,1,50.0,50.0,Non Legendary,Fairy,,False
+686,Inkay,53,54,53,37,46,45,288,0.4,3.5,Medium Fast,190.0,X,1,1,50.0,50.0,Non Legendary,Dark,Psychic,False
+687,Malamar,86,92,88,68,75,73,482,1.5,47.0,Medium Fast,80.0,X,1,1,50.0,50.0,Non Legendary,Dark,Psychic,False
+688,Binacle,42,52,67,39,56,50,306,0.5,31.0,Medium Fast,120.0,X,1,1,50.0,50.0,Non Legendary,Rock,Water,False
+689,Barbaracle,72,105,115,54,86,68,500,1.3,96.0,Medium Fast,45.0,X,1,1,50.0,50.0,Non Legendary,Rock,Water,False
+690,Skrelp,50,60,60,60,60,30,320,0.5,7.3,Medium Fast,225.0,X,1,1,50.0,50.0,Non Legendary,Poison,Water,False
+691,Dragalge,65,75,90,97,123,44,494,1.8,81.5,Medium Fast,55.0,X,1,1,50.0,50.0,Non Legendary,Poison,Dragon,False
+692,Clauncher,50,53,62,58,63,44,330,0.5,8.3,Slow,225.0,X,1,1,50.0,50.0,Non Legendary,Water,,False
+693,Clawitzer,71,73,88,120,89,59,500,1.3,35.3,Slow,55.0,X,1,1,50.0,50.0,Non Legendary,Water,,False
+694,Helioptile,44,38,33,61,43,70,289,0.5,6.0,Medium Fast,190.0,X,1,1,50.0,50.0,Non Legendary,Electric,Normal,False
+695,Heliolisk,62,55,52,109,94,109,481,1.0,21.0,Medium Fast,75.0,X,1,1,50.0,50.0,Non Legendary,Electric,Normal,False
+696,Tyrunt,58,89,77,45,45,48,362,0.8,26.0,Medium Fast,45.0,X,1,1,12.5,87.5,Non Legendary,Rock,Dragon,False
+697,Tyrantrum,82,121,119,69,59,71,521,2.5,270.0,Medium Fast,45.0,X,1,1,12.5,87.5,Non Legendary,Rock,Dragon,False
+698,Amaura,77,59,50,67,63,46,362,1.3,25.2,Medium Fast,45.0,X,1,1,12.5,87.5,Non Legendary,Rock,Ice,False
+699,Aurorus,123,77,72,99,92,58,521,2.7,225.0,Medium Fast,45.0,X,1,1,12.5,87.5,Non Legendary,Rock,Ice,False
+700,Sylveon,95,65,65,110,130,60,525,1.0,23.5,Medium Fast,45.0,X,1,1,12.5,87.5,Non Legendary,Fairy,,False
+701,Hawlucha,78,92,75,74,63,118,500,0.8,21.5,Medium Fast,100.0,X,1,1,50.0,50.0,Non Legendary,Fighting,Flying,False
+702,Dedenne,67,58,57,81,67,101,431,0.2,2.2,Medium Fast,180.0,X,1,1,50.0,50.0,Non Legendary,Electric,Fairy,False
+703,Carbink,50,50,150,50,150,50,500,0.3,5.7,Slow,60.0,X,0,0,0.0,0.0,Non Legendary,Rock,Fairy,True
+704,Goomy,45,50,35,55,75,40,300,0.3,2.8,Slow,45.0,X,1,1,50.0,50.0,Non Legendary,Dragon,,False
+705,Sliggoo,68,75,53,83,113,60,452,0.8,17.5,Slow,45.0,X,1,1,50.0,50.0,Non Legendary,Dragon,,False
+706,Goodra,90,100,70,110,150,80,600,2.0,150.5,Slow,45.0,X,1,1,50.0,50.0,Non Legendary,Dragon,,False
+707,Klefki,57,80,91,80,87,75,470,0.2,3.0,Fast,75.0,X,1,1,50.0,50.0,Non Legendary,Steel,Fairy,False
+708,Phantump,43,70,48,50,60,38,309,0.4,7.0,Medium Fast,120.0,X,1,1,50.0,50.0,Non Legendary,Ghost,Grass,False
+709,Trevenant,85,110,76,65,82,56,474,1.5,71.0,Medium Fast,60.0,X,1,1,50.0,50.0,Non Legendary,Ghost,Grass,False
+710,Pumpkaboo,49,66,70,44,55,51,335,0.4,5.0,Medium Fast,120.0,X,1,1,50.0,50.0,Non Legendary,Ghost,Grass,False
+711,Gourgeist,65,90,122,58,75,84,494,0.9,12.5,Medium Fast,60.0,X,1,1,50.0,50.0,Non Legendary,Ghost,Grass,False
+712,Bergmite,55,69,85,32,35,28,304,1.0,99.5,Medium Fast,190.0,X,1,1,50.0,50.0,Non Legendary,Ice,,False
+713,Avalugg,95,117,184,44,46,28,514,2.0,505.0,Medium Fast,55.0,X,1,1,50.0,50.0,Non Legendary,Ice,,False
+714,Noibat,40,30,35,45,40,55,245,0.5,8.0,Medium Fast,190.0,X,1,1,50.0,50.0,Non Legendary,Flying,Dragon,False
+715,Noivern,85,70,80,97,80,123,535,1.5,85.0,Medium Fast,45.0,X,1,1,50.0,50.0,Non Legendary,Flying,Dragon,False
+716,Xerneas,126,131,95,131,98,99,680,3.0,215.0,Slow,45.0,X,0,0,0.0,0.0,Legendary,Fairy,,True
+717,Yveltal,126,131,95,131,98,99,680,5.8,203.0,Slow,45.0,X,0,0,0.0,0.0,Legendary,Dark,Flying,True
+718,Zygarde,108,100,121,81,95,95,600,5.0,305.0,Slow,3.0,X,0,0,0.0,0.0,Legendary,Dragon,Ground,True
+719,Diancie,50,100,150,100,150,50,600,0.7,8.8,Slow,3.0,X,0,0,0.0,0.0,Mythical,Rock,Fairy,True
+720,Hoopa,80,110,60,150,130,70,600,0.5,9.0,Slow,3.0,X,0,0,0.0,0.0,Mythical,Psychic,Ghost,True
+721,Volcanion,80,110,120,130,90,70,600,1.7,195.0,Slow,3.0,X,0,0,0.0,0.0,Mythical,Fire,Water,True
+722,Rowlet,68,55,55,50,50,42,320,0.3,1.5,Medium Slow,45.0,Sun,1,1,12.5,87.5,Non Legendary,Grass,Flying,False
+723,Dartrix,78,75,75,70,70,52,420,0.7,16.0,Medium Slow,45.0,Sun,1,1,12.5,87.5,Non Legendary,Grass,Flying,False
+724,Decidueye,78,107,75,100,100,70,530,1.6,36.6,Medium Slow,45.0,Sun,1,1,12.5,87.5,Non Legendary,Grass,Ghost,False
+725,Litten,45,65,40,60,40,70,320,0.4,4.3,Medium Slow,45.0,Sun,1,1,12.5,87.5,Non Legendary,Fire,,False
+726,Torracat,65,85,50,80,50,90,420,0.7,25.0,Medium Slow,45.0,Sun,1,1,12.5,87.5,Non Legendary,Fire,,False
+727,Incineroar,95,115,90,80,90,60,530,1.8,83.0,Medium Slow,45.0,Sun,1,1,12.5,87.5,Non Legendary,Fire,Dark,False
+728,Popplio,50,54,54,66,56,40,320,0.4,7.5,Medium Slow,45.0,Sun,1,1,12.5,87.5,Non Legendary,Water,,False
+729,Brionne,60,69,69,91,81,50,420,0.6,17.5,Medium Slow,45.0,Sun,1,1,12.5,87.5,Non Legendary,Water,,False
+730,Primarina,80,74,74,126,116,60,530,1.8,44.0,Medium Slow,45.0,Sun,1,1,12.5,87.5,Non Legendary,Water,Fairy,False
+731,Pikipek,35,75,30,30,30,65,265,0.3,1.2,Medium Fast,255.0,Sun,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+732,Trumbeak,55,85,50,40,50,75,355,0.6,14.8,Medium Fast,120.0,Sun,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+733,Toucannon,80,120,75,75,75,60,485,1.1,26.0,Medium Fast,45.0,Sun,1,1,50.0,50.0,Non Legendary,Normal,Flying,False
+734,Yungoos,48,70,30,30,30,45,253,0.4,6.0,Medium Fast,255.0,Sun,1,1,50.0,50.0,Non Legendary,Normal,,False
+735,Gumshoos,88,110,60,55,60,45,418,0.7,14.2,Medium Fast,127.0,Sun,1,1,50.0,50.0,Non Legendary,Normal,,False
+736,Grubbin,47,62,45,55,45,46,300,0.4,4.4,Medium Fast,255.0,Sun,1,1,50.0,50.0,Non Legendary,Bug,,False
+737,Charjabug,57,82,95,55,75,36,400,0.5,10.5,Medium Fast,120.0,Sun,1,1,50.0,50.0,Non Legendary,Bug,Electric,False
+738,Vikavolt,77,70,90,145,75,43,500,1.5,45.0,Medium Fast,45.0,Sun,1,1,50.0,50.0,Non Legendary,Bug,Electric,False
+739,Crabrawler,47,82,57,42,47,63,338,0.6,7.0,Medium Fast,225.0,Sun,1,1,50.0,50.0,Non Legendary,Fighting,,False
+740,Crabominable,97,132,77,62,67,43,478,1.7,180.0,Medium Fast,60.0,Sun,1,1,50.0,50.0,Non Legendary,Fighting,Ice,False
+741,Oricorio,75,70,70,98,70,93,476,0.6,3.4,Medium Fast,45.0,Sun,1,1,75.0,25.0,Non Legendary,Fire,Flying,False
+742,Cutiefly,40,45,40,55,40,84,304,0.1,0.2,Medium Fast,190.0,Sun,1,1,50.0,50.0,Non Legendary,Bug,Fairy,False
+743,Ribombee,60,55,60,95,70,124,464,0.2,0.5,Medium Fast,75.0,Sun,1,1,50.0,50.0,Non Legendary,Bug,Fairy,False
+744,Rockruff,45,65,40,30,40,60,280,0.5,9.2,Medium Fast,190.0,Sun,1,1,50.0,50.0,Non Legendary,Rock,,False
+745,Lycanroc,75,115,65,55,65,112,487,0.8,25.0,Medium Fast,90.0,Sun,1,1,50.0,50.0,Non Legendary,Rock,,False
+746,Wishiwashi,45,20,20,25,25,40,175,0.2,0.3,Fast,60.0,Sun,1,1,50.0,50.0,Non Legendary,Water,,False
+747,Mareanie,50,53,62,43,52,45,305,0.4,8.0,Medium Fast,190.0,Sun,1,1,50.0,50.0,Non Legendary,Poison,Water,False
+748,Toxapex,50,63,152,53,142,35,495,0.7,14.5,Medium Fast,75.0,Sun,1,1,50.0,50.0,Non Legendary,Poison,Water,False
+749,Mudbray,70,100,70,45,55,45,385,1.0,110.0,Medium Fast,190.0,Sun,1,1,50.0,50.0,Non Legendary,Ground,,False
+750,Mudsdale,100,125,100,55,85,35,500,2.5,920.0,Medium Fast,60.0,Sun,1,1,50.0,50.0,Non Legendary,Ground,,False
+751,Dewpider,38,40,52,40,72,27,269,0.3,4.0,Medium Fast,200.0,Sun,1,1,50.0,50.0,Non Legendary,Water,Bug,False
+752,Araquanid,68,70,92,50,132,42,454,1.8,82.0,Medium Fast,100.0,Sun,1,1,50.0,50.0,Non Legendary,Water,Bug,False
+753,Fomantis,40,55,35,50,35,35,250,0.3,1.5,Medium Fast,190.0,Sun,1,1,50.0,50.0,Non Legendary,Grass,,False
+754,Lurantis,70,105,90,80,90,45,480,0.9,18.5,Medium Fast,75.0,Sun,1,1,50.0,50.0,Non Legendary,Grass,,False
+755,Morelull,40,35,55,65,75,15,285,0.2,1.5,Medium Fast,190.0,Sun,1,1,50.0,50.0,Non Legendary,Grass,Fairy,False
+756,Shiinotic,60,45,80,90,100,30,405,1.0,11.5,Medium Fast,75.0,Sun,1,1,50.0,50.0,Non Legendary,Grass,Fairy,False
+757,Salandit,48,44,40,71,40,77,320,0.6,4.8,Medium Fast,120.0,Sun,1,1,12.5,87.5,Non Legendary,Poison,Fire,False
+758,Salazzle,68,64,60,111,60,117,480,1.2,22.2,Medium Fast,45.0,Sun,1,0,100.0,0.0,Non Legendary,Poison,Fire,False
+759,Stufful,70,75,50,45,50,50,340,0.5,6.8,Medium Fast,140.0,Sun,1,1,50.0,50.0,Non Legendary,Normal,Fighting,False
+760,Bewear,120,125,80,55,60,60,500,2.1,135.0,Medium Fast,70.0,Sun,1,1,50.0,50.0,Non Legendary,Normal,Fighting,False
+761,Bounsweet,42,30,38,30,38,32,210,0.3,3.2,Medium Slow,235.0,Sun,1,0,100.0,0.0,Non Legendary,Grass,,False
+762,Steenee,52,40,48,40,48,62,290,0.7,8.2,Medium Slow,120.0,Sun,1,0,100.0,0.0,Non Legendary,Grass,,False
+763,Tsareena,72,120,98,50,98,72,510,1.2,21.4,Medium Slow,45.0,Sun,1,0,100.0,0.0,Non Legendary,Grass,,False
+764,Comfey,51,52,90,82,110,100,485,0.1,0.3,Fast,60.0,Sun,1,1,75.0,25.0,Non Legendary,Fairy,,False
+765,Oranguru,90,60,80,90,110,60,490,1.5,76.0,Slow,45.0,Sun,1,1,50.0,50.0,Non Legendary,Normal,Psychic,False
+766,Passimian,100,120,90,40,60,80,490,2.0,82.8,Slow,45.0,Sun,1,1,50.0,50.0,Non Legendary,Fighting,,False
+767,Wimpod,25,35,40,20,30,80,230,0.5,12.0,Medium Fast,90.0,Sun,1,1,50.0,50.0,Non Legendary,Bug,Water,False
+768,Golisopod,75,125,140,60,90,40,530,2.0,108.0,Medium Fast,45.0,Sun,1,1,50.0,50.0,Non Legendary,Bug,Water,False
+769,Sandygast,55,55,80,70,45,15,320,0.5,70.0,Medium Fast,140.0,Sun,1,1,50.0,50.0,Non Legendary,Ghost,Ground,False
+770,Palossand,85,75,110,100,75,35,480,1.3,250.0,Medium Fast,60.0,Sun,1,1,50.0,50.0,Non Legendary,Ghost,Ground,False
+771,Pyukumuku,55,60,130,30,130,5,410,0.3,1.2,Fast,60.0,Sun,1,1,50.0,50.0,Non Legendary,Water,,False
+772,Type: Null,95,95,95,95,95,59,534,1.9,120.5,Slow,3.0,Sun,0,0,0.0,0.0,Semi-Legendary,Normal,,True
+773,Silvally,95,95,95,95,95,95,570,2.3,100.5,Slow,3.0,Sun,0,0,0.0,0.0,Semi-Legendary,Normal,,True
+774,Minior,60,60,100,60,100,60,440,0.3,40.0,Medium Slow,30.0,Sun,0,0,0.0,0.0,Non Legendary,Rock,Flying,True
+775,Komala,65,115,65,75,95,65,480,0.4,19.9,Slow,45.0,Sun,1,1,50.0,50.0,Non Legendary,Normal,,False
+776,Turtonator,60,78,135,91,85,36,485,2.0,212.0,Medium Fast,70.0,Sun,1,1,50.0,50.0,Non Legendary,Fire,Dragon,False
+777,Togedemaru,65,98,63,40,73,96,435,0.3,3.3,Medium Fast,180.0,Sun,1,1,50.0,50.0,Non Legendary,Electric,Steel,False
+778,Mimikyu,55,90,80,50,105,96,476,0.2,0.7,Medium Fast,45.0,Sun,1,1,50.0,50.0,Non Legendary,Ghost,Fairy,False
+779,Bruxish,68,105,70,70,70,92,475,0.9,19.0,Medium Fast,80.0,Sun,1,1,50.0,50.0,Non Legendary,Water,Psychic,False
+780,Drampa,78,60,85,135,91,36,485,3.0,185.0,Medium Fast,70.0,Sun,1,1,50.0,50.0,Non Legendary,Normal,Dragon,False
+781,Dhelmise,70,131,100,86,90,40,517,3.9,210.0,Medium Fast,25.0,Sun,0,0,0.0,0.0,Non Legendary,Ghost,Grass,True
+782,Jangmo-o,45,55,65,45,45,45,300,0.6,29.7,Slow,45.0,Sun,1,1,50.0,50.0,Non Legendary,Dragon,,False
+783,Hakamo-o,55,75,90,65,70,65,420,1.2,47.0,Slow,45.0,Sun,1,1,50.0,50.0,Non Legendary,Dragon,Fighting,False
+784,Kommo-o,75,110,125,100,105,85,600,1.6,78.2,Slow,45.0,Sun,1,1,50.0,50.0,Non Legendary,Dragon,Fighting,False
+785,Tapu Koko,70,115,85,95,75,130,570,1.8,20.5,Slow,3.0,Sun,0,0,0.0,0.0,Semi-Legendary,Electric,Fairy,True
+786,Tapu Lele,70,85,75,130,115,95,570,1.2,18.6,Slow,3.0,Sun,0,0,0.0,0.0,Semi-Legendary,Psychic,Fairy,True
+787,Tapu Bulu,70,130,115,85,95,75,570,1.9,45.5,Slow,3.0,Sun,0,0,0.0,0.0,Semi-Legendary,Grass,Fairy,True
+788,Tapu Fini,70,75,115,95,130,85,570,1.3,21.2,Slow,3.0,Sun,0,0,0.0,0.0,Semi-Legendary,Water,Fairy,True
+789,Cosmog,43,29,31,29,31,37,200,0.2,0.1,Slow,45.0,Sun,0,0,0.0,0.0,Legendary,Psychic,,True
+790,Cosmoem,43,29,131,29,131,37,400,0.1,999.9,Slow,45.0,Sun,0,0,0.0,0.0,Legendary,Psychic,,True
+791,Solgaleo,137,137,107,113,89,97,680,3.4,230.0,Slow,45.0,Sun,0,0,0.0,0.0,Legendary,Psychic,Steel,True
+792,Lunala,137,113,89,137,107,97,680,4.0,120.0,Slow,45.0,Sun,0,0,0.0,0.0,Legendary,Psychic,Ghost,True
+793,Nihilego,109,53,47,127,131,103,570,1.2,55.5,Slow,45.0,Sun,0,0,0.0,0.0,Semi-Legendary,Rock,Poison,True
+794,Buzzwole,107,139,139,53,53,79,570,2.4,333.6,Slow,45.0,Sun,0,0,0.0,0.0,Semi-Legendary,Bug,Fighting,True
+795,Pheromosa,71,137,37,137,37,151,570,1.8,25.0,Slow,45.0,Sun,0,0,0.0,0.0,Semi-Legendary,Bug,Fighting,True
+796,Xurkitree,83,89,71,173,71,83,570,3.8,100.0,Slow,45.0,Sun,0,0,0.0,0.0,Semi-Legendary,Electric,,True
+797,Celesteela,97,101,103,107,101,61,570,9.2,999.9,Slow,45.0,Sun,0,0,0.0,0.0,Semi-Legendary,Steel,Flying,True
+798,Kartana,59,181,131,59,31,109,570,0.3,0.1,Slow,45.0,Sun,0,0,0.0,0.0,Semi-Legendary,Grass,Steel,True
+799,Guzzlord,223,101,53,97,53,43,570,5.5,888.0,Slow,45.0,Sun,0,0,0.0,0.0,Semi-Legendary,Dark,Dragon,True
+800,Necrozma,97,107,101,127,89,79,600,2.4,230.0,Slow,255.0,Sun,0,0,0.0,0.0,Legendary,Psychic,,True
+801,Magearna,80,95,115,130,115,65,600,1.0,80.5,Slow,3.0,Sun,0,0,0.0,0.0,Mythical,Steel,Fairy,True
+802,Marshadow,90,125,80,90,90,125,600,0.7,22.2,Slow,3.0,Sun,0,0,0.0,0.0,Mythical,Fighting,Ghost,True
+803,Poipole,67,73,67,73,67,73,420,0.6,1.8,Slow,45.0,Ultra Sun,0,0,0.0,0.0,Semi-Legendary,Poison,,True
+804,Naganadel,73,73,73,127,73,121,540,3.6,150.0,Slow,45.0,Ultra Sun,0,0,0.0,0.0,Semi-Legendary,Poison,Dragon,True
+805,Stakataka,61,131,211,53,101,13,570,5.5,820.0,Slow,30.0,Ultra Sun,0,0,0.0,0.0,Semi-Legendary,Rock,Steel,True
+806,Blacephalon,53,127,53,151,79,107,570,1.8,13.0,Slow,30.0,Ultra Sun,0,0,0.0,0.0,Semi-Legendary,Fire,Ghost,True
+807,Zeraora,88,112,75,102,80,143,600,1.5,44.5,Slow,3.0,Ultra Sun,0,0,0.0,0.0,Mythical,Electric,,True
+808,Meltan,46,65,65,55,35,34,300,0.2,8.0,Slow,-1.0,Let's Go Pikachu,0,0,0.0,0.0,Mythical,Steel,,True
+809,Melmetal,135,143,143,80,65,34,600,2.5,800.0,Slow,-1.0,Let's Go Pikachu,0,0,0.0,0.0,Mythical,Steel,,True
+810,Grookey,50,65,50,40,40,65,310,0.3,5.0,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Grass,,True
+811,Thwackey,70,85,70,55,60,80,420,0.7,14.0,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Grass,,True
+812,Rillaboom,100,125,90,60,70,85,530,2.1,90.0,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Grass,,True
+813,Scorbunny,50,71,40,40,40,69,310,0.3,4.5,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Fire,,True
+814,Raboot,65,86,60,55,60,94,420,0.6,9.0,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Fire,,True
+815,Cinderace,80,116,75,65,75,119,530,1.4,33.0,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Fire,,True
+816,Sobble,50,40,40,70,40,70,310,0.3,4.0,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Water,,True
+817,Drizzile,65,60,55,95,55,90,420,0.7,11.5,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Water,,True
+818,Inteleon,70,85,65,125,65,120,530,1.9,45.2,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Water,,True
+819,Skwovet,70,55,55,35,35,25,275,0.3,2.5,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Normal,,True
+820,Greedent,120,95,95,55,75,20,460,0.6,6.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Normal,,True
+821,Rookidee,38,47,35,33,35,57,245,0.2,1.8,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Flying,,True
+822,Corvisquire,68,67,55,43,55,77,365,0.8,16.0,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Flying,,True
+823,Corviknight,98,87,105,53,85,67,495,2.2,75.0,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Flying,Steel,True
+824,Blipbug,25,20,20,25,45,45,180,0.4,8.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Bug,,True
+825,Dottler,50,35,80,50,90,30,335,0.4,19.5,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Bug,Psychic,True
+826,Orbeetle,60,45,110,80,120,90,505,0.4,40.8,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Bug,Psychic,True
+827,Nickit,40,28,28,47,52,50,245,0.6,8.9,Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Dark,,True
+828,Thievul,70,58,58,87,92,90,455,1.2,19.9,Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Dark,,True
+829,Gossifleur,40,40,60,40,60,10,250,0.4,2.2,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Grass,,True
+830,Eldegoss,60,50,90,80,120,60,460,0.5,2.5,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Grass,,True
+831,Wooloo,42,40,55,40,45,48,270,0.6,6.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Normal,,True
+832,Dubwool,72,80,100,60,90,88,490,1.3,43.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Normal,,True
+833,Chewtle,50,64,50,38,38,44,284,0.3,8.5,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Water,,True
+834,Drednaw,90,115,90,48,68,74,485,1.0,115.5,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Water,Rock,True
+835,Yamper,59,45,50,40,50,26,270,0.3,13.5,Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Electric,,True
+836,Boltund,69,90,60,90,60,121,490,1.0,34.0,Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Electric,,True
+837,Rolycoly,30,40,50,40,50,30,240,0.3,12.0,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Rock,,True
+838,Carkol,80,60,90,60,70,50,410,1.1,78.0,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Rock,Fire,True
+839,Coalossal,110,80,120,80,90,30,510,2.8,310.5,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Rock,Fire,True
+840,Applin,40,40,80,40,40,20,260,0.2,0.5,Erratic,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Grass,Dragon,True
+841,Flapple,70,110,80,95,60,70,485,0.3,1.0,Erratic,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Grass,Dragon,True
+842,Appletun,110,85,80,100,80,30,485,0.4,13.0,Erratic,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Grass,Dragon,True
+843,Silicobra,52,57,75,35,50,46,315,2.2,7.6,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Ground,,True
+844,Sandaconda,72,107,125,65,70,71,510,3.8,65.5,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Ground,,True
+845,Cramorant,70,85,55,85,95,85,475,0.8,18.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Flying,Water,True
+846,Arrokuda,41,63,40,40,30,66,280,0.5,1.0,Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Water,,True
+847,Barraskewda,61,123,60,60,50,136,490,1.3,30.0,Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Water,,True
+848,Toxel,40,38,35,54,35,40,242,0.4,11.0,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Electric,Poison,True
+849,Toxtricity,75,98,70,114,70,75,502,1.6,40.0,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Electric,Poison,True
+850,Sizzlipede,50,65,45,50,50,45,305,0.7,1.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Fire,Bug,True
+851,Centiskorch,100,115,65,90,90,65,525,3.0,120.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Fire,Bug,True
+852,Clobbopus,50,68,60,50,50,32,310,0.6,4.0,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Fighting,,True
+853,Grapploct,80,118,90,70,80,42,480,1.6,39.0,Medium Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Fighting,,True
+854,Sinistea,40,45,45,74,54,50,308,0.1,0.2,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Ghost,,True
+855,Polteageist,60,65,65,134,114,70,508,0.2,0.4,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Ghost,,True
+856,Hatenna,42,30,45,56,53,39,265,0.4,3.4,Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Psychic,,True
+857,Hattrem,57,40,65,86,73,49,370,0.6,4.8,Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Psychic,,True
+858,Hatterene,57,90,95,136,103,29,510,2.1,5.0,Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Psychic,Fairy,True
+859,Impidimp,45,45,30,55,40,50,265,0.4,5.5,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Dark,Fairy,True
+860,Morgrem,65,60,45,75,55,70,370,0.8,12.5,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Dark,Fairy,True
+861,Grimmsnarl,95,120,65,95,75,60,510,1.5,61.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Dark,Fairy,True
+862,Obstagoon,93,90,101,60,81,95,520,1.6,46.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Dark,Normal,True
+863,Perrserker,70,110,100,50,60,50,440,0.8,28.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Steel,,True
+864,Cursola,60,95,50,145,130,30,510,1.0,0.4,Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Ghost,,True
+865,Sirfetch'd,62,135,95,68,82,65,507,0.8,117.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Fighting,,True
+866,Mr. Rime,80,85,75,110,100,70,520,1.5,58.2,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Psychic,Ice,True
+867,Runerigus,58,95,145,50,105,30,483,1.6,66.6,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Ground,Ghost,True
+868,Milcery,45,40,40,50,61,34,270,0.2,0.3,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Fairy,,True
+869,Alcremie,65,60,75,110,121,64,495,0.3,0.5,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Fairy,,True
+870,Falinks,65,100,100,70,60,75,470,3.0,62.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Fighting,,True
+871,Pincurchin,48,101,95,91,85,15,435,0.3,1.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Electric,,True
+872,Snom,30,25,35,45,30,20,185,0.3,3.8,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Ice,Bug,True
+873,Frosmoth,70,65,60,125,90,65,475,1.3,42.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Ice,Bug,True
+874,Stonjourner,100,125,135,20,20,70,470,2.5,520.0,Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Rock,,True
+875,Eiscue,75,80,110,65,90,50,470,1.4,89.0,Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Ice,,True
+876,Indeedee,60,65,55,105,95,95,475,0.9,28.0,Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Psychic,Normal,True
+877,Morpeko,58,95,58,70,58,97,436,0.3,3.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Electric,Dark,True
+878,Cufant,72,80,49,40,49,40,330,1.2,100.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Steel,,True
+879,Copperajah,122,130,69,80,69,30,500,3.0,650.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Steel,,True
+880,Dracozolt,90,100,90,80,70,75,505,1.8,190.0,Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Electric,Dragon,True
+881,Arctozolt,90,100,90,90,80,55,505,2.3,150.0,Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Electric,Ice,True
+882,Dracovish,90,90,100,70,80,75,505,2.3,215.0,Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Water,Dragon,True
+883,Arctovish,90,90,100,80,90,55,505,2.0,175.0,Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Water,Ice,True
+884,Duraludon,70,95,115,120,50,85,535,1.8,40.0,Medium Fast,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Steel,Dragon,True
+885,Dreepy,28,60,30,40,30,82,270,0.5,2.0,Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Dragon,Ghost,True
+886,Drakloak,68,80,50,60,50,102,410,1.4,11.0,Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Dragon,Ghost,True
+887,Dragapult,88,120,75,100,75,142,600,3.0,50.0,Slow,-1.0,Sword,0,0,0.0,0.0,Non Legendary,Dragon,Ghost,True
+888,Zacian,92,170,115,80,115,148,720,2.8,355.0,Slow,-1.0,Sword,0,0,0.0,0.0,Legendary,Fairy,Steel,True
+889,Zamazenta,92,130,145,80,145,128,720,2.9,785.0,Slow,-1.0,Sword,0,0,0.0,0.0,Legendary,Fighting,Steel,True
+890,Eternatus,140,85,95,145,95,130,690,20.0,950.0,Slow,-1.0,Sword,0,0,0.0,0.0,Legendary,Poison,Dragon,True
+891,Kubfu,60,90,60,53,50,72,385,0.6,12.0,—,-1.0,Sword,0,0,0.0,0.0,Semi-Legendary,Fighting,,True
+892,Urshifu,100,130,100,63,60,97,550,1.9,105.0,—,-1.0,Sword,0,0,0.0,0.0,Semi-Legendary,Fighting,Dark,True
+893,Zarude,105,120,105,70,95,105,600,1.8,70.0,—,-1.0,Sword,0,0,0.0,0.0,Mythical,Dark,Grass,True
