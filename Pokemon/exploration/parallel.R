@@ -2,9 +2,9 @@ library(ggplot2)
 library(ggforce)
 library(dplyr)
 
-data <- read.csv("pokemon.csv")
+data <- read.csv("../csv/pokemon.csv")
 
-data <- data[c(13, 20, 21)]
+data <- data[c(12, 19, 20)]
 
 data <- data[!(data$Growthr=="â???""),]
 
