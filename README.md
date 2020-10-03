@@ -10,3 +10,8 @@ This project is about learning scrapy and analyzing a simple pokemon database us
    makes a Pokemon legendary. (Model Training)
 5. Use the extracted knowledge to train another model and use it for classification.
 6. Train a neural network to classify pokemon types based on a pokemon's picture (optional)
+
+
+# Authors
+This project is a collaboration of https://github.com/JunFiroz and https://github.com/paqui003.
+It's purpose is primary study related and shall be used to get a deeper understanding of the Data Science methodology.
