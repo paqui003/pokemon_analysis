@@ -1,0 +1,123 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1>None</h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 750;
+            height: 750;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+        #config {
+            float: left;
+            width: 400px;
+            height: 600px;
+        }
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<div id = "config"></div>
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"color": "#78C850", "id": "Grass", "label": "Grass", "shape": "circle", "title": " Neighbors:\u003cbr\u003ePoison\u003cbr\u003eFairy\u003cbr\u003eBug\u003cbr\u003eGhost", "value": 4}, {"color": "#F08030", "id": "Fire", "label": "Fire", "shape": "circle", "title": " Neighbors:\u003cbr\u003eIce\u003cbr\u003eFlying\u003cbr\u003eGhost\u003cbr\u003eFighting", "value": 4}, {"color": "#6890F0", "id": "Water", "label": "Water", "shape": "circle", "title": " Neighbors:\u003cbr\u003ePoison\u003cbr\u003eGround\u003cbr\u003eIce\u003cbr\u003eRock", "value": 4}, {"color": "#A8B820", "id": "Bug", "label": "Bug", "shape": "circle", "title": " Neighbors:\u003cbr\u003eRock\u003cbr\u003ePoison\u003cbr\u003eGrass\u003cbr\u003eElectric\u003cbr\u003eFlying", "value": 5}, {"color": "#A8A878", "id": "Normal", "label": "Normal", "shape": "circle", "title": " Neighbors:\u003cbr\u003ePsychic\u003cbr\u003eFairy\u003cbr\u003eDark\u003cbr\u003eFlying", "value": 4}, {"color": "#A040A0", "id": "Poison", "label": "Poison", "shape": "circle", "title": " Neighbors:\u003cbr\u003eGrass\u003cbr\u003eBug\u003cbr\u003eDark\u003cbr\u003eWater", "value": 4}, {"color": "#F8D030", "id": "Electric", "label": "Electric", "shape": "circle", "title": " Neighbors:\u003cbr\u003eSteel\u003cbr\u003eBug\u003cbr\u003eDragon\u003cbr\u003eFlying", "value": 4}, {"color": "#E0C068", "id": "Ground", "label": "Ground", "shape": "circle", "title": " Neighbors:\u003cbr\u003eIce\u003cbr\u003eGhost\u003cbr\u003eRock\u003cbr\u003eWater\u003cbr\u003eDragon", "value": 5}, {"color": "#EE99AC", "id": "Fairy", "label": "Fairy", "shape": "circle", "title": " Neighbors:\u003cbr\u003eGrass\u003cbr\u003ePsychic\u003cbr\u003eNormal\u003cbr\u003eSteel", "value": 4}, {"color": "#C03028", "id": "Fighting", "label": "Fighting", "shape": "circle", "title": " Neighbors:\u003cbr\u003eSteel\u003cbr\u003ePsychic\u003cbr\u003eDark\u003cbr\u003eFire", "value": 4}, {"color": "#F85888", "id": "Psychic", "label": "Psychic", "shape": "circle", "title": " Neighbors:\u003cbr\u003eSteel\u003cbr\u003eIce\u003cbr\u003eNormal\u003cbr\u003eFairy\u003cbr\u003eFighting\u003cbr\u003eFlying", "value": 6}, {"color": "#B8A038", "id": "Rock", "label": "Rock", "shape": "circle", "title": " Neighbors:\u003cbr\u003eSteel\u003cbr\u003eGround\u003cbr\u003eBug\u003cbr\u003eWater", "value": 4}, {"color": "#705898", "id": "Ghost", "label": "Ghost", "shape": "circle", "title": " Neighbors:\u003cbr\u003eGrass\u003cbr\u003eGround\u003cbr\u003eDragon\u003cbr\u003eFire", "value": 4}, {"color": "#98D8D8", "id": "Ice", "label": "Ice", "shape": "circle", "title": " Neighbors:\u003cbr\u003eGround\u003cbr\u003ePsychic\u003cbr\u003eFire\u003cbr\u003eWater", "value": 4}, {"color": "#7038F8", "id": "Dragon", "label": "Dragon", "shape": "circle", "title": " Neighbors:\u003cbr\u003eGhost\u003cbr\u003eElectric\u003cbr\u003eFlying\u003cbr\u003eGround\u003cbr\u003eDark", "value": 5}, {"color": "#705848", "id": "Dark", "label": "Dark", "shape": "circle", "title": " Neighbors:\u003cbr\u003ePoison\u003cbr\u003eDragon\u003cbr\u003eNormal\u003cbr\u003eFighting", "value": 4}, {"color": "#B8B8D0", "id": "Steel", "label": "Steel", "shape": "circle", "title": " Neighbors:\u003cbr\u003eRock\u003cbr\u003ePsychic\u003cbr\u003eFairy\u003cbr\u003eElectric\u003cbr\u003eFighting", "value": 5}, {"color": "#A890F0", "id": "Flying", "label": "Flying", "shape": "circle", "title": " Neighbors:\u003cbr\u003eNormal\u003cbr\u003eDragon\u003cbr\u003ePsychic\u003cbr\u003eElectric\u003cbr\u003eBug\u003cbr\u003eFire", "value": 6}]);
+        edges = new vis.DataSet([{"from": "Grass", "to": "Poison", "value": 0.4653846153846154, "weight": 4.653846153846154, "width": 4.653846153846154}, {"from": "Grass", "to": "Ghost", "value": 0.24615384615384617, "weight": 2.4615384615384617, "width": 2.4615384615384617}, {"from": "Grass", "to": "Fairy", "value": 0.20850202429149797, "weight": 2.08502024291498, "width": 2.08502024291498}, {"from": "Grass", "to": "Bug", "value": 0.18321678321678322, "weight": 1.8321678321678323, "width": 1.8321678321678323}, {"from": "Fire", "to": "Fighting", "value": 0.2971014492753623, "weight": 2.971014492753623, "width": 2.971014492753623}, {"from": "Fire", "to": "Flying", "value": 0.18984072320275505, "weight": 1.8984072320275505, "width": 1.8984072320275505}, {"from": "Fire", "to": "Ghost", "value": 0.189520624303233, "weight": 1.89520624303233, "width": 1.89520624303233}, {"from": "Fire", "to": "Ice", "value": 0.15896739130434784, "weight": 1.5896739130434785, "width": 1.5896739130434785}, {"from": "Water", "to": "Rock", "value": 0.3601871101871102, "weight": 3.601871101871102, "width": 3.601871101871102}, {"from": "Water", "to": "Ice", "value": 0.3133445945945946, "weight": 3.1334459459459465, "width": 3.1334459459459465}, {"from": "Water", "to": "Ground", "value": 0.2795163584637269, "weight": 2.795163584637269, "width": 2.795163584637269}, {"from": "Water", "to": "Poison", "value": 0.18822393822393824, "weight": 1.8822393822393824, "width": 1.8822393822393824}, {"from": "Bug", "to": "Poison", "value": 0.39610389610389607, "weight": 3.9610389610389607, "width": 3.9610389610389607}, {"from": "Bug", "to": "Flying", "value": 0.3507350735073508, "weight": 3.5073507350735076, "width": 3.5073507350735076}, {"from": "Bug", "to": "Electric", "value": 0.20875420875420875, "weight": 2.0875420875420874, "width": 2.0875420875420874}, {"from": "Normal", "to": "Flying", "value": 0.7301530153015301, "weight": 7.301530153015301, "width": 7.301530153015301}, {"from": "Normal", "to": "Dark", "value": 0.2618881118881119, "weight": 2.618881118881119, "width": 2.618881118881119}, {"from": "Normal", "to": "Fairy", "value": 0.22248803827751196, "weight": 2.22488038277512, "width": 2.22488038277512}, {"from": "Normal", "to": "Psychic", "value": 0.14415584415584415, "weight": 1.4415584415584415, "width": 1.4415584415584415}, {"from": "Poison", "to": "Dark", "value": 0.18543956043956045, "weight": 1.8543956043956045, "width": 1.8543956043956045}, {"from": "Electric", "to": "Steel", "value": 0.2297808012093726, "weight": 2.297808012093726, "width": 2.297808012093726}, {"from": "Electric", "to": "Dragon", "value": 0.17777777777777776, "weight": 1.7777777777777777, "width": 1.7777777777777777}, {"from": "Electric", "to": "Flying", "value": 0.1408140814081408, "weight": 1.408140814081408, "width": 1.408140814081408}, {"from": "Ground", "to": "Rock", "value": 0.3309716599190283, "weight": 3.309716599190283, "width": 3.309716599190283}, {"from": "Ground", "to": "Ghost", "value": 0.2591093117408907, "weight": 2.591093117408907, "width": 2.591093117408907}, {"from": "Ground", "to": "Ice", "value": 0.24396929824561403, "weight": 2.4396929824561404, "width": 2.4396929824561404}, {"from": "Fairy", "to": "Psychic", "value": 0.3092105263157895, "weight": 3.0921052631578947, "width": 3.0921052631578947}, {"from": "Fairy", "to": "Steel", "value": 0.1868958109559613, "weight": 1.868958109559613, "width": 1.868958109559613}, {"from": "Fighting", "to": "Dark", "value": 0.18803418803418803, "weight": 1.8803418803418803, "width": 1.8803418803418803}, {"from": "Fighting", "to": "Psychic", "value": 0.18253968253968253, "weight": 1.8253968253968254, "width": 1.8253968253968254}, {"from": "Fighting", "to": "Steel", "value": 0.1445578231292517, "weight": 1.445578231292517, "width": 1.445578231292517}, {"from": "Psychic", "to": "Steel", "value": 0.26785714285714285, "weight": 2.6785714285714284, "width": 2.6785714285714284}, {"from": "Psychic", "to": "Flying", "value": 0.16654879773691655, "weight": 1.6654879773691655, "width": 1.6654879773691655}, {"from": "Rock", "to": "Steel", "value": 0.2774725274725275, "weight": 2.7747252747252746, "width": 2.7747252747252746}, {"from": "Rock", "to": "Bug", "value": 0.17191142191142192, "weight": 1.7191142191142192, "width": 1.7191142191142192}, {"from": "Ghost", "to": "Dragon", "value": 0.19145299145299144, "weight": 1.9145299145299144, "width": 1.9145299145299144}, {"from": "Ice", "to": "Psychic", "value": 0.14732142857142858, "weight": 1.4732142857142858, "width": 1.4732142857142858}, {"from": "Dragon", "to": "Ground", "value": 0.23859649122807017, "weight": 2.3859649122807016, "width": 2.3859649122807016}, {"from": "Dragon", "to": "Flying", "value": 0.19273927392739273, "weight": 1.9273927392739274, "width": 1.9273927392739274}, {"from": "Dark", "to": "Dragon", "value": 0.16581196581196583, "weight": 1.6581196581196584, "width": 1.6581196581196584}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+        // if this network requires displaying the configure window,
+        // put it in its div
+        options.configure["container"] = document.getElementById("config");
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>

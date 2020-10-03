@@ -142,9 +142,9 @@ Dex,Name,Hp,Atk,Def,Satk,Sdef,Spd,Total,Height,Weight,Growthr,Catchr,Gen,Female,
 141,Kabutops,60,115,105,65,70,80,495,1.3,40.5,Medium Fast,45.0,Red,1,1,12.5,87.5,Non Legendary,Rock,Water,False,Non Legendary
 142,Aerodactyl,80,105,65,60,75,130,515,1.8,59.0,Slow,45.0,Red,1,1,12.5,87.5,Non Legendary,Rock,Flying,False,Non Legendary
 143,Snorlax,160,110,65,65,110,30,540,2.1,460.0,Slow,25.0,Red,1,1,12.5,87.5,Non Legendary,Normal,None,False,Non Legendary
-144,Articuno,90,85,100,95,125,85,580,1.7,55.4,Slow,3.0,Red,0,0,0.0,0.0,Semi-Legendary,Ice,Flying,True,Legendary
-145,Zapdos,90,90,85,125,90,100,580,1.6,52.6,Slow,3.0,Red,0,0,0.0,0.0,Semi-Legendary,Electric,Flying,True,Legendary
-146,Moltres,90,100,90,125,85,90,580,2.0,60.0,Slow,3.0,Red,0,0,0.0,0.0,Semi-Legendary,Fire,Flying,True,Legendary
+144,Articuno,90,85,100,95,125,85,580,1.7,55.4,Slow,3.0,Red,0,0,0.0,0.0,Sub Legendary,Ice,Flying,True,Legendary
+145,Zapdos,90,90,85,125,90,100,580,1.6,52.6,Slow,3.0,Red,0,0,0.0,0.0,Sub Legendary,Electric,Flying,True,Legendary
+146,Moltres,90,100,90,125,85,90,580,2.0,60.0,Slow,3.0,Red,0,0,0.0,0.0,Sub Legendary,Fire,Flying,True,Legendary
 147,Dratini,41,64,45,50,50,50,300,1.8,3.3,Slow,45.0,Red,1,1,50.0,50.0,Non Legendary,Dragon,None,False,Non Legendary
 148,Dragonair,61,84,65,70,70,70,420,4.0,16.5,Slow,45.0,Red,1,1,50.0,50.0,Non Legendary,Dragon,None,False,Non Legendary
 149,Dragonite,91,134,95,100,100,80,600,2.2,210.0,Slow,45.0,Red,1,1,50.0,50.0,Non Legendary,Dragon,Flying,False,Non Legendary
@@ -241,9 +241,9 @@ Dex,Name,Hp,Atk,Def,Satk,Sdef,Spd,Total,Height,Weight,Growthr,Catchr,Gen,Female,
 240,Magby,45,75,37,70,55,83,365,0.7,21.4,Medium Fast,45.0,Gold,1,1,25.0,75.0,Non Legendary,Fire,None,False,Non Legendary
 241,Miltank,95,80,105,40,70,100,490,1.2,75.5,Slow,45.0,Gold,1,0,100.0,0.0,Non Legendary,Normal,None,False,Non Legendary
 242,Blissey,255,10,10,75,135,55,540,1.5,46.8,Fast,30.0,Gold,1,0,100.0,0.0,Non Legendary,Normal,None,False,Non Legendary
-243,Raikou,90,85,75,115,100,115,580,1.9,178.0,Slow,3.0,Gold,0,0,0.0,0.0,Semi-Legendary,Electric,None,True,Legendary
-244,Entei,115,115,85,90,75,100,580,2.1,198.0,Slow,3.0,Gold,0,0,0.0,0.0,Semi-Legendary,Fire,None,True,Legendary
-245,Suicune,100,75,115,90,115,85,580,2.0,187.0,Slow,3.0,Gold,0,0,0.0,0.0,Semi-Legendary,Water,None,True,Legendary
+243,Raikou,90,85,75,115,100,115,580,1.9,178.0,Slow,3.0,Gold,0,0,0.0,0.0,Sub Legendary,Electric,None,True,Legendary
+244,Entei,115,115,85,90,75,100,580,2.1,198.0,Slow,3.0,Gold,0,0,0.0,0.0,Sub Legendary,Fire,None,True,Legendary
+245,Suicune,100,75,115,90,115,85,580,2.0,187.0,Slow,3.0,Gold,0,0,0.0,0.0,Sub Legendary,Water,None,True,Legendary
 246,Larvitar,50,64,50,45,50,41,300,0.6,72.0,Slow,45.0,Gold,1,1,50.0,50.0,Non Legendary,Rock,Ground,False,Non Legendary
 247,Pupitar,70,84,70,65,70,51,410,1.2,152.0,Slow,45.0,Gold,1,1,50.0,50.0,Non Legendary,Rock,Ground,False,Non Legendary
 248,Tyranitar,100,134,110,95,100,61,600,2.0,202.0,Slow,45.0,Gold,1,1,50.0,50.0,Non Legendary,Rock,Dark,False,Non Legendary
@@ -375,11 +375,11 @@ Dex,Name,Hp,Atk,Def,Satk,Sdef,Spd,Total,Height,Weight,Growthr,Catchr,Gen,Female,
 374,Beldum,40,55,80,35,60,30,300,0.6,95.2,Slow,3.0,Ruby,0,0,0.0,0.0,Non Legendary,Steel,Psychic,True,Non Legendary
 375,Metang,60,75,100,55,80,50,420,1.2,202.5,Slow,3.0,Ruby,0,0,0.0,0.0,Non Legendary,Steel,Psychic,True,Non Legendary
 376,Metagross,80,135,130,95,90,70,600,1.6,550.0,Slow,3.0,Ruby,0,0,0.0,0.0,Non Legendary,Steel,Psychic,True,Non Legendary
-377,Regirock,80,100,200,50,100,50,580,1.7,230.0,Slow,3.0,Ruby,0,0,0.0,0.0,Semi-Legendary,Rock,None,True,Legendary
-378,Regice,80,50,100,100,200,50,580,1.8,175.0,Slow,3.0,Ruby,0,0,0.0,0.0,Semi-Legendary,Ice,None,True,Legendary
-379,Registeel,80,75,150,75,150,50,580,1.9,205.0,Slow,3.0,Ruby,0,0,0.0,0.0,Semi-Legendary,Steel,None,True,Legendary
-380,Latias,80,80,90,110,130,110,600,1.4,40.0,Slow,3.0,Ruby,1,0,100.0,0.0,Semi-Legendary,Dragon,Psychic,False,Legendary
-381,Latios,80,90,80,130,110,110,600,2.0,60.0,Slow,3.0,Ruby,0,1,0.0,100.0,Semi-Legendary,Dragon,Psychic,False,Legendary
+377,Regirock,80,100,200,50,100,50,580,1.7,230.0,Slow,3.0,Ruby,0,0,0.0,0.0,Sub Legendary,Rock,None,True,Legendary
+378,Regice,80,50,100,100,200,50,580,1.8,175.0,Slow,3.0,Ruby,0,0,0.0,0.0,Sub Legendary,Ice,None,True,Legendary
+379,Registeel,80,75,150,75,150,50,580,1.9,205.0,Slow,3.0,Ruby,0,0,0.0,0.0,Sub Legendary,Steel,None,True,Legendary
+380,Latias,80,80,90,110,130,110,600,1.4,40.0,Slow,3.0,Ruby,1,0,100.0,0.0,Sub Legendary,Dragon,Psychic,False,Legendary
+381,Latios,80,90,80,130,110,110,600,2.0,60.0,Slow,3.0,Ruby,0,1,0.0,100.0,Sub Legendary,Dragon,Psychic,False,Legendary
 382,Kyogre,100,100,90,150,140,90,670,4.5,352.0,Slow,3.0,Ruby,0,0,0.0,0.0,Legendary,Water,None,True,Legendary
 383,Groudon,100,150,140,100,90,90,670,3.5,950.0,Slow,3.0,Ruby,0,0,0.0,0.0,Legendary,Ground,Fire,True,Legendary
 384,Rayquaza,105,150,90,150,90,95,680,7.0,206.5,Slow,45.0,Ruby,0,0,0.0,0.0,Legendary,Dragon,Flying,True,Legendary
@@ -478,15 +478,15 @@ Dex,Name,Hp,Atk,Def,Satk,Sdef,Spd,Total,Height,Weight,Growthr,Catchr,Gen,Female,
 477,Dusknoir,45,100,135,65,135,45,525,2.2,106.6,Fast,45.0,Diamond,1,1,50.0,50.0,Non Legendary,Ghost,None,False,Non Legendary
 478,Froslass,70,80,70,80,70,110,480,1.3,26.6,Medium Fast,75.0,Diamond,1,0,100.0,0.0,Non Legendary,Ice,Ghost,False,Non Legendary
 479,Rotom,50,50,77,95,77,91,440,0.3,0.3,Medium Fast,45.0,Diamond,0,0,0.0,0.0,Non Legendary,Electric,Ghost,True,Non Legendary
-480,Uxie,75,75,130,75,130,95,580,0.3,0.3,Slow,3.0,Diamond,0,0,0.0,0.0,Semi-Legendary,Psychic,None,True,Legendary
-481,Mesprit,80,105,105,105,105,80,580,0.3,0.3,Slow,3.0,Diamond,0,0,0.0,0.0,Semi-Legendary,Psychic,None,True,Legendary
-482,Azelf,75,125,70,125,70,115,580,0.3,0.3,Slow,3.0,Diamond,0,0,0.0,0.0,Semi-Legendary,Psychic,None,True,Legendary
+480,Uxie,75,75,130,75,130,95,580,0.3,0.3,Slow,3.0,Diamond,0,0,0.0,0.0,Sub Legendary,Psychic,None,True,Legendary
+481,Mesprit,80,105,105,105,105,80,580,0.3,0.3,Slow,3.0,Diamond,0,0,0.0,0.0,Sub Legendary,Psychic,None,True,Legendary
+482,Azelf,75,125,70,125,70,115,580,0.3,0.3,Slow,3.0,Diamond,0,0,0.0,0.0,Sub Legendary,Psychic,None,True,Legendary
 483,Dialga,100,120,120,150,100,90,680,5.4,683.0,Slow,3.0,Diamond,0,0,0.0,0.0,Legendary,Steel,Dragon,True,Legendary
 484,Palkia,90,120,100,150,120,100,680,4.2,336.0,Slow,3.0,Diamond,0,0,0.0,0.0,Legendary,Water,Dragon,True,Legendary
-485,Heatran,91,90,106,130,106,77,600,1.7,430.0,Slow,3.0,Diamond,1,1,50.0,50.0,Semi-Legendary,Fire,Steel,False,Legendary
-486,Regigigas,110,160,110,80,110,100,670,3.7,420.0,Slow,3.0,Diamond,0,0,0.0,0.0,Semi-Legendary,Normal,None,True,Legendary
+485,Heatran,91,90,106,130,106,77,600,1.7,430.0,Slow,3.0,Diamond,1,1,50.0,50.0,Sub Legendary,Fire,Steel,False,Legendary
+486,Regigigas,110,160,110,80,110,100,670,3.7,420.0,Slow,3.0,Diamond,0,0,0.0,0.0,Sub Legendary,Normal,None,True,Legendary
 487,Giratina,150,100,120,100,120,90,680,4.5,750.0,Slow,3.0,Diamond,0,0,0.0,0.0,Legendary,Ghost,Dragon,True,Legendary
-488,Cresselia,120,70,120,75,130,85,600,1.5,85.6,Slow,3.0,Diamond,1,0,100.0,0.0,Semi-Legendary,Psychic,None,False,Legendary
+488,Cresselia,120,70,120,75,130,85,600,1.5,85.6,Slow,3.0,Diamond,1,0,100.0,0.0,Sub Legendary,Psychic,None,False,Legendary
 489,Phione,80,80,80,80,80,80,480,0.4,3.1,Slow,30.0,Diamond,0,0,0.0,0.0,Mythical,Water,None,True,Legendary
 490,Manaphy,100,100,100,100,100,100,600,0.3,1.4,Slow,3.0,Diamond,0,0,0.0,0.0,Mythical,Water,None,True,Legendary
 491,Darkrai,70,90,90,135,90,125,600,1.5,50.5,Slow,3.0,Diamond,0,0,0.0,0.0,Mythical,Dark,None,True,Legendary
@@ -636,14 +636,14 @@ Dex,Name,Hp,Atk,Def,Satk,Sdef,Spd,Total,Height,Weight,Growthr,Catchr,Gen,Female,
 635,Hydreigon,92,105,90,125,90,98,600,1.8,160.0,Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Dark,Dragon,False,Non Legendary
 636,Larvesta,55,85,55,50,55,60,360,1.1,28.8,Slow,45.0,Black,1,1,50.0,50.0,Non Legendary,Bug,Fire,False,Non Legendary
 637,Volcarona,85,60,65,135,105,100,550,1.6,46.0,Slow,15.0,Black,1,1,50.0,50.0,Non Legendary,Bug,Fire,False,Non Legendary
-638,Cobalion,91,90,129,90,72,108,580,2.1,250.0,Slow,3.0,Black,0,0,0.0,0.0,Semi-Legendary,Steel,Fighting,True,Legendary
-639,Terrakion,91,129,90,72,90,108,580,1.9,260.0,Slow,3.0,Black,0,0,0.0,0.0,Semi-Legendary,Rock,Fighting,True,Legendary
-640,Virizion,91,90,72,90,129,108,580,2.0,200.0,Slow,3.0,Black,0,0,0.0,0.0,Semi-Legendary,Grass,Fighting,True,Legendary
-641,Tornadus,79,115,70,125,80,111,580,1.5,63.0,Slow,3.0,Black,0,1,0.0,100.0,Semi-Legendary,Flying,None,False,Legendary
-642,Thundurus,79,115,70,125,80,111,580,1.5,61.0,Slow,3.0,Black,0,1,0.0,100.0,Semi-Legendary,Electric,Flying,False,Legendary
+638,Cobalion,91,90,129,90,72,108,580,2.1,250.0,Slow,3.0,Black,0,0,0.0,0.0,Sub Legendary,Steel,Fighting,True,Legendary
+639,Terrakion,91,129,90,72,90,108,580,1.9,260.0,Slow,3.0,Black,0,0,0.0,0.0,Sub Legendary,Rock,Fighting,True,Legendary
+640,Virizion,91,90,72,90,129,108,580,2.0,200.0,Slow,3.0,Black,0,0,0.0,0.0,Sub Legendary,Grass,Fighting,True,Legendary
+641,Tornadus,79,115,70,125,80,111,580,1.5,63.0,Slow,3.0,Black,0,1,0.0,100.0,Sub Legendary,Flying,None,False,Legendary
+642,Thundurus,79,115,70,125,80,111,580,1.5,61.0,Slow,3.0,Black,0,1,0.0,100.0,Sub Legendary,Electric,Flying,False,Legendary
 643,Reshiram,100,120,100,150,120,90,680,3.2,330.0,Slow,3.0,Black,0,0,0.0,0.0,Legendary,Dragon,Fire,True,Legendary
 644,Zekrom,100,150,120,120,100,90,680,2.9,345.0,Slow,3.0,Black,0,0,0.0,0.0,Legendary,Dragon,Electric,True,Legendary
-645,Landorus,89,125,90,115,80,101,600,1.5,68.0,Slow,3.0,Black,0,1,0.0,100.0,Semi-Legendary,Ground,Flying,False,Legendary
+645,Landorus,89,125,90,115,80,101,600,1.5,68.0,Slow,3.0,Black,0,1,0.0,100.0,Sub Legendary,Ground,Flying,False,Legendary
 646,Kyurem,125,130,90,130,90,95,660,3.0,325.0,Slow,3.0,Black,0,0,0.0,0.0,Legendary,Dragon,Ice,True,Legendary
 647,Keldeo,91,72,90,129,90,108,580,1.4,48.5,Slow,3.0,Black,0,0,0.0,0.0,Mythical,Water,Fighting,True,Legendary
 648,Meloetta,100,77,77,128,128,90,600,0.6,6.5,Slow,3.0,Black,0,0,0.0,0.0,Mythical,Normal,Psychic,True,Legendary
@@ -770,8 +770,8 @@ Dex,Name,Hp,Atk,Def,Satk,Sdef,Spd,Total,Height,Weight,Growthr,Catchr,Gen,Female,
 769,Sandygast,55,55,80,70,45,15,320,0.5,70.0,Medium Fast,140.0,Sun,1,1,50.0,50.0,Non Legendary,Ghost,Ground,False,Non Legendary
 770,Palossand,85,75,110,100,75,35,480,1.3,250.0,Medium Fast,60.0,Sun,1,1,50.0,50.0,Non Legendary,Ghost,Ground,False,Non Legendary
 771,Pyukumuku,55,60,130,30,130,5,410,0.3,1.2,Fast,60.0,Sun,1,1,50.0,50.0,Non Legendary,Water,None,False,Non Legendary
-772,Type: Null,95,95,95,95,95,59,534,1.9,120.5,Slow,3.0,Sun,0,0,0.0,0.0,Semi-Legendary,Normal,None,True,Legendary
-773,Silvally,95,95,95,95,95,95,570,2.3,100.5,Slow,3.0,Sun,0,0,0.0,0.0,Semi-Legendary,Normal,None,True,Legendary
+772,Type: Null,95,95,95,95,95,59,534,1.9,120.5,Slow,3.0,Sun,0,0,0.0,0.0,Sub Legendary,Normal,None,True,Legendary
+773,Silvally,95,95,95,95,95,95,570,2.3,100.5,Slow,3.0,Sun,0,0,0.0,0.0,Sub Legendary,Normal,None,True,Legendary
 774,Minior,60,60,100,60,100,60,440,0.3,40.0,Medium Slow,30.0,Sun,0,0,0.0,0.0,Non Legendary,Rock,Flying,True,Non Legendary
 775,Komala,65,115,65,75,95,65,480,0.4,19.9,Slow,45.0,Sun,1,1,50.0,50.0,Non Legendary,Normal,None,False,Non Legendary
 776,Turtonator,60,78,135,91,85,36,485,2.0,212.0,Medium Fast,70.0,Sun,1,1,50.0,50.0,Non Legendary,Fire,Dragon,False,Non Legendary
@@ -783,28 +783,28 @@ Dex,Name,Hp,Atk,Def,Satk,Sdef,Spd,Total,Height,Weight,Growthr,Catchr,Gen,Female,
 782,Jangmo-o,45,55,65,45,45,45,300,0.6,29.7,Slow,45.0,Sun,1,1,50.0,50.0,Non Legendary,Dragon,None,False,Non Legendary
 783,Hakamo-o,55,75,90,65,70,65,420,1.2,47.0,Slow,45.0,Sun,1,1,50.0,50.0,Non Legendary,Dragon,Fighting,False,Non Legendary
 784,Kommo-o,75,110,125,100,105,85,600,1.6,78.2,Slow,45.0,Sun,1,1,50.0,50.0,Non Legendary,Dragon,Fighting,False,Non Legendary
-785,Tapu Koko,70,115,85,95,75,130,570,1.8,20.5,Slow,3.0,Sun,0,0,0.0,0.0,Semi-Legendary,Electric,Fairy,True,Legendary
-786,Tapu Lele,70,85,75,130,115,95,570,1.2,18.6,Slow,3.0,Sun,0,0,0.0,0.0,Semi-Legendary,Psychic,Fairy,True,Legendary
-787,Tapu Bulu,70,130,115,85,95,75,570,1.9,45.5,Slow,3.0,Sun,0,0,0.0,0.0,Semi-Legendary,Grass,Fairy,True,Legendary
-788,Tapu Fini,70,75,115,95,130,85,570,1.3,21.2,Slow,3.0,Sun,0,0,0.0,0.0,Semi-Legendary,Water,Fairy,True,Legendary
+785,Tapu Koko,70,115,85,95,75,130,570,1.8,20.5,Slow,3.0,Sun,0,0,0.0,0.0,Sub Legendary,Electric,Fairy,True,Legendary
+786,Tapu Lele,70,85,75,130,115,95,570,1.2,18.6,Slow,3.0,Sun,0,0,0.0,0.0,Sub Legendary,Psychic,Fairy,True,Legendary
+787,Tapu Bulu,70,130,115,85,95,75,570,1.9,45.5,Slow,3.0,Sun,0,0,0.0,0.0,Sub Legendary,Grass,Fairy,True,Legendary
+788,Tapu Fini,70,75,115,95,130,85,570,1.3,21.2,Slow,3.0,Sun,0,0,0.0,0.0,Sub Legendary,Water,Fairy,True,Legendary
 789,Cosmog,43,29,31,29,31,37,200,0.2,0.1,Slow,45.0,Sun,0,0,0.0,0.0,Legendary,Psychic,None,True,Legendary
 790,Cosmoem,43,29,131,29,131,37,400,0.1,999.9,Slow,45.0,Sun,0,0,0.0,0.0,Legendary,Psychic,None,True,Legendary
 791,Solgaleo,137,137,107,113,89,97,680,3.4,230.0,Slow,45.0,Sun,0,0,0.0,0.0,Legendary,Psychic,Steel,True,Legendary
 792,Lunala,137,113,89,137,107,97,680,4.0,120.0,Slow,45.0,Sun,0,0,0.0,0.0,Legendary,Psychic,Ghost,True,Legendary
-793,Nihilego,109,53,47,127,131,103,570,1.2,55.5,Slow,45.0,Sun,0,0,0.0,0.0,Semi-Legendary,Rock,Poison,True,Legendary
-794,Buzzwole,107,139,139,53,53,79,570,2.4,333.6,Slow,45.0,Sun,0,0,0.0,0.0,Semi-Legendary,Bug,Fighting,True,Legendary
-795,Pheromosa,71,137,37,137,37,151,570,1.8,25.0,Slow,45.0,Sun,0,0,0.0,0.0,Semi-Legendary,Bug,Fighting,True,Legendary
-796,Xurkitree,83,89,71,173,71,83,570,3.8,100.0,Slow,45.0,Sun,0,0,0.0,0.0,Semi-Legendary,Electric,None,True,Legendary
-797,Celesteela,97,101,103,107,101,61,570,9.2,999.9,Slow,45.0,Sun,0,0,0.0,0.0,Semi-Legendary,Steel,Flying,True,Legendary
-798,Kartana,59,181,131,59,31,109,570,0.3,0.1,Slow,45.0,Sun,0,0,0.0,0.0,Semi-Legendary,Grass,Steel,True,Legendary
-799,Guzzlord,223,101,53,97,53,43,570,5.5,888.0,Slow,45.0,Sun,0,0,0.0,0.0,Semi-Legendary,Dark,Dragon,True,Legendary
+793,Nihilego,109,53,47,127,131,103,570,1.2,55.5,Slow,45.0,Sun,0,0,0.0,0.0,Sub Legendary,Rock,Poison,True,Legendary
+794,Buzzwole,107,139,139,53,53,79,570,2.4,333.6,Slow,45.0,Sun,0,0,0.0,0.0,Sub Legendary,Bug,Fighting,True,Legendary
+795,Pheromosa,71,137,37,137,37,151,570,1.8,25.0,Slow,45.0,Sun,0,0,0.0,0.0,Sub Legendary,Bug,Fighting,True,Legendary
+796,Xurkitree,83,89,71,173,71,83,570,3.8,100.0,Slow,45.0,Sun,0,0,0.0,0.0,Sub Legendary,Electric,None,True,Legendary
+797,Celesteela,97,101,103,107,101,61,570,9.2,999.9,Slow,45.0,Sun,0,0,0.0,0.0,Sub Legendary,Steel,Flying,True,Legendary
+798,Kartana,59,181,131,59,31,109,570,0.3,0.1,Slow,45.0,Sun,0,0,0.0,0.0,Sub Legendary,Grass,Steel,True,Legendary
+799,Guzzlord,223,101,53,97,53,43,570,5.5,888.0,Slow,45.0,Sun,0,0,0.0,0.0,Sub Legendary,Dark,Dragon,True,Legendary
 800,Necrozma,97,107,101,127,89,79,600,2.4,230.0,Slow,255.0,Sun,0,0,0.0,0.0,Legendary,Psychic,None,True,Legendary
 801,Magearna,80,95,115,130,115,65,600,1.0,80.5,Slow,3.0,Sun,0,0,0.0,0.0,Mythical,Steel,Fairy,True,Legendary
 802,Marshadow,90,125,80,90,90,125,600,0.7,22.2,Slow,3.0,Sun,0,0,0.0,0.0,Mythical,Fighting,Ghost,True,Legendary
-803,Poipole,67,73,67,73,67,73,420,0.6,1.8,Slow,45.0,Ultra Sun,0,0,0.0,0.0,Semi-Legendary,Poison,None,True,Legendary
-804,Naganadel,73,73,73,127,73,121,540,3.6,150.0,Slow,45.0,Ultra Sun,0,0,0.0,0.0,Semi-Legendary,Poison,Dragon,True,Legendary
-805,Stakataka,61,131,211,53,101,13,570,5.5,820.0,Slow,30.0,Ultra Sun,0,0,0.0,0.0,Semi-Legendary,Rock,Steel,True,Legendary
-806,Blacephalon,53,127,53,151,79,107,570,1.8,13.0,Slow,30.0,Ultra Sun,0,0,0.0,0.0,Semi-Legendary,Fire,Ghost,True,Legendary
+803,Poipole,67,73,67,73,67,73,420,0.6,1.8,Slow,45.0,Ultra Sun,0,0,0.0,0.0,Sub Legendary,Poison,None,True,Legendary
+804,Naganadel,73,73,73,127,73,121,540,3.6,150.0,Slow,45.0,Ultra Sun,0,0,0.0,0.0,Sub Legendary,Poison,Dragon,True,Legendary
+805,Stakataka,61,131,211,53,101,13,570,5.5,820.0,Slow,30.0,Ultra Sun,0,0,0.0,0.0,Sub Legendary,Rock,Steel,True,Legendary
+806,Blacephalon,53,127,53,151,79,107,570,1.8,13.0,Slow,30.0,Ultra Sun,0,0,0.0,0.0,Sub Legendary,Fire,Ghost,True,Legendary
 807,Zeraora,88,112,75,102,80,143,600,1.5,44.5,Slow,3.0,Ultra Sun,0,0,0.0,0.0,Mythical,Electric,None,True,Legendary
 808,Meltan,46,65,65,55,35,34,300,0.2,8.0,Slow,-1.0,Let's Go Pikachu,0,0,0.0,0.0,Mythical,Steel,None,True,Legendary
 809,Melmetal,135,143,143,80,65,34,600,2.5,800.0,Slow,-1.0,Let's Go Pikachu,0,0,0.0,0.0,Mythical,Steel,None,True,Legendary
@@ -889,6 +889,6 @@ Dex,Name,Hp,Atk,Def,Satk,Sdef,Spd,Total,Height,Weight,Growthr,Catchr,Gen,Female,
 888,Zacian,92,170,115,80,115,148,720,2.8,355.0,Slow,-1.0,Sword,0,0,0.0,0.0,Legendary,Fairy,Steel,True,Legendary
 889,Zamazenta,92,130,145,80,145,128,720,2.9,785.0,Slow,-1.0,Sword,0,0,0.0,0.0,Legendary,Fighting,Steel,True,Legendary
 890,Eternatus,140,85,95,145,95,130,690,20.0,950.0,Slow,-1.0,Sword,0,0,0.0,0.0,Legendary,Poison,Dragon,True,Legendary
-891,Kubfu,60,90,60,53,50,72,385,0.6,12.0,—,-1.0,Sword,0,0,0.0,0.0,Semi-Legendary,Fighting,None,True,Legendary
-892,Urshifu,100,130,100,63,60,97,550,1.9,105.0,—,-1.0,Sword,0,0,0.0,0.0,Semi-Legendary,Fighting,Dark,True,Legendary
+891,Kubfu,60,90,60,53,50,72,385,0.6,12.0,—,-1.0,Sword,0,0,0.0,0.0,Sub Legendary,Fighting,None,True,Legendary
+892,Urshifu,100,130,100,63,60,97,550,1.9,105.0,—,-1.0,Sword,0,0,0.0,0.0,Sub Legendary,Fighting,Dark,True,Legendary
 893,Zarude,105,120,105,70,95,105,600,1.8,70.0,—,-1.0,Sword,0,0,0.0,0.0,Mythical,Dark,Grass,True,Legendary
